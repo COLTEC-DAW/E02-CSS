@@ -1,0 +1,29 @@
+body{
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: #348735;
+}
+
+.title{
+    margin-top: 5%;
+    background-color: #F24418;
+    color: #FFF125;
+    font-family: "Arial Black";
+    font-size: 300%;
+    padding: 25px;
+    text-align: center;
+}
+.subtitle{
+    color: #FFF125;
+    margin-top: 4%;
+    font-family: "Arial";
+}
+.text{
+    color: #F3FFFF;
+    font-family: "Courier New";
+    text-align: left;
+
+}
+#start{
+    margin-top: 2%;
+}
