@@ -34,7 +34,11 @@ h3 {
 	color: white;
 	opacity: 100%;
 	font-style: italic;
+}
 
+#corpoNoticia {
+	width: 45%;
+	display: inline-block;
 }
 
 p {
@@ -46,6 +50,12 @@ p {
 	line-height: 150%;
 }
 
+img {
+	width: 45%;
+	float: right;
+	margin-top: 21px;
+}
+
 #link {
 	font-weight: 300;
 }
@@ -53,9 +63,11 @@ p {
 a {
 	font-weight: bold;
 	opacity: 100%;
-	color: white;
+	color: #ff80ab !important;
+	text-decoration: none;
 }
 
-a :hover {
+a:hover {
 	color: #ff80ab;
+	text-decoration: underline;
 }
