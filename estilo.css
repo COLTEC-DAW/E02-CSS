@@ -1,0 +1,25 @@
+body {
+    background-color: #FFFDA9;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.texto {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkblue;
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+h2{
+    font-size: 25px;
+    text-align: right;
+}
+
+p{
+    font-size: 15px;
+    text-align: justify;
+}
