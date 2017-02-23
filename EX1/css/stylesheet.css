@@ -1,0 +1,30 @@
+body{
+        font-family: Helvetica, Arial, Sans-Serif;
+        text-align: center;
+        background-color: #1B7ABF;
+
+}
+h1{
+    background-color: #092940;
+    padding: 1%;
+    color:#FFFFFF;
+}
+h2{
+    color:#FFFFFF;
+    font-style: bold;
+}
+#container{
+    float: left;
+    margin:5%;
+    margin-top:1%;
+    padding: 1%;
+    background-color: #12517F;
+}
+p{
+    text-align:justify;
+    color:#FFFFFF;
+}
+a{
+    background-color: #09293F;
+    color:#FFFFFF;
+}
