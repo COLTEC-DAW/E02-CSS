@@ -13,17 +13,30 @@ body{
     padding: 25px;
     text-align: center;
 }
+
 .subtitle{
     color: #FFF125;
     margin-top: 4%;
+    text-align: left;
+    font-style: italic;
     font-family: "Arial";
 }
+
 .text{
     color: #F3FFFF;
     font-family: "Courier New";
     text-align: left;
-
+    text-align: justify;
+    line-height: 30px;
 }
+
 #start{
     margin-top: 2%;
+}
+
+#link{
+    font-style: bolder;
+    text-align: left;
+    color: #9FDFFF;
+    margin-top: 30px;
 }
