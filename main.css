@@ -1,0 +1,42 @@
+.header {
+    background-color: #DE1F00;
+    vertical-align: middle;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+
+h1,
+h2,
+p {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+}
+
+body {
+    margin: 0px;
+}
+
+.marca {
+    color: #FFE700;
+    text-align: center;
+    display: inline;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 5vw;
+}
+
+.commie {
+    width: 10%;
+    height: 10%;
+}
+
+#commieone {
+    float: left;
+}
+
+#commietwo {
+    float: right;
+}
