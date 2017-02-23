@@ -2,28 +2,38 @@
 
 body {
 	background-color: #3e50b4;
-	margin: 10%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
 }
 
 h1 {
 	font-family: 'Roboto', Arial;
-	font-weight: black;
+	font-weight: 900;
 	color: white;
 	opacity: 100%;
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 40px;
+	background-color: #FF4081;
+	padding: 30px;
 }
 
 h2 {
 	font-family: 'Roboto', Arial;
-	font-weight: bold;
+	font-weight: 700;
 	color: white;
 	opacity: 100%;
+	text-align: left;
+	margin-bottom: 30px;
 }
 
 h3 {
 	font-family: 'Roboto', Arial;
-	font-weight: normal;
+	font-weight: 400;
 	color: white;
 	opacity: 100%;
+	font-style: italic;
 
 }
 
@@ -32,4 +42,20 @@ p {
 	font-weight: 100;
 	color: white;
 	opacity: 70%;
+	text-align: justify;
+	line-height: 150%;
+}
+
+#link {
+	font-weight: 300;
+}
+
+a {
+	font-weight: bold;
+	opacity: 100%;
+	color: white;
+}
+
+a :hover {
+	color: #ff80ab;
 }
