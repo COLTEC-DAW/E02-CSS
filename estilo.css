@@ -6,15 +6,36 @@ body{
 }
 
 #titulo{
-    background-color: #999176
+    background-color: #999176;
+    font-size: 50px;
+    padding: 2%;
 }   
+
+#subtitulo{
+    margin-top: 10%;
+    text-align: left;
+    font-style:italic;
+}
 
 p{
     background-color: #ffffff;
     text-align: justify;
     padding: 1%;
+    line-height: 200%
 }
 
 div{
     margin: 20%;
+    margin-top: 10%;
+}
+
+a:link, a:visited, a:active {
+	text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: underline;  
+	color:#000; 
+	font-size:150%; 
 }
