@@ -34,9 +34,26 @@ body{
     margin-top: 2%;
 }
 
-#link{
-    font-style: bolder;
+a:link{
+    font-weight: bold;
     text-align: left;
-    color: #9FDFFF;
-    margin-top: 30px;
+    color: #62D4FC;
+}
+
+a:visited{
+    font-weight: bold;
+    text-align: left;
+    color: #FC2DCC;
+}
+
+a:hover{
+    font-weight: bold;
+    text-align: left;
+    color: #763FFC;
+}
+
+a:active{
+    font-weight: bold;
+    text-align: left;
+    color: #FC2D23;
 }
