@@ -4,22 +4,49 @@ body {
     margin-right: 10%;
 }
 
-.texto {
-    font-family: Arial, Helvetica, sans-serif;
+h2, p {
     color: darkblue;
+}
+
+h1, p {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1{
     font-size: 30px;
     text-align: center;
+    margin-bottom: 20px;
+    color: darkred;
+    padding: 20px;
 }
 
 h2{
     font-size: 25px;
     text-align: right;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    
 }
 
 p{
     font-size: 15px;
     text-align: justify;
+    line-height: 20px;
+}
+
+a:link {
+    font-weight: bold;
+    color: darkgreen;
+}
+
+a:visited {
+    color: darkcyan;
+}
+
+a:hover{
+    color: darkred;
+}
+
+a:active{
+    color: darkolivegreen;
 }
