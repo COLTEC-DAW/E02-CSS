@@ -1,0 +1,43 @@
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #3F51B5;
+    margin: 10%;
+    
+}
+
+#title{
+    background-color: #1A237E;
+    font-size: 20px;
+    margin: 2%;    
+    color: white;
+    text-align: center;    
+}
+
+#subtitle{
+    font-style: italic;
+    color: white;
+    text-align: right;
+    margin: 2%;
+
+}
+
+#text{
+    background-color: #1A237E;
+    color: white;
+    text-align: justify;
+    line-height: 20px;
+    margin: 2%;
+    padding: 2%;    
+}
+
+a{
+
+    color: #FF80AB;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+a:hover{
+    color: blue;
+}
