@@ -66,3 +66,8 @@ Foi requisitado que você alterasse o pocionamento dos títulos `<h2>`,
 Uma boa prática de customização de links envolve em fornecer ao usuário o tipo de recurso que aquele link abre. Adicione efeitos CSS a links que abrem PDFs e páginas do youtube. 
 
 Para ícones, recomenda-se o uso da biblioteca [font awesome](http://fontawesome.io/).
+
+## Melhorias da estrutura da página
+
+Estruture a sua página utilizando a técnica de Layout Híbrido. Sua página deverá ser dividida em três áreas principais. A área da esquerda deverá conter banners ou uma estrutura de navegação da página. A área central -- principal área da página -- deverá conter a notícia em si. Por fim, a área da direita deverá conter banners ou links para outras notícias.
+
