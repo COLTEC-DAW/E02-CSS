@@ -71,3 +71,7 @@ a:hover {
 	color: #ff80ab;
 	text-decoration: underline;
 }
+
+p:first-child:first-letter {
+	font-size: 350%;
+}
