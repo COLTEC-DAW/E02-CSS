@@ -2,3 +2,7 @@ p {
     text-align: justify;
     line-height: 25px;
 }
+
+#corpo:first-letter{
+    font-size: 350%;
+}
