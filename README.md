@@ -40,7 +40,6 @@ Se você fez a parte 01 de forma correta, a fonte dos parágrafos já estão com
 1. Torne o texto justificado
 2. Aumente o espaçamento entre as linhas para um valor maior que o padrão.
 
-
 ### Links
 
 O estilo padrão dos links é simplesmente horrível!! Você pode dar um **up** alterando as seguintes propriedades:
@@ -48,4 +47,22 @@ O estilo padrão dos links é simplesmente horrível!! Você pode dar um **up** 
 1. Adicione um efeito de negrito na fonte
 2. Altere as cores do link (padrão, hover, clicked, ativo, etc.). Novamente, utilize o Adobe Kuler para tal
 
+## Melhorias Avançadas
 
+### Primeiro parágrafo
+
+É normal em sites de notícias que o primeiro parágrafo ganhe um destaque particular. Altere-o da seguinte forma:
+
+1. Primeira letra do parágrafo com tamanho de 350%
+2. Escolher um tom mais claro para esse parágrafo
+
+### Ajustes nos títulos
+
+Foi requisitado que você alterasse o pocionamento dos títulos `<h2>`,
+`<h3>`, `<h4>`, `<h5>` e `<h6>`.
+
+### Links mais ricos
+
+Uma boa prática de customização de links envolve em fornecer ao usuário o tipo de recurso que aquele link abre. Adicione efeitos CSS a links que abrem PDFs e páginas do youtube. 
+
+Para ícones, recomenda-se o uso da biblioteca [font awesome](http://fontawesome.io/).
