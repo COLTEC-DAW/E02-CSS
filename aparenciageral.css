@@ -26,7 +26,20 @@ p{
     line-height: 22px;
 }
 
+h2+p{
+    color: darkgray;
+}
+
+h2+p:first-letter{
+    font-size: 350%;
+    font-family: 'Pauls Gothic Curls';
+}
+
 a{
     font-weight: bold;
     color: #CC0D00; 
+}
+
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
 }
