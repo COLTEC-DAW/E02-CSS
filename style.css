@@ -23,7 +23,7 @@ body{
 }
 
 .text{
-    color: #F3FFFF;
+    color: #D3DEDE;
     font-family: "Courier New";
     text-align: left;
     text-align: justify;
@@ -32,6 +32,11 @@ body{
 
 #start{
     margin-top: 2%;
+    color: #F3FFFF;
+}
+
+#start:first-letter{
+    font-size: 350%;
 }
 
 a:link{
