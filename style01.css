@@ -2,9 +2,11 @@
 
 body {
 	background-color: #3e50b4;
-	margin-left: 10%;
-	margin-right: 10%;
-	margin-top: 5%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 45px;
+	max-width: 900px;
+	margin: auto;
 }
 
 h1 {
@@ -74,4 +76,8 @@ a:hover {
 
 p:first-child:first-letter {
 	font-size: 350%;
+}
+
+::selection {
+	background: #ff80ab;
 }
