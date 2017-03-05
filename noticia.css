@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+html 
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+body
+{
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #FFFEF7;
+    margin: 0 10% 8px 10%;
+}
+
+#titulo 
+{
+    background-color: #BCF5DA;
+    border: 10%;
+    border-radius: 5px;
+    font-size: 2vw;
+}
+
+#subtitulo 
+{
+    font-size: 1.65vw;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+h2, h3, h4, h5, h6
+{
+    text-align: start;
+}
+
+h1
+{
+  text-align: center;
+  margin: 10px 10px;
+  padding: 10px 10px 10px 10px;
+}
+
+h2
+{
+    text-align: right;
+}
+
+p
+{
+    font-size: 1.4vw;
+    text-align: justify;
+    line-height: 130%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#samaras 
+{
+    display: table;
+    margin: 0 auto;
+}
+
+#samaras img 
+{
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 10%;
+    padding-right: 2px;
+}
+
+i
+{
+    color: black;
+}
+
+#linkoriginal, #youtube
+{
+  display: table;
+  margin: 10px auto;
+  font-size: 150%;
+}
+
+a:link, a:visited
+{
+    background-color: #1BDBF5;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active
+{
+    background-color: #1CFFD1;
+}
+
+footer 
+{
+    margin: 10px;
+    border: 10px;
+}
+
+footer p 
+{
+    text-align: right;
+    font-family: 'Pacifico', cursive;
+}
+
+#primeiro_paragrafo ::first-letter
+{
+    font-size: 350%;
+}
+
+#primeiro_paragrafo
+{
+    color:darkslategray; 
+}
