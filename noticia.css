@@ -30,11 +30,15 @@ body
     padding-left: 2%;
 }
 
+h2, h3, h4, h5, h6
+{
+    text-align: start;
+}
+
 h1
 {
   text-align: center;
   margin: 10px 10px;
-  /*background-color: #613665;*/
   padding: 10px 10px 10px 10px;
 }
 
@@ -67,11 +71,16 @@ p
     padding-right: 2px;
 }
 
+i
+{
+    color: black;
+}
 
-#linkoriginal 
+#linkoriginal, #youtube
 {
   display: table;
-  margin: 0 auto;
+  margin: 10px auto;
+  font-size: 150%;
 }
 
 a:link, a:visited
@@ -95,7 +104,18 @@ footer
     border: 10px;
 }
 
-footer p {
+footer p 
+{
     text-align: right;
     font-family: 'Pacifico', cursive;
+}
+
+#primeiro_paragrafo ::first-letter
+{
+    font-size: 350%;
+}
+
+#primeiro_paragrafo
+{
+    color:darkslategray; 
 }
