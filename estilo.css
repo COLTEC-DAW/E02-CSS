@@ -4,10 +4,6 @@ body {
     margin-right: 10%;
 }
 
-h2, p {
-    color: darkblue;
-}
-
 h1, p {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -20,18 +16,37 @@ h1{
     padding: 20px;
 }
 
+h2, h3, p {
+    color: darkblue;
+}
+
 h2{
     font-size: 25px;
-    text-align: right;
+    
+}
+
+h2, h3{
+    text-align: center;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
-    
+}
+
+h3{
+    color: darkred;
 }
 
 p{
     font-size: 15px;
     text-align: justify;
-    line-height: 20px;
+    line-height: 40px;
+}
+
+p:first-letter{
+    font-size: 53px;
+}
+
+p:first-child{
+    color: cadetblue;
 }
 
 a:link {
