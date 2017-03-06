@@ -78,6 +78,10 @@ p:first-child:first-letter {
 	font-size: 350%;
 }
 
+p:first-child {
+	/*color: grey; COMENTEI PQ SE NAO FICA MUITO FEIO!*/
+}
+
 ::selection {
 	background: #ff80ab;
 }
