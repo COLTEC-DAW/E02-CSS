@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900');
+
+body {
+	background-color: #3e50b4;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 45px;
+	max-width: 900px;
+	margin: auto;
+}
+
+h1 {
+	font-family: 'Roboto', Arial;
+	font-weight: 900;
+	color: white;
+	opacity: 100%;
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 40px;
+	background-color: #FF4081;
+	padding: 30px;
+}
+
+h2 {
+	font-family: 'Roboto', Arial;
+	font-weight: 700;
+	color: white;
+	opacity: 100%;
+	text-align: left;
+	margin-bottom: 30px;
+}
+
+h3 {
+	font-family: 'Roboto', Arial;
+	font-weight: 400;
+	color: white;
+	opacity: 100%;
+	font-style: italic;
+}
+
+#corpoNoticia {
+	width: 45%;
+	display: inline-block;
+}
+
+p {
+	font-family: 'Roboto', Arial;
+	font-weight: 100;
+	color: white;
+	opacity: 70%;
+	text-align: justify;
+	line-height: 150%;
+}
+
+img {
+	width: 45%;
+	float: right;
+	margin-top: 21px;
+}
+
+#link {
+	font-weight: 300;
+}
+
+a {
+	font-weight: bold;
+	opacity: 100%;
+	color: #ff80ab !important;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ff80ab;
+	text-decoration: underline;
+}
+
+p:first-child:first-letter {
+	font-size: 350%;
+}
+
+p:first-child {
+	/*color: grey; COMENTEI PQ SE NAO FICA MUITO FEIO!*/
+}
+
+::selection {
+	background: #ff80ab;
+}
