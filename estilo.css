@@ -1,18 +1,22 @@
 body{
     font-family: Arial;
     text-align: center;
-    background-color: #EDE0B7;
+    background-color: #FFFFFF;
     color: black;
 }
 
 #titulo{
-    background-color: #999176;
+    margin-top: 2%;
+    margin-left:5%;
+    margin-right:5%;
+    background-color: #7BFFFF;
     font-size: 50px;
     padding: 2%;
 }   
 
 #subtitulo{
     margin-top: 10%;
+    margin-left:30%;
     text-align: left;
     font-style:italic;
 }
@@ -22,6 +26,14 @@ p{
     text-align: justify;
     padding: 1%;
     line-height: 200%
+}
+
+p:first-child{
+    color:#C7B7FF;
+}
+
+p:first-child:first-letter{
+    font-size: 350%;
 }
 
 div{
