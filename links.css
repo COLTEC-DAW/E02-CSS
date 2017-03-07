@@ -3,11 +3,11 @@ a {
 }
 
 a:link {
-    color: blue;
+    color: #66B4FF;
 }
 
 a:hover {
-    color: green;
+    color: darkgreen;
 }
 
 a:visited {
