@@ -1,0 +1,19 @@
+a {
+    font-weight: bold;
+}
+
+a:link {
+    color: #66B4FF;
+}
+
+a:hover {
+    color: darkgreen;
+}
+
+a:visited {
+    color: red;
+}
+
+a:active{
+    color: purple;
+}

@@ -1,0 +1,13 @@
+p {
+    text-align: justify;
+    line-height: 25px;
+    color: black;
+}
+
+#first{
+    color: #2E2E2E;
+}
+
+#first::first-letter{
+    font-size: 300%;
+}
