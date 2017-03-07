@@ -1,0 +1,67 @@
+body {
+    background-color: #FFFDA9;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h1, p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: darkred;
+    padding: 20px;
+}
+
+h2, h3, p {
+    color: darkblue;
+}
+
+h2{
+    font-size: 25px;
+    
+}
+
+h2, h3{
+    text-align: center;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3{
+    color: darkred;
+}
+
+p{
+    font-size: 15px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+h2+p:first-letter{
+    font-size: 53px;
+}
+
+h2+p{
+    color: cadetblue;
+}
+
+a:link {
+    font-weight: bold;
+    color: darkgreen;
+}
+
+a:visited {
+    color: darkcyan;
+}
+
+a:hover{
+    color: darkred;
+}
+
+a:active{
+    color: darkolivegreen;
+}
