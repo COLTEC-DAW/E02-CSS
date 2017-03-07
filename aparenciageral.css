@@ -1,0 +1,61 @@
+body{
+    font-family: Arial;
+    background-color: #B6FFF8;;
+    margin-left: 10%;
+    margin-right:10%;
+}
+
+h1{
+    font-size: 250%;
+    text-align:center;
+    margin-bottom: 5%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: #FFEC88; 
+}
+
+h2{
+    text-align: right;
+    font-style: italic;
+    font-size: 125%;
+    margin-bottom: 5%;
+}
+
+p{
+    text-align: justify;
+    line-height: 22px;
+}
+
+h2+p{
+    color: darkgray;
+}
+
+h2+p:first-letter{
+    font-size: 350%;
+    font-family: 'Pauls Gothic Curls';
+}
+
+a{
+    font-weight: bold;
+    color: #CC0D00; 
+}
+
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+}
+
+a[href$='.pdf'] {
+  background-image: url("images.jpeg") ;
+  background-repeat: no-repeat;
+  padding-left:17px;
+  padding-bottom:25px;
+  background-size: 15px;
+}
+
+a[href$='h?v=tLFt_v1GAkk'] {
+    background-image: url("Youtube-icon.png");
+    background-repeat: no-repeat;
+    padding-left:17px;
+    padding-bottom:25px;
+    background-size: 15px;   
+}
