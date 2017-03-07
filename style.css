@@ -1,0 +1,74 @@
+
+body{
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: #607D8B;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.title{
+    margin-top: 5%;
+    background-color: #eeefde;
+    color: #23221a;
+    font-family: "Arial Black";
+    font-size: 300%;
+    padding: 25px;
+    text-align: center;
+}
+
+.subtitle{
+    color: #23221a;
+    margin-top: 4%;
+    text-align: left;
+    font-style: italic;
+    /*font-family: "Arial";*/
+}
+
+.text{
+    color: #D3DEDE;
+    /*font-family: "Courier New";*/
+    text-align: left;
+    text-align: justify;
+    line-height: 30px;
+}
+
+#start{
+    margin-top: 2%;
+    color: #F3FFFF;
+}
+
+#start:first-letter{
+    font-size: 350%;
+}
+
+a[href$='RM']{
+    background-image: url("youtube.ico");
+    padding-left: 30px;
+    padding-bottom: 10px;
+    background-size: 25px;
+    background-repeat: no-repeat;
+}
+
+a:link{
+    font-weight: bold;
+    text-align: left;
+    color: #62D4FC;
+}
+
+a:visited{
+    font-weight: bold;
+    text-align: left;
+    color: #FC2DCC;
+}
+
+a:hover{
+    font-weight: bold;
+    text-align: left;
+    color: #763FFC;
+}
+
+a:active{
+    font-weight: bold;
+    text-align: left;
+    color: #FC2D23;
+}
