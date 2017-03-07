@@ -1,11 +1,12 @@
 body{
     font-family: Arial;
     text-align: center;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     color: black;
 }
 
 #titulo{
+    border-radius: 100px;
     margin-top: 2%;
     margin-left:5%;
     margin-right:5%;
@@ -22,6 +23,7 @@ body{
 }
 
 p{
+    margin-bottom: -4%;
     background-color: #ffffff;
     text-align: justify;
     padding: 1%;
@@ -39,15 +41,21 @@ p:first-child:first-letter{
 div{
     margin: 20%;
     margin-top: 10%;
+    border-radius: 100px;
 }
 
 a:link, a:visited, a:active {
-	text-decoration: none;
-    color: #000;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 100px;
+    background-color: #000;
+    padding: 5%;
 }
 
 a:hover {
     text-decoration: underline;  
-	color:#000; 
+	color:#FFFFFF; 
 	font-size:150%; 
+    background-color: #000;
+    border-radius: 100px;
 }
