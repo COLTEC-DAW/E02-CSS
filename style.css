@@ -1,13 +1,15 @@
+
 body{
     margin-right: 10%;
     margin-left: 10%;
-    background-color: #348735;
+    background-color: #607D8B;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .title{
     margin-top: 5%;
-    background-color: #F24418;
-    color: #FFF125;
+    background-color: #eeefde;
+    color: #23221a;
     font-family: "Arial Black";
     font-size: 300%;
     padding: 25px;
@@ -15,16 +17,16 @@ body{
 }
 
 .subtitle{
-    color: #FFF125;
+    color: #23221a;
     margin-top: 4%;
     text-align: left;
     font-style: italic;
-    font-family: "Arial";
+    /*font-family: "Arial";*/
 }
 
 .text{
     color: #D3DEDE;
-    font-family: "Courier New";
+    /*font-family: "Courier New";*/
     text-align: left;
     text-align: justify;
     line-height: 30px;
@@ -37,6 +39,14 @@ body{
 
 #start:first-letter{
     font-size: 350%;
+}
+
+a[href$='RM']{
+    background-image: url("youtube.ico");
+    padding-left: 30px;
+    padding-bottom: 10px;
+    background-size: 25px;
+    background-repeat: no-repeat;
 }
 
 a:link{
