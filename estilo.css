@@ -1,0 +1,54 @@
+
+body{
+    background-color: FFF99F;
+    color:limegreen;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-family: Arial;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px ;
+    margin-bottom: 30px;
+    background-color: black;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+}
+
+h3{
+    text-align: left;
+    font-style: italic;
+    margin-bottom: 70px;
+}
+div{
+    padding: 20px;
+    background-color: FFCE8F;
+}
+p{
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 25px;
+}
+#primeiro{
+    color:green;
+}
+#primeiro:first-letter{
+    font-size: 350%;
+}
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    color: pink;
+}
+a:active{
+    color: black;
+}
