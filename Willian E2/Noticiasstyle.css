@@ -1,0 +1,39 @@
+h1{
+    font-size: 250%;
+    text-align: center;
+    margin: 10%;
+    color: #526557;
+    background-color: #FEFEFE;
+    padding: 2.5%;
+}
+
+h2{
+    text-align: right;
+    font-style: italic;
+}
+
+body{
+    font-family: Courier New;
+    font-size: 120%;
+    background-color:#526557;
+    color: #FEFEFE;
+    margin: 20%;
+
+}
+p{
+    line-height: 150%;
+    text-align: justify;
+}
+a{
+    font-weight: bold;
+
+}
+a:link{
+    color: darkblue;
+}
+a:visited{
+    color: yellow;
+}
+a:hover{
+    background-color:darkblue;
+}
