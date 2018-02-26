@@ -1,0 +1,90 @@
+header  {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 0%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background: #303F9F;
+}
+
+header > h1 {
+    color: #FFFFFF;
+}
+
+div {
+    padding: 10px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+    line-height: 2.0;
+    text-align: justify;
+    color: #212121;
+}
+
+p:first-letter {
+    font-size: 350%;
+    color: #757575;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #FF4081; 
+}
+
+a:hover {
+    color: #CC5BE5;
+}
+
+a:visited {
+    color: #7F656E;
+}
+
+a:active {
+    color: #CC5BE5; 
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    color: #212121;
+    font-style: bold;
+}
+
+.more {
+    float: left;
+    font-size: 150%;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+}
+
+.icons {
+    float: right;
+    color: #FF4081;
+}
+
+#subtitle {
+    font-family: 'Montserrat', sans-serif;
+    text-align: right;
+    font-size: 17px;
+    font-style: italic;
+    color: #C5CAE9;
+    padding: 10px;
+}
+
+.dark-primary-color    { background: #303F9F; }
+.default-primary-color { background: #3F51B5; }
+.light-primary-color   { background: #C5CAE9; }
+.accent-color          { background: #FF4081; }
+.text-primary-color    { color: #FFFFFF; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; }
+
+/*Alterar cores e backgrounds para mixins*/
