@@ -1,0 +1,16 @@
+/*Aparencia Geral */
+body{
+    background: #FFE4DD;
+    margin-right: 20%;
+    margin-left: 20%; 
+    color: #110275;
+}
+
+h1,h2{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
