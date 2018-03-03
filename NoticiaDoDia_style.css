@@ -1,6 +1,6 @@
 
 body{
-    background: #CAE4FF;
+    background: #D5E8FF;
     margin-right: 20%;
     margin-left: 20%; 
     color: #110275;
@@ -8,27 +8,13 @@ body{
 
 h1{
     font-family: 'Titillium Web', sans-serif;
-    font-size: 300%;
-    text-align: center;
-    background-color: aquamarine;
-    padding: 7%
 }
 
 h2{
-    font-family: 'Poppins', sans-serif;
-    margin-top: 5%;
-    text-align: right;
-    font-style: italic;
+    font-family: 'Roboto', sans-serif;
 }
 
 p{
     font-family: 'Roboto', sans-serif;
-    text-align: justify;
-    line-height: 320%;
-}
-
-#primeiro:first-letter{
-    font-size: 350%;
-    color: #6163FF;
 }
 
