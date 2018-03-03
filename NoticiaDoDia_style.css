@@ -16,8 +16,11 @@ h1{
 }
 
 h2{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin-top: 5%;
+    text-align: right;
+    font-style: italic;
+
 }
 
 p{
