@@ -11,24 +11,11 @@ header > h1 {
     color: #FFFFFF;
 }
 
-div {
-    padding: 10px;
-    margin-top: 0%;
-    margin-bottom: 0%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
 p {
     font-family: 'Quicksand', sans-serif;
     line-height: 2.0;
     text-align: justify;
     color: #212121;
-}
-
-p:first-letter {
-    font-size: 350%;
-    color: #757575;
 }
 
 a {
@@ -49,6 +36,14 @@ a:visited {
 
 a:active {
     color: #CC5BE5; 
+}
+
+.content {
+    padding: 10px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .title {
@@ -76,6 +71,12 @@ a:active {
     font-style: italic;
     color: #C5CAE9;
     padding: 10px;
+}
+
+#primeiro:first-letter {
+    font-size: 350%;
+    color: #757575;
+    line-height: 0;
 }
 
 .dark-primary-color    { background: #303F9F; }
