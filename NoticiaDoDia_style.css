@@ -27,6 +27,21 @@ p{
     font-family: 'Roboto', sans-serif;
     text-align: justify;
     line-height: 320%;
-
 }
 
+a{
+    font-weight: bold;
+}
+
+a:link {
+    color: black;
+}
+a:visited {
+    color: #110275;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: yellow;
+}
