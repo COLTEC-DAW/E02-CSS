@@ -29,6 +29,14 @@ p{
     line-height: 320%;
 }
 
+#primeiro:first-letter{
+    font-size: 350%;
+}
+
+#primeiro{
+    color: #6163FF;
+}
+
 a{
     font-weight: bold;
 }
@@ -45,3 +53,4 @@ a:hover {
 a:active {
     color: yellow;
 }
+
