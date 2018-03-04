@@ -15,12 +15,12 @@ body { font-family: 'Patrick Hand', cursive; background-color: rgb(63, 81, 114) 
     transition-duration: 0.2s
 }
 
-#corpo .link:hover {
-    color: steelblue;
+.link:hover {
+    color: rgb(182, 140, 51);
 }
 
 #corpo {
-    margin: 50px;
+    margin: 2%;
     background-color: white;
     padding: 40px;
     font-size: 20px
@@ -32,11 +32,13 @@ header {
 }
 
 header h1 { 
-    font-size: 220%; 
+    font-size: 220%;
+    margin-left: -40px;
+    margin-right: -40px;
     padding: 5px; 
     color: white;
     text-transform: uppercase;
-    background-color: rgb(47, 91, 148) 
+    background-color: rgb(209, 125, 16) 
 }
 
 header h2 { 
@@ -48,4 +50,4 @@ header h2 {
 
 #first-p { color: rgb(48, 48, 48) }
 
-#first-letter { font-size: 350%; color: black }
+#first-p::first-letter { font-size: 350% }
