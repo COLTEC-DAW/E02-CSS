@@ -1,0 +1,46 @@
+#titulo {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: darkmagenta;
+    background-color: darkkhaki;
+    margin: 5%;
+    padding: 10px
+
+}
+#subtitulo{
+    text-align: right;
+    font-family: monospace;
+    font-size: 30px;
+    font-style: italic;
+}
+#texto{
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: darkgreen;
+    line-height: 50px;
+}
+body{
+    background-color: chocolate;
+    text-align: center;
+    margin: 10%;
+}
+div{
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+a:link {
+    color: yellow;
+}
+a:visited {
+    color: yellow;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: green;
+}
+            
