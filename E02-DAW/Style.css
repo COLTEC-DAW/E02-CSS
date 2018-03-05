@@ -11,6 +11,17 @@
 			margin: 50px;
 	}
 
+		
+		a[href$=".pdf"] {
+  			background-image: url("http://www.gerluz.com.br/wp-content/upload/ico-pdf.gif") ;
+  			background-repeat: no-repeat;
+ 			 padding-left:25px;
+ 			 background-size: 130%;
+ 			 padding-top: 11px;
+ 			 padding-right:0px;
+
+		}
+
 		body {
 			background-color:white;
 			background-size:100%;
