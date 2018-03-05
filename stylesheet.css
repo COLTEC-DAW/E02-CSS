@@ -2,6 +2,7 @@ body{
     padding: 0%;
     border: 0%;
     margin: 0%;
+    background-color: rgb(255, 255, 255);
 }
 h1{
     font-family: 'Mukta Malar', sans-serif;
@@ -19,6 +20,12 @@ p{
 hr{
     width: 100%;
     margin: 20px 0px 20px 0px;
+}
+a:hover{
+    font-size: 150%;
+}
+a{
+    color: inherit;
 }
 #navBar{
     width: 100%;
@@ -76,6 +83,7 @@ hr{
 .titulo{
     text-align: center;
     padding-bottom: 40px;
+    font-size: 40px;
 }
 .subtitulo{
     font-style: italic;
@@ -83,6 +91,10 @@ hr{
 }
 .noticias{
     padding: 15px 2px 20px 2px;
+    text-decoration: none;
+}
+.primeiro:first-letter{
+    font-size: 350%;
 }
 .autor{
     padding-right: 200px;
