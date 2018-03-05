@@ -30,9 +30,18 @@ a:active{
     color: red;
 }
 
-.icons a{
-    font-size: 70px;
-    margin-left: 20px;
+a[href$=".pdf"]{
+    background-image: url("../Images/pdf_icon.png");
+    background-repeat: no-repeat;
+    padding-left:17px;
+    background-size: 17px;
+}
+
+a[href*="youtu.be"]{
+    background-image: url("../Images/youtube_icon.png");
+    background-repeat: no-repeat;
+    padding-left:17px;
+    background-size: 17px;
 }
 
 #titulo{
@@ -45,8 +54,11 @@ a:active{
     padding: 7px;
 }
 
+h2, h3, h4, h5, h6 {
+    text-align: right;
+}
+
 #subtitulo{
-    text-align: left;
     font-style: italic;
     margin-bottom: 100px;
 }
@@ -59,3 +71,4 @@ a:active{
     color: #993333;
     font-weight: bold;
 }
+
