@@ -3,6 +3,12 @@ html{
     background-color: #7AE9D0; 
 }
 
+#autor{
+    font-size:90%;
+    font-style: italic;    
+    text-align: right;
+}
+
 #titulo{
     text-align: center;
     color: #126890;
@@ -19,6 +25,7 @@ div{
     margin: 10%;
     margin-top: 25px;
     padding: 1%;
+    font-size: 150%;
 }    
 
 #subtitulo{
@@ -33,15 +40,21 @@ div{
     text-align: right;
     margin-bottom: 15px;
     font-style: italic;
+}   
+
+
+h4+p::first-letter{
+    font-size: 350%;
+    color: rgb(56, 150, 194);
 }
-
-
-
+h4+p{
+    color: rgb(56, 150, 194);
+}
 
 a:visited {
     color:#1996CF;
     font-style: italic;
 }
 
-            
+
 
