@@ -1,0 +1,66 @@
+html{
+	font-family: "SST W01 Roman", sans-serif;
+	background-color: #4E0F3A;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#divprincipal{
+	background-image: url("http://www.papeldeparedeeliti.com.br/imagens/empresas-de-decoracao/preco-papel-de-parede-decoracao-no-campo-limpo.jpg");
+}
+
+div{
+	text-align: justify;
+	color: #4D302E;
+	background-color: #CDB9B8;
+	margin: 0px 25px 25px 25px;
+	padding: 25px;
+	line-height: 130%;
+}
+
+h1{
+	text-align: center;
+	background-color: #4E0F3A;
+	padding: 20px;
+	border: 5px solid #4E0F3A;
+	color: #149A00;
+}
+
+h2{
+	color: #000;
+}
+
+            
+h4:first-child+p{
+	font-style: italic;
+	color: #FFF;
+}
+
+a:link {
+ color: #000;
+ background-color: yellow;
+}
+
+#autor{
+	text-align: right;
+	font-style: italic;
+}
+
+h3{
+	color: #000;
+}
+
+h4:first-child+p::first-letter{
+	font-size: 350%;
+}
+
+
+
+#div4{
+	color: #000000;
+
+}
+
+h2, h3, h4, h5, h6{
+	text-align: center;
+}
