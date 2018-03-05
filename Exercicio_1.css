@@ -1,0 +1,73 @@
+
+    body{
+        background: linear-gradient(red , black );
+        min-height: 960px;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    h1{
+        text-align: center;
+        font-family: sans-serif;
+        color: black;
+        font-size: 500%;
+        margin: 1%;
+        padding: 5%;
+    }
+
+    h2{
+        text-align: center;
+        font-family: sans-serif;
+        color: white;
+        margin-left: 53.6%;
+        font-style: italic;
+    }
+
+    p{
+        font-family: sans-serif;
+        text-align: justify;
+        color: white;
+        line-height: 180%;
+        padding: 1%;
+    }
+
+    a:link {
+        font-weight: bold;
+        color: blue;
+    }
+
+    a:visited {
+        color: blue;
+    }
+
+    a:hover {
+        color: red;
+    }
+
+    a:active {
+        color: yellow;
+    }
+    
+    a[href$=".ghtml"]{
+        background-size: 17px;
+        background-image: url("http://is3.mzstatic.com/image/thumb/Purple122/v4/cd/8b/c6/cd8bc629-420a-d746-2df2-e16a712614d9/source/1200x630bb.jpg");
+        background-repeat: no-repeat;
+        padding-left:20px;
+    }
+    
+    #primeiraletra{
+        font-size: 350%;
+    }
+
+    #paragrafo{
+        font-style: oblique; 
+    }
+
+    h2, h3, h4, h5, h6{
+        font-style: initial;
+        color: black;
+    }
+              
+  
+  
+        
