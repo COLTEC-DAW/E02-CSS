@@ -54,3 +54,16 @@ a:active {
     color: yellow;
 }
 
+  a[href$=".pdf"]{
+    background-image: url("image.png");
+    background-repeat: no-repeat;
+    padding-left:17px;
+    background-size: 17px;
+}
+
+a[href*="youtube"]{
+    background-image: url("download.png");
+    background-repeat: no-repeat;
+    padding-left:17px;
+    background-size: 17px;
+}
