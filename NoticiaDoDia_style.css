@@ -1,0 +1,69 @@
+
+body{
+    background: #D5E8FF;
+    margin-right: 20%;
+    margin-left: 20%; 
+    color: #110275;
+}
+
+h1{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 300%;
+    text-align: center;
+    background-color: aquamarine;
+    padding: 7%
+
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 5%;
+    text-align: center;
+    font-style: italic;
+
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    line-height: 320%;
+}
+
+#primeiro:first-letter{
+    font-size: 350%;
+}
+
+#primeiro{
+    color: #6163FF;
+}
+
+a{
+    font-weight: bold;
+}
+
+a:link {
+    color: black;
+}
+a:visited {
+    color: #110275;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: yellow;
+}
+
+  a[href$=".pdf"]{
+    background-image: url("image.png");
+    background-repeat: no-repeat;
+    padding-left:17px;
+    background-size: 17px;
+}
+
+a[href*="youtube"]{
+    background-image: url("download.png");
+    background-repeat: no-repeat;
+    padding-left:17px;
+    background-size: 17px;
+}
