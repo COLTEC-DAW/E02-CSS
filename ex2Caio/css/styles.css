@@ -1,0 +1,62 @@
+body{
+    background-color: deepskyblue;
+    font-family: "Courier New", Courier, monospace;
+    color: white;
+    width: 20%;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+    background-color: purple;
+    margin: 100px;
+}
+h2{
+    font-style: italic;
+} 
+h2, h3, h4, h5, h6{
+    text-align: right;
+}
+p{
+    text-align: justify;
+    line-height: 1.5;
+}
+#p1 {
+    color:grey;
+    text-align: justify;
+    line-height: 1.5;
+}
+#p1::first-letter{
+    font-size: 350%;
+}
+a{
+    font-weight: bold;
+}
+a:link {
+    color: brown;
+}
+
+a:visited {
+    color: blue;
+}
+a:hover {
+    color: hotpink;
+}
+
+a:active {
+    color: green;
+}
+
+
+a[href$=".pdf"] {
+    background-image: url("pdf.png") ;
+    background-repeat: no-repeat;
+    padding-left:17px;
+    background-size: 17px;
+}
+a[href*="youtube"] {
+    background-image: url("youtube-256.png") ;
+    background-repeat: no-repeat;
+    padding-left:17px;
+    background-size: 17px;
+}
