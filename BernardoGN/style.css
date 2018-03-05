@@ -1,0 +1,51 @@
+body{
+    font-family: sans-serif;
+    background-color: #91AAB4;
+    margin: 5%;    
+}
+
+#tudo{
+    margin-bottom: 0%;
+    margin-top: 0%;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: #CBDBD7;
+    padding: 30px;
+}
+
+.titulo{
+    margin: 0%;
+    padding: 15px;
+    color: #CBDBD7;
+    background-color:#193441;
+}
+
+h1{
+    font-size: 500%;
+    text-align: center;
+}
+
+h2{
+    text-align: right;
+    font-style: italic;
+}
+
+p{
+    text-align: justify;
+    line-height: 150%;
+}
+
+a{
+    font-weight: bold;
+}
+a:link{
+    color: darkblue;
+}
+
+a:visited{
+    color: darkslateblue;
+}
+
+a:hover{
+    color: darkred;
+}
