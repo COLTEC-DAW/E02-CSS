@@ -48,7 +48,26 @@
     line-height: 140%;
   }
 
-  a {
-    font-weight:bold;
-    color: red;
-  }
+    /*LINKS*/
+      a {
+        font-weight:bold;
+      }
+      a:link {
+        color: red;
+      }
+      a:visited {
+        color: blue;
+      }
+      a:hover {
+        color: purple;
+      }
+      a:active {
+        color: red;
+      }
+
+  /*FIM LINKS*/
+
+
+
+  
+
