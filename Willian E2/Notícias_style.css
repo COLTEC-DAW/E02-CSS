@@ -1,0 +1,49 @@
+h1{
+    font-size: 250%;
+    text-align: center;
+    margin: 10%;
+    color: #526557;
+    background-color: #FEFEFE;
+    padding: 2.5%;
+}
+
+h2{
+    text-align: right;
+    font-style: italic;
+}
+
+h1, h2{
+    color: orange;
+}
+
+body{
+    font-family: Courier New;
+    font-size: 120%;
+    background-color:#526557;
+    color: #FEFEFE;
+    margin: 20%;
+
+}
+p{
+    line-height: 150%;
+    text-align: justify;
+}
+h1+p:first-letter{
+    font-size: 30px;
+}
+h1 + p{
+    color: rgb(43, 61, 61);
+}
+a{
+    font-weight: bold;
+
+}
+a:link{
+    color: darkblue;
+}
+a:visited{
+    color: yellow;
+}
+a:hover{
+    background-color:darkblue;
+}
