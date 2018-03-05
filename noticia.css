@@ -1,0 +1,50 @@
+body{
+    font-family: Arial;
+    background-color: white;
+}
+
+h2, h3, h4, h5, h6{
+    text-align: right;
+    font-style: italic;
+}
+#titulo {
+    text-align: center;
+    font-size: 300%;
+    margin-bottom: 0%;
+    background-color: cyan;
+    color: black;
+    padding: 5%;
+}
+
+p {
+    background-color: gainsboro; 
+    color: cadetblue;
+    text-align: justify;
+    line-height: 125%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2%;
+}
+
+#primeiro::first-letter {
+    font-size: 350%;
+}
+
+#primeiro{
+    background-color: aliceblue;
+}
+
+a:link {
+    color: blue;
+}
+a:visited {
+    color: green;
+
+}
+a:hover {
+    color: red;
+    font-size: 150%;
+}
+a:active {
+    color: yellow;
+}
