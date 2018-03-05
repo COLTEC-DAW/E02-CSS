@@ -44,6 +44,19 @@ a[href*="youtu.be"]{
     background-size: 17px;
 }
 
+h2, h3, h4, h5, h6 {
+    text-align: right;
+}
+
+div+p{
+    color: white;
+}
+div+p::first-letter{
+    font-size: 350%;
+    color: #993333;
+    font-weight: bold;
+}
+
 #titulo{
     font-size: 30px;
     text-shadow: 0 0 0.2em black;
@@ -54,21 +67,7 @@ a[href*="youtu.be"]{
     padding: 7px;
 }
 
-h2, h3, h4, h5, h6 {
-    text-align: right;
-}
-
 #subtitulo{
     font-style: italic;
     margin-bottom: 100px;
 }
-
-#primeiro{
-    color: white;
-}
-#primeiro:first-letter {
-    font-size: 350%;
-    color: #993333;
-    font-weight: bold;
-}
-
