@@ -10,9 +10,13 @@ a:visited {color:#929964}
 a:hover {color:#809CFF}
 a:active {color:#1F73CC}
 
-a::before{
+a[href$=".pdf"]:before {
     font-family: "FontAwesome";
-    content: attr('&#xf1c1;');
+    content: "\f1c1";
+}
+a[href$="youtube.com"]:before {
+    font-family: "FontAwesome";
+    content: "\f167";
 }
 
 h2 + p{color: #9C893A}
