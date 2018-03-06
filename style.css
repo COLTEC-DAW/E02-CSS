@@ -1,0 +1,23 @@
+body{font-family:sans-serif; background-color:#eee; color:#8C792A; margin-left:12%; margin-right:12%}
+h1{font-size:2cm; text-align:center; margin:20px; color:#FFE268; background-color:#0B0FB2; padding:30px; border-radius:20px}
+h2{text-align:right; font-style:italic}
+h2, h3, h4, h5, h6{text-align: left}
+p{text-align:justify; line-height:140%}
+a{font-weight:bold}
+
+a:link {color:#B6CC1F}
+a:visited {color:#929964}
+a:hover {color:#809CFF}
+a:active {color:#1F73CC}
+
+a[href$=".pdf"]:before {
+    font-family: "FontAwesome";
+    content: "\f1c1";
+}
+a[href$="youtube.com"]:before {
+    font-family: "FontAwesome";
+    content: "\f167";
+}
+
+h2 + p{color: #9C893A}
+h2 + p::first-letter{font-size: 350%}
