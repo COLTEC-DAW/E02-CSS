@@ -1,0 +1,82 @@
+body{
+    font-family: sans-serif;
+    background-color: #91AAB4;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 5%;
+    margin-right: 5%;    
+}
+
+#tudo{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: #CBDBD7;
+    padding: 30px;
+    padding-bottom: 20%;
+}
+
+.titulo{
+    margin: 0%;
+    padding: 15px;
+    color: white;
+    background-color:#193441;
+}
+
+h1{
+    font-size: 500%;
+    text-align: center;
+}
+
+h2{
+    text-align: right;
+    font-style: italic;
+}
+
+h2, h3, h4, h5, h6{
+    font-size: 120%;
+} 
+
+p{
+    text-align: justify;
+    line-height: 200%;
+}
+
+h2+p{
+    color: gray;
+}
+
+h2+p::first-letter{
+    font-size: 350%;
+    color: #193441;
+}
+
+
+a:link{
+    color: darkblue;
+}
+
+a:visited{
+    color: darkslateblue;
+}
+
+a:hover{
+    color: darkred;
+}
+
+a[href$=".pdf"] {
+    background-size: 10%;
+    background-image: url("pdf.ico") ;
+    background-repeat: no-repeat;
+    padding-left:19px;
+  }
+
+
+  a[href^="https://www.youtube"] {
+    background-size: 10%;
+    background-image: url("youtube.ico") ;
+    background-repeat: no-repeat;
+    padding-left:23px;
+  }
+
