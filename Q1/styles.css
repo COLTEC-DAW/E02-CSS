@@ -1,0 +1,25 @@
+#titulo {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: darkmagenta;
+    background-color: darkkhaki;
+
+}
+#subtitulo{
+    text-align: center;
+    font-family: monospace;
+    font-size: 15px;
+}
+#texto{
+    text-align: justify;
+    font-size: 1    0px;
+    font-family: 'Courier New', Courier, monospace;
+    color: darkgreen;
+}
+body{
+    background-color: chocolate;
+    width: 15%;
+    text-align: center;
+    margin: 0;
+}

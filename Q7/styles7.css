@@ -1,0 +1,57 @@
+#titulo {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: darkmagenta;
+    background-color: darkkhaki;
+    margin: 5%;
+    padding: 10px
+
+}
+#subtitulo{
+    font-family: monospace;
+    font-size: 30px;
+    font-style: italic;
+}
+#primeiroP{
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: darkturquoise;
+    line-height: 50px;
+}
+#texto{
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+    line-height: 50px;
+}
+body{
+    background-color: wheat;
+    text-align: center;
+    margin: 10%;
+}
+div{
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+a:link {
+    color: yellow;
+}
+a:visited {
+    color: yellow;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: green;
+}
+#primeiroP:first-letter {
+    font-size: 350%;
+}
+h2, h3, h4 {
+    text-align: right
+}
