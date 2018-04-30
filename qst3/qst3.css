@@ -1,0 +1,22 @@
+body{
+  	background-color:#BAB8BF;
+    color: #283333;
+    padding: 10%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#titulo{
+    font-size: 30px;
+    text-shadow: 0 0 0.2em black;
+    text-align: center;
+    backface-visibility: inherit;
+    background-color: darkslategray;
+    color: white;
+    padding: 7px;
+}
+
+#subtitulo{
+    text-align: right;
+    font-style: italic;
+    margin-bottom: 100px;
+}
