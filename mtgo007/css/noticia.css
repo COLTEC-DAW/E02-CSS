@@ -1,0 +1,57 @@
+body{
+    background-color: #401813;
+    width: 100%;
+}
+.container{
+    background-color: #E55845;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    font-weight: 700;
+    text-align: justify;
+}
+img{
+    float: right;
+    margin: 10px;
+    border: 5px solid #7F3127;
+}
+h1{
+    font-family: 'Mukta Malar', sans-serif;
+    background-color: #BF493A;
+    padding: 5px;
+    text-align:center
+}
+h2{
+    font-family: 'Mukta Malar', sans-serif;
+    text-align: right;
+
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    margin: 1.5em;
+    font-size: 1 em;
+    font-weight: 400;
+}
+footer{
+    text-align: center;
+}
+a[href$=".pdf"]:before{
+  font-family: "FontAwesome";
+  content: '\f1c1';
+}
+p a{
+    text-decoration: none;
+    padding: 5px;
+    color: #401813;
+}
+p a:hover{
+    transition-delay: 50ms;
+    background-color: #401813;
+    color:yellow;
+}
+#l1{
+    font-size: 3.5em;
+}
+#p1{
+    font-weight: 700;
+}
