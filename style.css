@@ -51,3 +51,15 @@ a:clicked{
 a:active{
     color: red;
 }
+
+a[href$="https://www.youtube.com/"] {
+    background-image: url("./yt_icon.gif") ;
+    background-repeat: no-repeat;
+    padding-left:25px;
+}
+
+a[href$=".pdf"] {
+    background-image: url("./pdf_icon.gif") ;
+    background-repeat: no-repeat;
+    padding-left:25px;
+}
