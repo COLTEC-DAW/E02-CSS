@@ -7,3 +7,11 @@ body{
     margin-left: 10%;
     margin-right: 10%;
 }
+
+#titulo_geral{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 100px;
+    background-color:orangered;
+    padding: 50px;    
+}
