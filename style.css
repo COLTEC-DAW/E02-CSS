@@ -27,3 +27,16 @@ p{
     text-align: justify;
     line-height: 1.8; 
 }
+
+a:link{
+    color:aqua;
+}
+a:hover{
+    color: black; 
+}
+a:clicked{
+    color: violet;
+}
+a:active{
+    color: red;
+}
