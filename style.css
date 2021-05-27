@@ -28,6 +28,14 @@ p{
     line-height: 1.8; 
 }
 
+.firstP::first-letter{
+    font-size: 350%;
+}
+.firstP{
+    color:gray;
+    line-height: 1.2; 
+}
+
 a:link{
     color:aqua;
 }
