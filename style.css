@@ -22,3 +22,8 @@ body{
     font-style: italic;
     font-size: 1.8rem;
 }
+
+p{
+    text-align: justify;
+    line-height: 1.8; 
+}
