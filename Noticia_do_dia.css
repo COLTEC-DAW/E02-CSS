@@ -1,0 +1,63 @@
+*{
+    font-family: 'Times New Roman', Times, sans-serif;
+}
+
+#Titulo{
+    text-align: center;
+    font-size: 2.5rem;
+    color: black;
+
+    border-style: double;
+    border-width: 8px;
+
+    margin-bottom: 5%;
+
+    padding: 2%;
+
+    background-color:#9E1510;
+}
+
+#publicacao{
+    text-align: left;
+    color: #6B583A;
+}
+
+p{
+    text-align: justify;
+    margin-bottom: 2%;
+    color: black;
+}
+
+#Legenda-video, #fonte{
+    text-align: left;
+    color: gray;
+}
+
+#corpo-noticia{
+    padding-left: 5%;
+    padding-bottom: 10%;
+    padding-right: 10%;
+    padding-top: 5px;
+    background-color: lightgoldenrodyellow;
+    
+}
+
+#Primeiro-paragrafo{
+    color: darkslategrey;
+    margin-top: 2%;
+}
+
+#Primeiro-paragrafo::first-letter{
+    font-size: 150%;
+}
+
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: orangered;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: orange;
+}
