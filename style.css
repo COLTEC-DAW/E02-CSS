@@ -36,6 +36,7 @@ p{
 a{
     font-weight: bold;
     color: #0022E0;
+    font-size: 1rem;
 }
 h3 + p::first-letter{
     font-size: 350%;
@@ -51,5 +52,18 @@ h3 + p{
     font-style: italic;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    background: #A9CCF3;
+    font-size: 1.2rem;
+}
+a:active{
+    text-decoration: none;
+}
 
