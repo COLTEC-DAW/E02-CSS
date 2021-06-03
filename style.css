@@ -5,7 +5,7 @@
     margin: 2% 5% 2% 5%;
 }
 #titulo{
-    font-size: 4rem;
+    font-size: 6rem;
     text-align: center;
     margin-bottom: 0%;
     margin-left: 0%;
@@ -15,14 +15,14 @@
     font-family: 'Times New Roman', Times, serif;
 }
 #subtitulo{
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: right;
     margin: 0% 0% 0% 0%; 
     padding: 0% 0% 0% 0%;
     font-style: oblique;
 }
 #data{
-    font-size: 1.0001rem;
+    font-size: 1.1rem;
     text-align: right;
     margin: 0% 0% 0% 0%;
     padding: 0% 0% 0% 0%;
@@ -30,12 +30,18 @@
 }
 p{
     text-align: justify;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     line-height: 1.5;
 }
 a{
     font-weight: bold;
     color: #0022E0;
+}
+h3 + p::first-letter{
+    font-size: 350%;
+}
+h3 + p{
+    color: #62a0b3;
 }
 
 
