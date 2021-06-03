@@ -5,12 +5,28 @@
     margin: 2% 5% 2% 5%;
 }
 #titulo{
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: center;
     margin-bottom: 0%;
     margin-left: 0%;
     margin-right: 0%;
     padding: 0% 0% 0% 0%;
     background-color: #A9CCF3;
+    font-family: 'Times New Roman', Times, serif;
 }
+#subtitulo{
+    font-size: 2rem;
+    text-align: right;
+    margin: 0% 0% 0% 0%; 
+    padding: 0% 0% 0% 0%;
+    font-style: oblique;
+}
+#data{
+    font-size: 1.0001rem;
+    text-align: right;
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
+    font-style: oblique;
+}
+
 
