@@ -42,6 +42,14 @@ h3 + p::first-letter{
 }
 h3 + p{
     color: #62a0b3;
+    margin-top: 0%;
+}
+.noticia h3{
+    margin-top: 9%;
+    margin-bottom: 0%;
+    font-size: 3rem;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
