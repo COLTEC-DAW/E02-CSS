@@ -1,0 +1,78 @@
+* {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #c2dbe5;
+    color: #013344;
+}
+
+#titulo {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1%;
+    background-color: #013344;
+    color: #c2dbe5;
+    padding: 1.5%;
+    border-style: double;
+    border-width: 7px;
+}
+
+#subtitulo {
+    text-align: right;
+    color: #013344;
+    font-style: italic;
+}
+
+.informacoes {
+    text-align: right;
+    color: #013344;
+    font-style: italic;
+}
+
+.paragrafos {
+    text-align: justify;
+    padding-left: 8px;
+    padding-bottom: 12px;
+    padding-right: 8px;
+    padding-top: 12px;
+    font-size: 1.25em;
+}
+
+a {
+    text-decoration: none;
+    color: #013344;
+    font-weight: bold;
+}
+
+a:link {
+    color: #013344;
+}
+
+a:visited{
+    color: rgb(44, 0, 0);
+}
+
+a:active{
+    color: #006080;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #001b24;
+}
+
+
+#primeiroParagrafo {
+    color: #014e68;
+}
+
+#primeiroParagrafo::first-letter {
+    font-size: 350%;
+}
+
+h2, h3, h4 {
+    text-align: right;
+}
+
+#aviao {
+    margin-left: 0%;
+    margin-right: 0%;
+}
