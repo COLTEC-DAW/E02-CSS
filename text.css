@@ -1,0 +1,98 @@
+.noticia{
+    margin-top: 50px;
+    margin-right: 10%;
+    margin-left: 10%;
+    display: block; 
+
+}
+
+.noticia * {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#titulo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 2.0rem;
+    background-color: rgb(255, 97, 97);
+    color: white;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+#titulo:hover{
+    font-size: 2.1rem;
+}
+
+#cabecalho{
+    border-right: 3px solid red;
+    padding-left: 100px;
+    padding-right: 6px;
+    margin-bottom: 25px;
+    text-align: right;
+}
+
+.resumo{
+    font-size: 1.1rem;
+    text-align: inherit;
+}
+
+#corpo{
+    text-align: justify;
+}
+
+#corpo::first-letter{
+    font-size: 250%;
+}
+
+#corpo p:first-of-type{
+    color:rgb(180, 180, 180)
+}
+
+#corpo p:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+p strong{
+    color: red;
+}
+
+p{
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    line-height: 1.5rem;
+    text-align: justify;    
+}
+
+footer{
+    text-align: inherit;
+    font-size: small
+}
+
+h2, h3, h4, h5, h6{
+    padding-left: 25px
+}
+
+a{
+    font-style: none;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 66, 66)
+}
+
+a:hover{
+    color:red
+}
+
+a:visited{
+    color:rgb(255, 130, 108);
+    font-weight: normal
+}
+
+.citacao{
+    border-left: 4px solid rgb(255, 111, 111);
+    padding-left: 6px;
+}
