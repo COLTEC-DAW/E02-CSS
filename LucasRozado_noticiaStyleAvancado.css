@@ -1,0 +1,7 @@
+.noticia p:first-of-type::first-letter {
+    font-size: 350%;
+}
+
+.noticia p:first-of-type {
+    color: rgb(168, 223, 202);
+}
