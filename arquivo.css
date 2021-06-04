@@ -1,0 +1,42 @@
+* {
+    font-style: italic;
+    color: rgb(6, 5, 49); 
+}
+
+#titulo1{
+    font-size: 40;
+    text-align: center;
+    margin: 5% 0;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    background-color: rgb(252, 1, 1);
+    padding: 10px;
+}
+
+#titulo2{
+    padding-left: 2cm;
+    color: black;
+    font-weight: bolder;
+    margin: 2.5% 0;
+    text-shadow: 5px 5px 5px red;
+}
+
+p{
+    font-family: Arial;
+    text-align: justify;
+}
+
+#links{
+    font-family: fantasy;
+    color: chartreuse;
+}
+
+p::first-letter{
+    font-size: 250%;
+}
+
+a{
+    background-image: url("https://cliply.co/wp-content/uploads/2019/07/371907120_YOUTUBE_ICON_TRANSPARENT_400.gif");
+    background-repeat: no-repeat;
+    padding-left: 17px;
+}
