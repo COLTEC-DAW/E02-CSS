@@ -1,0 +1,66 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#E3E3E3;
+    color:#C60021;
+    margin: 2% 5% 2% 5%;
+}
+
+#titulo {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 3%;
+    background-color:darkred;
+    color: #E3E3E3;
+    padding: 1.2%;
+}
+
+#subtitulo {
+    text-align: right;
+    font-style: italic;
+}
+
+p {
+    text-align: justify;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+a {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* unvisited link */
+a:link {
+    text-decoration: none;
+    color:brown;
+}
+
+/* visited link */
+a:visited {
+    color:tomato;
+}
+
+/* mouse over link */
+a:hover {
+    text-decoration:underline;
+    color:chocolate;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+
+#primeiroParagrafo::first-letter {
+    font-size: 350%;
+}
+
+#primeiroParagrafo {
+    color:orangered
+}
+
+h2, h3 {
+    text-align: center;
+}
