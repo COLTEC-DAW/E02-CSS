@@ -1,0 +1,70 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(224, 219, 219);
+    color: #000000;
+    
+}
+
+#titulo_principal
+{
+    text-align: center;
+    font-size: 3rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 2%;
+    margin-bottom: 2%;
+    background-color: black;
+    color: white;
+    border-style: double;
+    border-width: 8px;
+    
+}
+
+.Information
+{
+    text-align: right;
+    font-weight: bold;
+}
+
+#First_paragraph
+{
+    color:rgb(46, 46, 46);
+
+}
+#First_paragraph::first-letter
+{
+    font-size: 350%;
+}
+.displayed
+{
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-style:ridge;
+    margin-bottom: 0.5%;
+    border-color: black;
+}
+.Paragraph
+{
+    text-align: justify;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-bottom: 1%;
+    padding-top: 7px;
+    margin: 0 2% 0 2%;
+}
+
+#link_news
+{
+    color: black;
+}
+a:link, a:visited, a:active 
+{
+	text-decoration:none;
+    font-weight: bold;
+}
+a:hover 
+{   
+    text-decoration: underline;  
+	color:#000; 
+}
