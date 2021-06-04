@@ -1,0 +1,40 @@
+body{
+    background-image:url(Light_YagamiHD.jpg);
+    background-size: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+h1{
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4.0rem;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color:crimson;
+}
+
+h2{
+    color: red;
+    text-align: right;
+    font-style: italic;
+}
+
+#Macacos_do_Artico::first-letter{
+    font-size: 350%;
+}
+
+#Macacos_do_Artico{
+    color:crimson
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    text-align: justify;
+    line-height: 28px;
+}
+a:hover{
+    font-weight: bold ;
+    color:limegreen;
+}
