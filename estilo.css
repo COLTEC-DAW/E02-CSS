@@ -4,6 +4,8 @@
     color: brown;
     margin-right: 15%;
     margin-left: 11%;
+    text-align: justify;
+    line-height: 1.5rem;
 }
 #TP{
     font-size: 3.5rem;
