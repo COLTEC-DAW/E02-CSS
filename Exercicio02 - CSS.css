@@ -43,3 +43,9 @@ p{
     color: rgb(255, 255, 255);
 
 }
+
+a{
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}
