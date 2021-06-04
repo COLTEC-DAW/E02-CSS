@@ -31,12 +31,21 @@ h2{
     padding-bottom: 0%;
     font-style: italic;
     text-align: right;
+    text-align: center;
 }
 h4{
     font-style:oblique;
     padding:15% ;
     padding-top: 0%;
     padding-bottom: 0%;
+    text-align: center;
+}
+h3{
+    padding:15% ;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    
+
 }
 li{
     padding:15% ;
@@ -49,3 +58,14 @@ a:hover{
     color: orangered;
     font-weight: bold;
 }
+a{
+    text-decoration:none;
+}
+p:first-of-type:first-letter{
+    font-size: 350%;
+
+}
+p:first-of-type{
+    color: grey;
+}
+    
