@@ -1,0 +1,48 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(31, 12, 48);
+    color: rgb(102, 238, 186);
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#paginaTitulo {
+    font-size: 2.5rem;
+    text-align: center;
+    
+    margin-bottom: 40px;
+    padding: 20px;
+
+    color: rgb(31, 12, 48);
+    background-color: rgb(102, 238, 186);
+}
+
+.noticiaTitulo {
+    font-size: 1.5rem;
+
+    text-align: right;
+    text-decoration: underline;
+}
+
+.noticiaCorpo {
+    font-size: 130%;
+
+    text-align: justify;
+    line-height: 120%;
+}
+
+a {
+    padding: 2px;
+    color: rgb(173, 141, 201);
+    font-weight: bold;
+}
+a:hover {
+    color: rgb(31, 12, 48);
+    background-color: rgb(173, 141, 201);
+}
+a:visited {
+    color: rgb(187, 238, 218);
+}
+a:active {
+    color: white;
+}
