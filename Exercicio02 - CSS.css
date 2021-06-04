@@ -1,0 +1,45 @@
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(240, 191, 191);
+    background-color: rgb(2, 37, 65);
+    width: 90%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+h1{
+
+    background-color: crimson;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(247, 247, 247);
+    margin-bottom: 30px;
+    padding: 5%;
+
+}
+
+h2{
+
+    text-align: right;
+    font-style: italic;
+
+}
+
+p{
+    text-align: justify;
+    line-height: 1.8rem ;
+}
+
+#Pparagrafo::first-letter{
+
+    font-size: 350%;
+
+}
+
+#Pparagrafo{
+
+    color: rgb(255, 255, 255);
+
+}
