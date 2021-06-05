@@ -50,3 +50,25 @@ a:hover{
 a:visited{
     color: gold;
 }
+
+img{
+    max-width: 100%;
+}
+
+h2 + p::first-letter, h3 + p::first-letter{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#Noticia + p::first-letter{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#Noticia + p{
+    color: grey;
+}
+
+h2,h3{
+    text-align: left;
+}
