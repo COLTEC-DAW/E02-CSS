@@ -25,3 +25,20 @@ p{
     line-height: 25px;
 }
 
+a:Link{
+    font-weight: bold;
+    color: blue; 
+    text-decoration: none;
+}
+a:visited{
+    color: red;
+    text-decoration: none;
+}
+a:active{
+    color: rgb(218, 30, 218);
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+    text-decoration: none;
+}
