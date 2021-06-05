@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+    padding: 4%;
+}
+
+.p{font-family: 'Roboto', sans-serif;
+    color: #CBA135;
+    }
+
+h1{text-align: center;
+    color: #FFCC33;
+    font-size: 250%;
+    margin-bottom: 3%;
+    padding: 2%;}
+
+h2{font-size: 17px; text-align: right;
+    color: #CFB53B;
+    font-weight: bold;} /*Acho que não funciona nessa fonte o negrito :/ */
+
+.paragrafos{
+    text-align: justify;
+    line-height: 150%;
+}
+
+.paragrafos::first-letter{
+    font-size: 300%;
+}
+
+#primeiro{
+    color: #d1af59;
+}
+
+a:link, :visited{
+    background-color: #FFCC33;
+    color: black;
+    padding: 1px 1px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 900;
+}
+
+a:hover, a:active {
+    background-color: rgb(255, 225, 142);
+  }
