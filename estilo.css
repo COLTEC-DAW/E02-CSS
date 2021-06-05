@@ -19,3 +19,16 @@
     text-align: right;
     text-decoration: underline;
 }
+a:link{
+    font-weight:bold;
+    color:#78023E;
+}
+a:visited{
+    color:aquamarine
+}
+a:hover{
+    color:blueviolet
+}
+a:active{
+    color:beige
+}
