@@ -32,3 +32,9 @@ a:hover{
 a:active{
     color:beige
 }
+#First::first-letter{
+    font-size: 350%;
+}
+#First{
+    color:rgb(198, 52, 52)
+}
