@@ -49,3 +49,6 @@ h1 + p::first-letter, h2 + p::first-letter{
 #primeiro_paragrafo{
     color: tomato;
 }
+h2,h4{
+    text-align: center;
+}
