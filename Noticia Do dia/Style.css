@@ -42,3 +42,10 @@ a:hover{
     color: blue;
     text-decoration: none;
 }
+h1 + p::first-letter, h2 + p::first-letter{
+    font-size: 350%;
+    color: rgb(255, 255, 255);
+}
+#primeiro_paragrafo{
+    color: tomato;
+}
