@@ -1,9 +1,11 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
     /*background-color: white;*/
-    font-weight: 20%;
+    /**/
 }
-
+body{
+    margin: 10% 10%;
+}
 p{
     text-align: justify;
     line-height: 25px;
@@ -34,12 +36,12 @@ a:active{
 }
 
 #titulo{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     text-align: center;
     margin: 1px 1px 1px 1px;
     color: white;
     background-color: #011BFF;
-    padding: 40px 20px 30px;
+    padding: 20px 10px 15px;
 }
 
 #subtitulo{
