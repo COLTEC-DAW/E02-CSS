@@ -35,3 +35,18 @@ p{
     text-align: justify;
     line-height: 25px;
 }
+
+a:link{
+    font-weight:bold;
+}
+
+a:active{
+    color: orangered;
+}
+
+a:hover{
+    color:aqua ;
+}
+a:visited{
+    color: gold;
+}
