@@ -1,0 +1,47 @@
+body{
+    background-color: #FFFAE6;
+    padding-right: 32px;
+    padding-left: 32px;
+}
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans';
+    color: #22DCE6;
+    font-size: 4vw;
+    letter-spacing: 1px;
+    line-height: 0.8;
+}
+h2{
+    text-align: right;
+    font-family: 'Lucida Sans';
+    color: #F16398;
+    font-size: 2.6vw;
+    line-height: 0;
+    font-style: italic;
+}
+h4{
+    text-align: left;
+    font-family: Arial;
+    color: #94895D;
+}
+p{
+    text-align: justify;
+    font-family: arial;
+    color: #4D0D25;
+    text-indent: 2em;
+    line-height: 1.3em;
+    font-weight: 500;
+}
+.Entry{
+    margin-bottom: 64px
+}
+a{
+    color: #F16398;
+    font-weight: bold;
+}
+a:hover{
+    color: #94895D;
+}
+a:active{
+    color: #22DCE6;
+}
