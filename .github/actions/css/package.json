@@ -1,0 +1,14 @@
+{
+  "name": "css-autograder",
+  "version": "1.0.0",
+  "description": "Autograder for css exercise",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "João Eduardo Montandon",
+  "license": "ISC"
+}
