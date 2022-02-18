@@ -8,6 +8,7 @@ let dom = undefined;
 let FILES_PATH = process.env.FILES_PATH;
 
 let html = fs.readFileSync(`${FILES_PATH}/${questionFile}`);
+let css = fs.readFileSync(`${FILES_PATH}/noticia.css`);
 function waitForDom() {
     return new Promise((resolve) => {
         dom = new jsdom.JSDOM(html, {
@@ -25,8 +26,17 @@ function waitForDom() {
 
 beforeAll(() => waitForDom());
 
+
 describe('Parte I: Notícia do dia', () => {
     describe('T1: Aparência Geral', () => {
+        describe('Arquivos presentes', () => {
+            it('deve ter arquivo noticia.html', () => {
+                expect(html).toBeTruthy();
+            });
+            it('deve ter arquivo noticia.css', () => {
+                expect(css).toBeTruthy();
+            });
+        });
 
         let body = undefined;
         beforeAll(() => {
@@ -180,6 +190,36 @@ describe('Parte I: Notícia do dia', () => {
                 .replace(/(%|px|em|rem)/, '');
 
             expect(parseInt(lineHeight)).toBeGreaterThan(100);
+        });
+    });
+});
+
+describe('Parte II: Melhorias Avançadas', () => {
+    describe('T5: Links', () => {
+        let a = undefined;
+        beforeAll(() => {
+            a = $('a');
+            a = dom.window.document.querySelector('a');
+        });
+        it('deve ter efeito de negrito na fonte', () => {
+            let validWeights = ['bold', '700', '800', '900'];
+            let fontWeight = dom.window.getComputedStyle(a)
+            .getPropertyValue('font-weight');
+            
+            expect(fontWeight).toBeTruthy();
+            expect(validWeights).toEqual(expect.arrayContaining([fontWeight]));
+        });
+        it('deve ter cores diferentes de acordo com seu estado', () => {
+
+            let hasPseudoLink = css.includes('a:link');
+            let hasPseudoHover = css.includes('a:hover');
+            let hasPseudoVisited = css.includes('a:visited');
+            let hasPseudoActive = css.includes('a:active');
+
+            expect(hasPseudoLink).toBe(true);
+            expect(hasPseudoHover).toBe(true);
+            expect(hasPseudoVisited).toBe(true);
+            expect(hasPseudoActive).toBe(true);
         });
     });
 });

@@ -6,6 +6,8 @@
 
 ## Instruções
 
+Você deverá entregar a atividade por meio dos arquivos `noticia.html` e `noticia.css`.
+
 Para realização e entrega dos exercícios, siga as instruções disponíveis na página da disciplina.
 Para cada questão, gere um commit específico!!
 
@@ -52,15 +54,15 @@ Se você fez a parte 01 de forma correta, a fonte dos parágrafos já estão com
 1. Torne o texto justificado.
 2. Aumente o espaçamento entre as linhas para um valor maior que o padrão (maior que `100%`).
 
+## Parte II: Melhorias Avançadas
+
 ### T5: Links
 
 O estilo padrão dos links é simplesmente horrível!! 
 Você pode dar um **up** alterando as seguintes propriedades:
 
 1. Adicione um efeito de negrito na fonte.
-2. Altere as cores do link (padrão, hover, clicked, ativo, etc.). Novamente, utilize o Adobe Kuler para tal.
-
-## Parte II: Melhorias Avançadas
+2. Altere as cores do link de acordo com seus diferentes estados (`:link`, `:visited`, `:hover`, `:active`). Configure pelo menos duas cores diferentes. Novamente, utilize o Adobe Kuler para tal.
 
 ### T6: Primeiro parágrafo
 
