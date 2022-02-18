@@ -42,7 +42,7 @@ O título deve chamar atenção mas não ser agressivo aos olhos do leitor.
 O subtítulo deve possuir um estilo diferente do texto convencional, porém diferente do título principal.
 
 1. Alinhe subtítulo a direita.
-2. Adicione um efeito na fonte, como itálico ou negrito.
+2. Adicione um efeito de itálico na fonte.
 
 ### T4: Parágrafos
 

@@ -138,4 +138,26 @@ describe('Parte I: Notícia do dia', () => {
             expect(paddingBottom).toBeTruthy();
         });
     });
+
+    describe('T3: Customizando subtítulo', () => {
+        let h2 = undefined;
+        beforeAll(() => {
+            h2 = $('h2');
+            h2 = dom.window.document.querySelector('h2');
+        });
+        it('deve estar alinhado a direita', () => {
+            let textAlign = dom.window.getComputedStyle(h2)
+                .getPropertyValue('text-align');
+
+            expect(textAlign).toBe('right');
+        });
+        it('deve ter um efeito textual, como itálico ou negrito', () => {
+            let validStyles = ['oblique', 'italic'];
+            let fontStyle = dom.window.getComputedStyle(h2)
+                .getPropertyValue('font-style');
+
+            expect(fontStyle).toBeTruthy();
+            expect(validStyles).toEqual(expect.arrayContaining([fontStyle]));
+        });
+    });
 });
