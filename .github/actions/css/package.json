@@ -10,5 +10,9 @@
     "test": "jest"
   },
   "author": "João Eduardo Montandon",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jquery": "^3.6.0",
+    "jsdom": "^19.0.0"
+  }
 }
