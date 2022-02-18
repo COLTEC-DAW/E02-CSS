@@ -26,8 +26,6 @@ function waitForDom() {
 }
 
 function getPseudoStyle(stylesheet, selectorRegex) {
-    // let stylesheets = dom.window.document.styleSheets;
-
     let rules = stylesheet.cssRules;
     for (const rule of rules) {
         if(selectorRegex.test(rule.selectorText)) { 
@@ -258,6 +256,26 @@ describe('Parte II: Melhorias Avançadas', () => {
         });
         it('deve ter um tom mais claro', () => {
 
+        });
+    });
+
+    describe('T7: Ajustes nos títulos', () => {
+        let stylesheet = undefined;
+        let groupH = undefined;
+        beforeAll(() => {
+            stylesheet = dom.window.document.styleSheets[0];
+            groupH = getPseudoStyle(stylesheet, /((h3|h4|h5|h6)\s*,?\s*){4}/i);
+        });
+        it('devem estar alinhados a esquerda', () => {
+            let textAlign = groupH.style.getPropertyValue('text-align');
+            
+            expect(textAlign).toBe('left');
+        });
+        it('devem estar em itálico', () => {
+            let validStyles = ['oblique', 'italic'];
+            let fontStyle = groupH.style.getPropertyValue('font-style');
+            
+            expect(validStyles).toEqual(expect.arrayContaining([fontStyle]));
         });
     });
 });
