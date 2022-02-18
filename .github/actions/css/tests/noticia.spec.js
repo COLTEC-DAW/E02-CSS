@@ -160,4 +160,26 @@ describe('Parte I: Notícia do dia', () => {
             expect(validStyles).toEqual(expect.arrayContaining([fontStyle]));
         });
     });
+
+    describe('T4: Parágrafos', () => {
+        let p = undefined;
+        beforeAll(() => {
+            p = $('p');
+            p = dom.window.document.querySelector('p');
+        });
+        
+        it('deve ser justificado', () => {
+            let textAlign = dom.window.getComputedStyle(p)
+                .getPropertyValue('text-align');
+
+            expect(textAlign).toBe('justify');
+        });
+        it('deve ter espaçamento entre as linhas', () => {
+            let lineHeight = dom.window.getComputedStyle(p)
+                .getPropertyValue('line-height')
+                .replace(/(%|px|em|rem)/, '');
+
+            expect(parseInt(lineHeight)).toBeGreaterThan(100);
+        });
+    });
 });
