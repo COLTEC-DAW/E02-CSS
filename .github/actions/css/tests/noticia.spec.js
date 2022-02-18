@@ -9,6 +9,7 @@ let FILES_PATH = process.env.FILES_PATH;
 
 let html = fs.readFileSync(`${FILES_PATH}/${questionFile}`);
 let css = fs.readFileSync(`${FILES_PATH}/noticia.css`);
+
 function waitForDom() {
     return new Promise((resolve) => {
         dom = new jsdom.JSDOM(html, {
@@ -22,6 +23,19 @@ function waitForDom() {
             resolve();
         });
     });
+}
+
+function getPseudoStyle(stylesheet, selectorRegex) {
+    // let stylesheets = dom.window.document.styleSheets;
+
+    let rules = stylesheet.cssRules;
+    for (const rule of rules) {
+        if(selectorRegex.test(rule.selectorText)) { 
+            return rule;
+        }
+    }
+
+    return undefined;
 }
 
 beforeAll(() => waitForDom());
@@ -220,6 +234,30 @@ describe('Parte II: Melhorias Avançadas', () => {
             expect(hasPseudoHover).toBe(true);
             expect(hasPseudoVisited).toBe(true);
             expect(hasPseudoActive).toBe(true);
+        });
+    });
+
+    describe('T6: Prmeiro Parágrafo', () => {
+        let stylesheet = undefined;
+        beforeAll(() => {
+            stylesheet = dom.window.document.styleSheets[0];
+        });
+        it('deve ter tamanho da primeira letra mínimo de 350%', () => {
+            let firstP = getPseudoStyle(stylesheet, /p::first-child$/i);
+            let firstPFirstLetter = getPseudoStyle(stylesheet, /p::?first-child::?first-letter/i);
+
+            let color = firstP.style.getPropertyValue('color');
+            let fontSize = firstPFirstLetter.style
+                .getPropertyValue('font-size')
+                .replace(/(%|px|em|rem)/, '');
+
+            expect(firstP).toBeTruthy();
+            expect(color).toBeTruthy();
+            expect(firstPFirstLetter).toBeTruthy();
+            expect(parseInt(fontSize)).toBeGreaterThanOrEqual(350);
+        });
+        it('deve ter um tom mais claro', () => {
+
         });
     });
 });
