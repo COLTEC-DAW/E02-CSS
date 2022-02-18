@@ -34,8 +34,23 @@ describe('Parte I: Notícia do dia', () => {
             body = dom.window.document.querySelector('body');
         });
 
-        it.todo('deve ter uma fonte não serifada');
-        it.todo('deve ter uma paleta de cores cusotmizada');
+        it('deve ter uma fonte não serifada', () => {
+            let nonSerifFonts = ['arial', 'verdana', 'helvetica', 'tahoma', 'trebuchet MS', 'sans-serif'];
+            let fonts = $(body).css('font-family')
+                .split(',')
+                .map((f) => f.trim().toLowerCase());
+
+            for (const font of fonts) {
+                expect(nonSerifFonts).toEqual(expect.arrayContaining([font]));
+            }
+        });
+        it('deve ter uma paleta de cores customizada', () => {
+            let color = $(body).css('color');
+            let backgroundColor = $(body).css('background-color');
+
+            expect(color).toBeTruthy();
+            expect(backgroundColor).toBeTruthy();
+        });
         it('deve ter um espaçamento de página customizado', () => {
 
             let mLeft = dom.window.getComputedStyle(body)
