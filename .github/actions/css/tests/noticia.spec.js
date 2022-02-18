@@ -278,4 +278,27 @@ describe('Parte II: Melhorias Avançadas', () => {
             expect(validStyles).toEqual(expect.arrayContaining([fontStyle]));
         });
     });
+
+    describe('T8: Links mais ricos', () => {
+        let stylesheet = undefined;
+        beforeAll(() => {
+            stylesheet = dom.window.document.styleSheets[0];
+        });
+        it('deve customizar links que abrem pdfs', () => {
+            let a = getPseudoStyle(stylesheet, /a.*href\$.*\.pdf.*::?after/i);
+            let fontFamily = a.style.getPropertyValue('font-family');
+            let content = a.style.getPropertyValue('content');
+
+            expect(fontFamily).toEqual(expect.stringContaining('Font Awesome'));
+            expect(content).toEqual(expect.stringContaining('\\f'));
+        });
+        it('deve customizar links que abrem páginas web', () => {
+            let a = getPseudoStyle(stylesheet, /a.*href\^.*http.*::?after/i);
+            let fontFamily = a.style.getPropertyValue('font-family');
+            let content = a.style.getPropertyValue('content');
+            
+            expect(fontFamily).toEqual(expect.stringContaining('Font Awesome'));
+            expect(content).toEqual(expect.stringContaining('\\f'));
+        });
+    });
 });
