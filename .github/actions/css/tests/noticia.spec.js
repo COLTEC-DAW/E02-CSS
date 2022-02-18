@@ -66,4 +66,76 @@ describe('Parte I: Notícia do dia', () => {
             expect(parseInt(mRight)).toBeLessThanOrEqual(20);
         });
     });
+
+    describe('T2: Estilo do título', () => {
+        let h1 = undefined;
+        beforeAll(() => {
+            h1 = $('h1');
+            h1 = dom.window.document.querySelector('h1');
+        });
+
+        it('deve ter tamanho agradável de fonte', () => {
+            let fontSize = dom.window.getComputedStyle(h1)
+                .getPropertyValue('font-size');
+
+            expect(fontSize).not.toBe('2em');
+        });
+        it('deve ser centralizado', () => {
+            let textAlign = dom.window.getComputedStyle(h1)
+                .getPropertyValue('text-align');
+            
+            expect(textAlign).toBe('center');
+        });
+        it('deve ter margem pequena', () => {
+            let marginLeft = dom.window.getComputedStyle(h1)
+                .getPropertyValue('margin-left')
+                .replace(/(%|px|em|rem)/, '');
+            let marginRight = dom.window.getComputedStyle(h1)
+                .getPropertyValue('margin-right')
+                .replace(/(%|px|em|rem)/, '');
+            let marginTop = dom.window.getComputedStyle(h1)
+                .getPropertyValue('margin-top')
+                .replace(/(%|px|em|rem)/, '');
+            let marginBottom = dom.window.getComputedStyle(h1)
+                .getPropertyValue('margin-bottom')
+                .replace(/(%|px|em|rem)/, '');
+
+            
+            expect(marginLeft).toBeTruthy();
+            expect(marginRight).toBeTruthy();
+            expect(marginTop).toBeTruthy();
+            expect(marginBottom).toBeTruthy();
+            
+            expect(parseInt(marginLeft)).toBeLessThanOrEqual(20);
+            expect(parseInt(marginRight)).toBeLessThanOrEqual(20);
+            expect(parseInt(marginTop)).toBeLessThanOrEqual(20);
+            expect(parseInt(marginBottom)).toBeLessThanOrEqual(20);
+        });
+        it('deve ter cor de fonte customizada', () => {
+            let color = dom.window.getComputedStyle(h1)
+                .getPropertyValue('color');
+
+            expect(color).toBeTruthy();
+        });
+        it('deve ter padding customizado', () => {
+            let paddingLeft = dom.window.getComputedStyle(h1)
+                .getPropertyValue('padding-left')
+                .replace(/(%|px|em|rem)/, '');
+            let paddingRight = dom.window.getComputedStyle(h1)
+                .getPropertyValue('padding-right')
+                .replace(/(%|px|em|rem)/, '');
+            let paddingTop = dom.window.getComputedStyle(h1)
+                .getPropertyValue('padding-top')
+                .replace(/(%|px|em|rem)/, '');
+            let paddingBottom = dom.window.getComputedStyle(h1)
+                .getPropertyValue('padding-bottom')
+                .replace(/(%|px|em|rem)/, '');
+
+
+            expect(paddingLeft).toBeTruthy();
+            expect(paddingRight).toBeTruthy();
+            expect(paddingTop).toBeTruthy();
+            expect(paddingBottom).toBeTruthy();
+        });
+    });
 });

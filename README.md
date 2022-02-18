@@ -31,7 +31,7 @@ Mais especificamente, você deverá customizar as seguintes características da 
 É hora de customizar o título principal da página. 
 O título deve chamar atenção mas não ser agressivo aos olhos do leitor.
 
-1. Aumente o tamanho da fonte para um tamanho que você considere agradável, mas limite ao tamanho de `22px`.
+1. Aumente o tamanho da fonte para um tamanho que você considere agradável, mas limite ao tamanho de `72px`.
 2. Centralize o texto.
 3. Adicione um `margin` para prover um espaçamento pequeno entre o título e corpo da notícia.
 4. Altere a cor da fonte para dar contraste com o estilo aplicado anteriormente na página. Novamente, use o Adobe Kuler.
