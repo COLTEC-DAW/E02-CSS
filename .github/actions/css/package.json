@@ -12,6 +12,7 @@
   "author": "João Eduardo Montandon",
   "license": "ISC",
   "devDependencies": {
+    "jest": "^27.5.1",
     "jquery": "^3.6.0",
     "jsdom": "^19.0.0"
   }
