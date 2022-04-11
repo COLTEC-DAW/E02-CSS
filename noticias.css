@@ -1,14 +1,14 @@
 *{
     font-family: 'Courier New', Courier, monospace;
-    background: #293C8F;
-    color: #D6CDB3;
+    background: #9C6E6D;
+    color: #E7E8D1;
     padding: 0 10%;
 }
 h1{
     font-size: 72px;
     text-align: center;
     margin: 10px;
-    color: #FF7F00;
+    color: #A2C9E8;
     padding: 10px;
 }
 h2{
@@ -18,4 +18,38 @@ h2{
 p{
     text-align: justify;
     line-height: 150%;
+}
+p:first-of-type{
+    color: #FFFCD9;
+}
+p:first-of-type::first-letter{
+    font-size: 350%;
+}
+a{
+    display: block;
+    font-weight: bold;
+    color: #EC7A76;
+}
+a:visited{
+    color: #E8BBBA;
+}
+a:hover{
+    color: #E8AEE1;
+}
+a:active{
+    color: #EB101F;
+}
+h3, h4, h5, h6{
+    text-align: left;
+    font-style: italic;
+}
+svg{
+    display: inline-block;
+    margin-right: auto;
+    width: 10px;
+    height: auto;
+}
+a{
+    background: transparent url(/images/content/icon_word.gif) center right no-repeat;
+    padding: 18px;
 }
