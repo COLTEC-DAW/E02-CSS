@@ -3,6 +3,12 @@
     <head>
         <title>Noticia</title>
         <link rel="stylesheet" type="text/css" href="./noticia.css">
+        <script src="https://kit.fontawesome.com/0ef220ebea.js" crossorigin="anonymous"></script>
+        <script>
+            function printFunction() { 
+              window.print(); 
+            }
+          </script>
     </head>
     <body>
         <h1>Hackers breach MailChimp's internal tools to target crypto customers</h1>
@@ -10,7 +16,7 @@
         
        <img src="https://www.bleepstatic.com/content/hl-images/2022/04/04/mailchimp-header.jpg">
 
-        <p>Sunday morning, Twitter was abuzz with reports from owners of Trezor hardware cryptocurrency wallets who received phishing notifications claiming that the company suffered a data breach.
+        <p class="first_paragraph">Sunday morning, Twitter was abuzz with reports from owners of Trezor hardware cryptocurrency wallets who received phishing notifications claiming that the company suffered a data breach.
             These emails prompted Trezort customers to reset their hardware wallet PINs by downloading malicious software that allowed stealing the stored cryptocurrency.
             In an email to BleepingComputer, MailChimp has confirmed that the breach was more significant than just Trezor's account being accessed by threat actors.
             According to MailChimp, some of their employees fell for a social engineering attack that led to the theft of their credentials.</p>
@@ -42,6 +48,15 @@
             The Okta breach was accomplished through a similar method as MailChimp, by social-engineering a contractor who had access to internal customer support and account management systems.</p>
         
         <p>BleepingComputer has sent MailChimp and Trezor further questions about the breach but has not heard back.</p>
+        <footer>
+            <p class="source">Leia a matéria completa em <a href="https://www.bleepingcomputer.com/news/security/hackers-breach-mailchimps-internal-tools-to-target-crypto-customers/">Bleeping Computer</a></p>
+            <div class="container">​
+                <!--icon-->
+                <a href="https://www.youtube.com/"><i class="fa-solid fa-globe fa-2xl" ></i></a>
+                <!--icon-->
+                <button onclick="printFunction()"><i class="fa-solid fa-file-arrow-down fa-2xl"></i></button>
+            </div>
+        </footer>
     </body>
 </html>
 
