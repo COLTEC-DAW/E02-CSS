@@ -73,14 +73,13 @@ a:active{
 
 i{
     color:#ccff33;
-    margin: 20px;
-    padding: 0px;
+    padding: 10px;
 }
 
 .container{
     display: inline-flex;
     justify-content: space-between;
-    margin: 90px;
+    margin: 80px;
 }
 
 button{
