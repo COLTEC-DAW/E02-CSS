@@ -1,0 +1,107 @@
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+
+body{
+
+  background-image: radial-gradient(circle at 120.71% 50%, #7e5b87 0, #6c4b82 16.67%, #573b7c 33.33%, #3b2c77 50%, #081f72 66.67%, #00176e 83.33%, #000f6a 100%);
+  
+}
+
+
+html, body{
+
+  height: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.links{
+
+  text-decoration: none;
+}
+
+.header{
+
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+    color: white;
+
+}
+
+header{
+
+  padding: 20px 0;
+  
+}
+
+.imgs_social_media{
+
+    width: 30px;
+    height: 30px;
+    margin-left: 25px;
+    
+  
+}
+
+#astronaut{
+
+  width: 400px;
+  height: 400px;
+}
+
+.logo{
+
+  width: 50%;
+  padding-top: 25px;
+
+}
+
+.social_media{
+
+  padding-top: 30px;
+  width: 50%;
+  text-align: right;
+}
+
+section.content{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.animation{
+
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 40px;
+  
+
+}
+
+
+.themes{
+
+  padding: 15px;
+  width: 400px;
+  border: 2px dotted white;
+  color: white;
+  border-radius: 30px;
+  margin: 20px;
+  display: block;
+
+}
+

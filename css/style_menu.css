@@ -1,0 +1,168 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+  }
+  
+  body{
+  
+    background-image: radial-gradient(circle at 120.71% 50%, #7e5b87 0, #6c4b82 16.67%, #573b7c 33.33%, #3b2c77 50%, #081f72 66.67%, #00176e 83.33%, #000f6a 100%);
+  
+  }
+  
+  
+  html, body{
+  
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+  .header{
+
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+    color: white;
+
+  }
+
+.box_title{
+
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  border: 0.8px solid white;
+  border-radius: 25px;
+  padding: 20px;
+  width: 300px;
+
+}
+
+.menu_title{
+
+  font-size: 28px;
+  text-align: center;
+
+}
+
+.box{
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+header{
+
+  padding: 20px 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  
+}
+
+.imgs_social_media{
+
+    width: 30px;
+    height: 30px;
+    margin-left: 25px;
+    
+}
+
+.logo{
+
+    width: 50%;
+    padding-top: 25px;
+  
+  }
+  
+  .social_media{
+  
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
+  }
+
+  .content{
+
+    margin: 15px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .news{
+
+    padding: 20px;
+    height: 48vh;
+    width: 450px;
+    border: 1.8px solid white;
+    margin: 20px;
+    color: white;
+    margin-bottom: 340px; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
+
+
+  .links{
+
+      text-decoration: none;
+
+  }
+
+  .title{
+
+    font-size: 21px;
+    text-align: center;
+  }
+
+  .imgs{
+
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: max-content;
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    
+  }
+
+  p{
+
+    text-align: justify;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .imgs_{
+
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 250px;
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+
+  }
+
+  .lula{
+
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 270px;
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+  }
+  

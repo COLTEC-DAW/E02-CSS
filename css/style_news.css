@@ -1,0 +1,200 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+
+    background-image: radial-gradient(circle at 120.71% 50%, #7e5b87 0, #6c4b82 16.67%, #573b7c 33.33%, #3b2c77 50%, #081f72 66.67%, #00176e 83.33%, #000f6a 100%);
+}
+
+header{
+
+    padding: 20px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    background-image: radial-gradient(circle at 120.71% 50%, #7e5b87 0, #6c4b82 16.67%, #573b7c 33.33%, #3b2c77 50%, #081f72 66.67%, #00176e 83.33%, #000f6a 100%);
+    width: 100%;
+    position: fixed;
+}
+
+.header{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0 2%;
+    color: white;
+}
+
+.imgs_social_media{
+
+    width: 30px;
+    height: 30px;
+    margin-left: 25px;
+    margin-top: 18px;
+    
+}
+
+#banner_euphoria{
+
+    background-image: url(../img/euphoria.jpg);
+}
+
+#banner_sex_education{
+
+    background-image: url(../img/sex_education.jpg);
+
+}
+
+#banner_the_witcher{
+
+    background-image: url(../img/the_witcher.jpg);
+}
+
+#banner_paulo_guedes{
+
+    background-image: url(../img/PG.webp);
+}
+
+#banner_war{
+
+    background-image: url(../img/war.png);
+}
+
+#banner_china{
+
+    background-image: url(../img/China.jpeg);
+
+}
+
+#banner_bolsonaro{
+
+    background-image: url(../img/Bolsonaro.jpg);
+
+}
+
+#banner_lula{
+
+    background-image: url(../img/lula.webp);
+
+}
+
+#banner_elon_musk{
+
+    background-image: url(../img/elon_musk.jpg);
+
+}
+
+#banner_nasa{
+
+    background-image: url(../img/nasa.webp);
+
+}
+
+#banner_haltere{
+
+    background-image: url(../img/haltere.jpg);
+
+}
+
+.banners{
+
+    background-size: cover;
+    background-position: center center;
+    top: 100px;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+}
+
+h2{
+
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+}
+
+.title{
+
+    font-size: 20px;
+}
+
+iframe{
+
+    padding: 30px;
+    border-radius: 80px;
+}
+
+.imgs{
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.banners:after{
+
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+    background-image: radial-gradient(circle at 120.71% 50%, #7e5b87 0, #6c4b82 16.67%, #573b7c 33.33%, #3b2c77 50%, #081f72 66.67%, #00176e 83.33%, #000f6a 100%);
+    z-index: -1;
+
+}
+
+
+.logo{
+
+    width: 50%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  
+}
+
+.wrapper{
+
+    width: 50%;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.social_media{
+  
+    width: 50%;
+    text-align: right;
+  
+}
+
+.links{
+
+    text-decoration: none;
+
+}
+
+.content_area{
+    text-align: center;
+    padding: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    color: white;
+    top: 850px;
+    background-image: radial-gradient(circle at 120.71% 50%, #7e5b87 0, #6c4b82 16.67%, #573b7c 33.33%, #3b2c77 50%, #081f72 66.67%, #00176e 83.33%, #000f6a 100%);
+}
+
+
+  
+
+
