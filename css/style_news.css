@@ -6,18 +6,13 @@
    
 }
 
-body{
-
-    background-image: radial-gradient(circle at 120.71% 50%, #7e5b87 0, #6c4b82 16.67%, #573b7c 33.33%, #3b2c77 50%, #081f72 66.67%, #00176e 83.33%, #000f6a 100%);
-}
-
 header{
 
     padding: 20px 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
-    background-image: radial-gradient(circle at 120.71% 50%, #7e5b87 0, #6c4b82 16.67%, #573b7c 33.33%, #3b2c77 50%, #081f72 66.67%, #00176e 83.33%, #000f6a 100%);
     width: 100%;
     position: fixed;
+    background-image: radial-gradient(circle at 120.71% 50%, #7e5b87 0, #6c4b82 16.67%, #573b7c 33.33%, #3b2c77 50%, #081f72 66.67%, #00176e 83.33%, #000f6a 100%);
 }
 
 .header{
@@ -191,7 +186,7 @@ iframe{
     height: 100%;
     position: relative;
     color: white;
-    top: 850px;
+    top: 92vh;
     background-image: radial-gradient(circle at 120.71% 50%, #7e5b87 0, #6c4b82 16.67%, #573b7c 33.33%, #3b2c77 50%, #081f72 66.67%, #00176e 83.33%, #000f6a 100%);
     opacity: .7;
 }
