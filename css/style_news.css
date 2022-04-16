@@ -136,7 +136,7 @@ iframe{
     border-radius: 20px;
 }
 
-.banners:after{
+.banners::after{
 
     content: '';
     position: absolute;
