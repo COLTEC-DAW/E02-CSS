@@ -134,6 +134,7 @@ iframe{
     margin-bottom: 30px;
     width: 100%;
     border-radius: 20px;
+   
 }
 
 .banners::after{
@@ -192,6 +193,7 @@ iframe{
     color: white;
     top: 850px;
     background-image: radial-gradient(circle at 120.71% 50%, #7e5b87 0, #6c4b82 16.67%, #573b7c 33.33%, #3b2c77 50%, #081f72 66.67%, #00176e 83.33%, #000f6a 100%);
+    opacity: .7;
 }
 
 
