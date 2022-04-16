@@ -1,0 +1,61 @@
+body{
+    font-family: cursive;
+    background-color: #593A2E;
+    color: #F2D4AE;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h1{
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 60px;
+    color: #D9923B;
+    padding: 5%;
+}
+
+h2{
+    text-align: right;
+    font-style: italic;
+}
+
+h3,h4,h5,h6{
+    text-align: left;
+    font-style: italic;
+}
+
+p{
+    text-align: justify;
+    line-height: 160%;
+}
+
+.PrimeiroParágrafo{
+    color: #fffffff3;
+}
+.PrimeiroParágrafo::first-letter{
+    font-size: 350%;
+}
+
+.links{
+    font-weight: bold;
+}
+.links:link{
+    color: blue;
+}
+.links:visited{
+    color: blueviolet;
+}
+.links:hover{
+    color: aliceblue;
+}
+.links:active{
+    color: blueviolet;
+}
+.icone{
+    color: #F2D4AE;
+    font-size: 300%;
+}
+
+footer{
+    text-align: center;
+}
