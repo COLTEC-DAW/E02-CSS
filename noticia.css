@@ -1,6 +1,14 @@
 html{
     font-family: Arial;
-    background-color: rgb(24, 24, 29);
-    color: rgb(205, 232, 255);
+    background-color: #131329;
+    color: #B8CAF8;
     padding: 10%;
+}
+
+h1{
+    font-size: 36px;
+    text-align: center;
+    margin: 5%;
+    color: rgb(207, 159, 38);
+    padding: 5%;
 }
