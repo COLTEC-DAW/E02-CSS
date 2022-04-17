@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(0,0,0);
+    color: white;
+    font-family: 'Times New Roman';
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    margin-right: 10%;
+}
+
+h1{
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 36px;
+    color: rgb(255, 0, 0);
+    padding: 5%;
+}
+
+h2{
+    text-align: right;
+    font-style: italic;
+}
+
+p{
+    text-align: justify;
+    line-height: 120%;
+}
+
