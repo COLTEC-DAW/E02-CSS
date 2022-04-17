@@ -22,3 +22,23 @@ p{
     text-align: justify;
     line-height: 120%;
 }
+
+a{
+    font-weight: bold;
+}
+
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color:darkblue;
+}
+
+a:hover{
+    color: darkturquoise;
+}
+
+a:active{
+    color: aqua;
+}
