@@ -17,3 +17,8 @@ h2{
     text-align: right;
     font-style: italic;
 }
+
+p{
+    text-align: justify;
+    line-height: 120%;
+}
