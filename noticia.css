@@ -1,0 +1,38 @@
+*{
+    background-color: rgb(38, 50, 45);
+}
+body{
+   
+    font-family: Verdana, sans-serif;
+    color: white;
+    width: 20%;
+    font-size: 18px;
+    text-align: center;
+}
+
+h1{
+    color:rgb(89, 255, 175);
+    font-size: 50px;
+    margin-bottom: 50px; 
+    padding: 20px;
+}
+
+h2{
+    color: rgb(98, 241, 174);
+    font-size: 22px;
+    
+}
+
+h3{
+    color: rgb(98, 241, 174);
+    font-size: 18px;
+    margin-bottom: 40px;
+    font-weight: normal; 
+    text-align: right;
+    font-style: italic;
+}
+
+p{
+    text-align: justify;
+    line-height: 120%;
+}
