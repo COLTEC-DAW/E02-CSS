@@ -1,6 +1,6 @@
 body{
     background-color: rgb(0,0,0);
-    color: white;
+    color: grey;
     font-family: 'Times New Roman';
     margin-top: 10%;
     margin-left: 10%;
@@ -19,10 +19,62 @@ h1{
 h2{
     text-align: right;
     font-style: italic;
+    margin-bottom: 6%;
 }
 
 p{
     text-align: justify;
     line-height: 120%;
 }
+
+a{
+    font-style: bold;
+}
+
+a:link {
+    color: rgb(0, 255, 0);
+}
+
+a:visited {
+    color: rgb(0, 125, 0);
+}
+
+a:hover {
+    color: rgb(0, 255, 255);
+}
+
+a:active {
+    color: rgb(255, 0, 0);
+
+
+}
+
+#first_paragraph:first-letter{
+    font-size: 350%;
+}
+
+#first_paragraph{
+    color: white;
+}
+
+h3{
+    text-align: left;
+    font-style: italic;
+}
+
+h4{
+    text-align: left;
+    font-style: italic;
+}
+
+h5{
+    text-align: left;
+    font-style: italic;
+}
+
+h6{
+    text-align: left;
+    font-style: italic;
+}
+
 
