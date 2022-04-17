@@ -1,13 +1,15 @@
 *{
-    background-color: rgb(38, 50, 45);
+    background-color: rgb(30, 32, 31);
 }
 body{
    
     font-family: Verdana, sans-serif;
-    color: white;
+    color: rgb(178, 237, 209);
     width: 20%;
     font-size: 18px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1{
@@ -32,7 +34,44 @@ h3{
     font-style: italic;
 }
 
+h1,h2{
+    text-align: left;
+    font-style: italic;
+}
+
 p{
     text-align: justify;
     line-height: 120%;
+}
+
+a:link{
+    text-decoration: none;
+    font-weight: bold;
+    color:rgb(89, 255, 175)
+}
+
+a:hover{
+    text-decoration: none;
+    font-weight: bold;
+    color:rgb(0, 151, 78)
+}
+
+a:visited{
+    text-decoration: none;
+    font-weight: bold;
+    color:rgb(144, 197, 172);
+}
+
+a:active{
+    text-decoration: none;
+    font-weight: bold;
+    color:rgb(216, 255, 237);
+}
+
+#first-letter{
+    font-size: 350%;
+}
+
+#first-p{
+    color: white;
 }
