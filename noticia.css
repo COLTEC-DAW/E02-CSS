@@ -42,3 +42,11 @@ a:hover{
 a:active{
     color: aqua;
 }
+
+p.primeiroP{
+    color: #d1ddfc;
+}
+
+p.primeiroP::first-letter{
+    font-size: 350%;
+}
