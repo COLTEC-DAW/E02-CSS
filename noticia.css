@@ -50,3 +50,23 @@ p.primeiroP{
 p.primeiroP::first-letter{
     font-size: 350%;
 }
+
+h3{
+    text-align: left;
+    font-style: italic;
+}
+
+h4{
+    text-align: left;
+    font-style: italic;
+}
+
+h5{
+    text-align: left;
+    font-style: italic;
+}
+
+h6{
+    text-align: left;
+    font-style: italic;
+}
