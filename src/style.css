@@ -1,0 +1,78 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(6, 29, 71);
+    color: rgb(248, 230, 230);
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+header{
+    text-align: center;
+    font-size: 28px;
+    padding: 15px;
+    color:darksalmon;
+    margin: 10px;
+    
+}
+
+.subtitle{
+    text-align: right;
+    font-size: 24px;
+    font-style: italic;
+}
+
+p{
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 160%;
+    font-size: 15px;
+}
+
+h4{
+    font-style: italic;
+    text-align: left;
+}
+
+
+footer{
+    margin-top: 5%;
+    color: yellow;
+    text-align: center;
+}
+
+
+.first_paragraph{
+    color: white;
+
+}
+
+.first_paragraph::first-letter{
+    font-weight: bold;
+    font-size: 350%;
+}
+
+a{
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(158, 245, 233);
+}
+
+a:hover{
+    color:coral;
+}
+
+a:active{
+    color: yellow;
+}
+
+a:link{
+    color:whitesmoke;
+}
+
+.icons{
+    color: yellow;
+}
+
+#news_link{
+    font-size: 18px;
+}
