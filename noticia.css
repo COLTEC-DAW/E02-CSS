@@ -1,0 +1,77 @@
+body{
+
+    /*T1 aparência*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: cornsilk;
+    margin: 20px;
+}
+
+/*T2 TÍTULO*/
+h1{
+    text-align: center;
+    font-size: 60px;
+    margin: 2%;
+    padding: 10px;
+}
+
+/*T3 CUSTOM*/
+h2{
+    margin: 5%;
+    text-align: right;
+    font-style: italic;
+}
+
+/*T4 PARÁGRAFOS*/
+p{
+    text-align: justify;
+    line-height: 200%;
+}
+
+/*PARTE II*/
+
+/*T5*/
+a:link{
+    color: rgb(219, 84, 231);
+}
+a:visited{
+    color: yellowgreen;
+}
+a:hover{
+    color: orange;
+}
+a:active{
+    color: rgb(170, 145, 34);
+}
+/*T6*/
+p.p01:first-letter{
+    font-size: 350%;
+}
+
+p.p01{
+    color: gray;
+}
+
+/*T7*/
+h3{
+    text-align: left;
+    font-style: italic;
+}
+
+h4{
+    text-align: left;
+    font-style: italic;
+}
+
+h5{
+    text-align: left;
+    font-style: italic;
+}
+
+h6{
+    text-align: left;
+    font-style: italic;
+}
+
+/*T8*/
+
