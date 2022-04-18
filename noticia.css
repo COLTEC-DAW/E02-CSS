@@ -1,0 +1,64 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: white;
+    margin: 15%;
+}
+h1{
+    font-size: 72px;
+    text-decoration: underline;
+    text-align: center;
+    font-variant: small-caps;
+    margin: 10%;
+    padding: 10px;
+    color: blueviolet;
+}
+h2{
+    text-align: right;
+    font-style: italic;
+}
+p{
+    text-align: justify;
+    line-height: 150%;
+}
+a{
+    font-size: 75%;
+    font-weight: bold;
+}
+a:link{
+    color:lightgreen;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: greenyellow;
+}
+a:active{
+    color: yellowgreen
+}
+p.primeiroParagrafo:first-letter{
+    font-size: 350%;
+}
+p.primeiroParagrafo{
+    color:cornsilk;
+}
+h3{
+    text-align: left;
+    font-style: italic;
+}
+
+h4{
+    text-align: left;
+    font-style: italic;
+}
+
+h5{
+    text-align: left;
+    font-style: italic;
+}
+
+h6{
+    text-align: left;
+    font-style: italic;
+}
