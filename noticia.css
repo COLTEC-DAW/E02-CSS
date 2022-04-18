@@ -4,7 +4,7 @@
     color: #d8d8d8;
 }
 
-#titulo{
+.titulos{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 40px;
     color: #00ffff;
@@ -13,7 +13,7 @@
     margin: 5%;
 }
 
-#subtitulo{
+.subtitulos{
     text-align: right;
     font-size: 22px;
     font-style: italic;
@@ -21,7 +21,7 @@
     margin: 5%;
 }
 
-#paragrafos {
+.paragrafos {
     text-align: justify;
     line-height: 150%;
     padding-left: 30%;
@@ -31,7 +31,7 @@
 a{
     font-style: bold;
     display: block;
-    padding: 10px;
+    padding: 12px;
 }
 
 a:link{
@@ -61,4 +61,8 @@ p:first-of-type{
 h3, h4, h5, h6{
     text-align: left;
     font-style: italic;
+}
+
+i{
+    padding-left: 10px;
 }
