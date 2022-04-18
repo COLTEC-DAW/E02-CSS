@@ -26,9 +26,10 @@ p:first-of-type::first-letter{
     font-size: 350%;
 }
 a{
-    display: block;
     font-weight: bold;
     color: #EC7A76;
+    padding: 0 0 0 10%;
+    width: fit-content;
 }
 a:visited{
     color: #E8BBBA;
@@ -49,7 +50,6 @@ svg{
     width: 10px;
     height: auto;
 }
-a{
-    background: transparent url(/images/content/icon_word.gif) center right no-repeat;
-    padding: 18px;
+i{
+    padding: 0;
 }
