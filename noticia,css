@@ -1,9 +1,7 @@
 body{
-
     background-color: #19174E;
     margin-left: 15%;
     margin-right: 15%;
-
 }
 
 *{
@@ -34,12 +32,12 @@ p{
 
 a{
     font-style: bold;
-    
 }
 
 a:link{
     color: white;
 }
+
 a:visited{
     color: lightgoldenrodyellow;
 }
@@ -55,7 +53,7 @@ a:active{
 #primeiroParagrafo{
     color: antiquewhite;
 }
+
 #primeiroParagrafo:first-letter{
     font-size: 350%;
-
 }
