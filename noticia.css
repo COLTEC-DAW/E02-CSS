@@ -43,3 +43,8 @@ font-size: 350%;
 #primeiro_paragrafo {
     color: pink;
 }
+
+h3, h4 {
+    text-align: left;
+    font-style: italic;
+}
