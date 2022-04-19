@@ -1,0 +1,20 @@
+*{
+    font-family: Arial;     color: #b5f0ff;
+    margin-left: 10%;       margin-right: 10%;
+}
+
+body{background-color: #242424;}
+
+h1{
+    font-size: 36px;        text-align: center;
+    margin-bottom: 36px;    padding: 36px;
+    color:#00ccff;
+}
+
+h2{text-align: right;       font-style: italic;}
+
+p{text-align: justify;      line-height: 150%;}
+#Primeiro{color: white;}
+
+a:link{font-weight: bold;       color: lime}
+a:visited{font-weight: bold;    color: red}
