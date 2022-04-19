@@ -1,0 +1,27 @@
+body{
+    font-family: Tahoma;
+    background: #020024;
+    color:#FFCBC6;
+    padding: 0 12.5%;
+    
+    min-height: 100vh;
+    min-width: 100vh;
+}
+
+h1{
+    font-size: 35px;
+    text-align: center;
+    margin: 3.14%;
+    color: #FFCBC6;
+    padding: 17%; 
+}
+
+h2{
+    text-align: right;
+    font-style: italic;
+}
+
+p{
+    text-align: justify;
+    line-height: 111%;
+}
