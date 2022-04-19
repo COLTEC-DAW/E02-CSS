@@ -18,3 +18,20 @@ h2 {
     text-align: right;
     font-style: italic;
 }
+
+p {
+    text-align: justify;
+    line-height: 150%;
+}
+
+a:hover {
+color:aliceblue;
+}
+
+a:link {
+    color: blue;
+}
+
+a:active {
+    color: blue;
+}
