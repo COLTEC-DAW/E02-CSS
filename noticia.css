@@ -25,3 +25,24 @@ p{
     text-align: justify;
     line-height: 111%;
 }
+
+a{
+    color:#FFCBC6;
+    font-style: bold;
+}
+
+a:link{
+    color:#FFCBC6;
+}
+
+a:visited{
+    color: #81FF99;
+}
+
+a:hover{
+    color:#FF002C;
+}
+
+a:active{
+    color: #D5FF00;
+}
