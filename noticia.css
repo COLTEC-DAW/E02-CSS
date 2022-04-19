@@ -8,6 +8,7 @@ body
     font-family: Arial, sans-serif;
     padding: 15px;
 }
+
 h1
 {
     font-size: 50px;
@@ -21,4 +22,9 @@ h2
 {
     text-align: right;
     font-style: italic;
+}
+
+p{
+    text-align: justify;
+    line-height: 120%;
 }
