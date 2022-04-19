@@ -13,3 +13,8 @@ h1 {
     color: #8C004D;
     padding: 1em;
 }
+
+h2 {
+    text-align: right;
+    font-style: italic;
+}
