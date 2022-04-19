@@ -35,3 +35,11 @@ a:link {
 a:active {
     color: blue;
 }
+
+#primeiro_paragrafo::first-letter {
+font-size: 350%;
+}
+
+#primeiro_paragrafo {
+    color: pink;
+}
