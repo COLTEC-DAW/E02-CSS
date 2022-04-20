@@ -1,6 +1,6 @@
 body{
     font-family: Tahoma;
-    background: #020024;
+    background: linear-gradient(#45214A, #323050, #21445B, #1A6556);
     color:#FFCBC6;
     padding: 0 12.5%;
     
@@ -27,7 +27,6 @@ p{
 }
 
 a{
-    color:#FFCBC6;
     font-style: bold;
 }
 
@@ -45,4 +44,17 @@ a:hover{
 
 a:active{
     color: #D5FF00;
+}
+
+#primeiroPar::first-letter{
+    font-size: 350%;
+}
+
+#primeiroPar{
+    color: #FFE7DA;
+}
+
+h3, h4, h5, h6{
+    text-align: left;
+    font-style: italic;
 }
