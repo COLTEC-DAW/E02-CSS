@@ -1,0 +1,33 @@
+*{
+    background-color: black;
+    padding: 0px;
+}
+p:first-of-type{
+    color: white;
+}
+p:first-of-type::first-letter{
+    font-size: 350%;
+}
+
+p{
+    line-height: 120%;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2%;
+    color: rgb(217, 225, 233);
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin: 5%;
+    padding: 5%;
+}
+h2{
+    text-align: right;
+    font-style: italic;
+}
+
+h1,h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(197, 233, 233);
+}
