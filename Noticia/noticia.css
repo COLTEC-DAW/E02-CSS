@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(28, 28, 28);
+    margin: 0 10%;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(187, 255, 0);
+    padding: 30px;
+}
+
+h2{
+    text-align: right;
+    font-style: italic;
+}
+
+p{
+    text-align: justify;
+    line-height: 25px;
+}
+
+a:link{
+    text-decoration: none;
+    color: rgb(187, 255, 0);
+    font: bold;
+}
+a:hover {
+    color: rgb(187, 180, 0);
+}
+a:visited {
+    color: rgb(96, 96, 1);
+}
+
+a:hover:visited{
+    color: rgb(187, 180, 0);
+}
+a:active{
+    color: brown;
+}
+
+#primeiro-p{
+    color: rgba(255, 255, 255, 0.301);
+}
+
+p::first-letter{
+    font-size: 350%;
+}
+
+h3, h4, h5, h6{
+    text-align: left;
+    font-style: italic;
+}
