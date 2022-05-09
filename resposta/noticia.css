@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(17, 0, 71);
+    color:rgb(255, 218, 218);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+h1{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:antiquewhite;
+    font-size:40px;
+    margin-bottom: 5px;
+    padding: 5%;
+}
+
+h3{
+    color:blanchedalmond;
+    text-align: right;
+    font-style: italic;
+}
+
+.img{
+    text-align: center;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.fp{
+    color:aliceblue;
+}
+
+#first_paragraph:first-letter{
+    color:antiquewhite;
+    font-size:350%;
+}
+
+div{
+    text-align: center;
+}
