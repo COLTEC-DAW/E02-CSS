@@ -1,0 +1,42 @@
+body 
+{
+    font-family: Arial;
+    background-color: #223E66;
+    color: #BECFE6;
+    line-height: 1.5em;
+    font-size: 1em;
+}
+
+.summary{
+    text-align: center;
+}
+.page-wrapper{
+
+    line-height: 1.5rem;
+}
+abbr
+{
+    color: black;
+}
+a {
+    font-weight: 700;
+    color: black;
+}
+p 
+{
+    text-indent: 1rem;
+}
+h1 , h2 , h3 {
+    color: #77A3E0;
+    text-align: center;
+}
+h1
+{
+    font-size: 1.8rem;
+} 
+h2{
+    font-size:  1.4rem;
+}
+h3{
+    font-size:  1.2rem;
+}
