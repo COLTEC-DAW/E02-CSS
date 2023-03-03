@@ -1,0 +1,28 @@
+body{
+    font-family: Georgia, Times, serif;
+    background-color:black;
+    color: white;
+}
+
+p{
+    margin-left: 1rem;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+h1{font-size: 1.8rem;}
+h2{font-size: 1.4rem;}
+h3{font-size: 1.2rem;}
+
+.intro{text-align: center;}
+
+.supporting{
+    text-align: center;
+    line-height: 1.5;
+}
+
+abbr, a {
+    color:yellowgreen;
+    font-weight: 700;
+}
