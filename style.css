@@ -1,0 +1,48 @@
+:root {
+    --cor-detalhe: #f89959;
+    --fonte: "Tahoma";
+}
+
+body {
+    background-color: #202020;
+    color: #70d8f8;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+}
+
+.main {
+    line-height: 1.5rem;
+} 
+
+.summary{
+    text-align: center;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1{
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+a {
+    color: var(--cor-detalhe);
+    font-weight: 700;
+}
+
+abbr {
+    color: var(--cor-detalhe);
+}
