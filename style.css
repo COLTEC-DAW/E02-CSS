@@ -1,0 +1,48 @@
+html{
+    font-size: 24px;
+    font-family: Tahoma, sans-serif;
+}
+
+body{
+    font-style: oblique;
+    background: #102542;
+    color: #FFF372;
+}
+
+p{
+    text-indent: 2rem;
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+
+h1{
+    font-size: 1.8rem;
+}
+
+h2{
+    font-size: 1.4rem;
+}
+
+h3{
+    font-size: 1.2rem;
+}
+
+.summary{
+    text-align: center;
+}
+
+.main{
+    padding: 1.5;
+}
+
+a{
+    font-weight: bold, 700;
+    color: #48E5C2;
+
+}
+
+abbr{
+    color: #48E5C2;
+}
