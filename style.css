@@ -1,0 +1,44 @@
+:root{
+    --corLinks: #BDE4FF;
+}
+
+body{
+    background-color: #014573;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fdcfcf; 
+    text-align: center;
+    margin: auto;
+    min-width: 320px;
+    max-width: 800px;
+}
+
+h1{
+    font-size: 1.8rem;
+}
+h2{
+    font-size: 1.4rem;
+}
+h3{
+    font-size: 1.2rem;;
+}
+
+.main{
+    line-height: 1.5;
+}
+
+.intro{
+    text-align: center;
+}
+
+a{
+    font-weight: 700;
+    color: var(--corLinks);
+}
+
+abbr{
+    color: var(--corLinks);
+}
+
+.wrapper{
+    text-align: left;
+}
