@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+body{
+    color:rgb(0, 0, 0);
+    background-color: #ED976F;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-indent: 1.5rem;
+}
+
+main{
+    text-align: right;
+    line-height: 1.5;
+    
+}
+
+h1{
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+h2{
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+h3{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+div#zen-preamble, #zen-explanation, #zen-participation, #zen-benefits, #zen-requirements{
+    background-color:#E1D3BB;
+    border: 3px solid #000000;
+    border-spacing: 10px;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 20px;
+    
+}
+
+div#design-selection, #design-archives, #zen-resources{
+    background-color:#E1D3BB;
+    border: 3px solid #000000;
+    border-spacing: 10px;
+    margin-top: 3%;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 20px;
+   
+}
+
+footer{
+    background-color:#E1D3BB;
+    border: 3px solid #000000;
+    border-spacing: 0px;
+    margin-top: 3%;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 15px;
+    text-align: center;
+}
+
+a{
+    font-weight: 700;
+    color:#000264
+}
+
+abbr{
+    font-weight: 700;
+    color:#000264;
+}
+
+a:hover, abbr:hover{
+    font-weight: 700;
+    color:#8385c5;
+    font-style: italic;
+}
