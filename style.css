@@ -1,0 +1,24 @@
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    background-color: rgb(82, 79, 76);
+    color:antiquewhite
+}
+h1{
+    font-size: 1.8rem;
+}
+h2{
+    font-size: 1.4rem;
+}
+h3{
+    font-size: 1.2rem;
+}
+p{
+    line-height: 1.5em;
+    text-indent: 1rem;
+}
+abbr, a{
+    color: rgb(0, 255, 157);
+    font-weight: 700;
+}
