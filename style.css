@@ -1,0 +1,42 @@
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 1.2rem;
+    background-color: #02505C;
+    color: #E1EEF0;
+}
+
+p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-indent: 2rem;
+    text-align: justify;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+a, abbr {
+    font-weight: 700;
+    color: #08B6D1;
+}
+
+.summary p {
+    text-align: center;
+}
+
+#zen-supporting p {
+    line-height: 1.5rem
+}
