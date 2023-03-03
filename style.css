@@ -6,10 +6,10 @@ body{
     background-color: #014573;
     font-family: 'Times New Roman', Times, serif;
     color: #fdcfcf; 
-    text-align: center;
     margin: auto;
     min-width: 320px;
     max-width: 800px;
+    font-size: 16px;
 }
 
 h1{
@@ -19,7 +19,8 @@ h2{
     font-size: 1.4rem;
 }
 h3{
-    font-size: 1.2rem;;
+    font-size: 1.2rem;
+    text-align: center;
 }
 
 .main{
@@ -41,4 +42,8 @@ abbr{
 
 .wrapper{
     text-align: left;
+}
+
+p{
+    padding-left: 1rem;
 }
