@@ -2,13 +2,14 @@
 *{
     margin-right: 0.5%;
     margin-left: 0.5%;
-    font-size: 16px;
 }
 
 body{
-    font-family: 'Courier New', Courier, monospace;
     color: #ffffff;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
     background-color: #0A1926;
+    text-indent: 2rem;
 }
 
 /* Títulos */
@@ -64,7 +65,6 @@ nav{
     border-width: 1px;
     background-color: #243340;
 }
-
 
 span{
     background-color: #1F2D38;
