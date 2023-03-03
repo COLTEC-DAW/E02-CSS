@@ -1,0 +1,38 @@
+body{
+    font-family: Verdana;
+    background-color: blueviolet;
+    color: aliceblue;
+    line-height: 1.5rem;
+    width: 50%;
+}
+h1,h2,h3,h4,h5,h6{
+    text-align: left;
+
+}
+
+h1{
+    line-height: 1.8rem;
+}
+h2{
+    line-height: 1.4rem;
+}
+h3{
+    line-height: 1.2rem;
+}
+#zen-summary { /*.summary puxa a classe summary*/
+    text-align: right;
+
+}
+#zen-supporting p{  /*Especificando que quer configurar todos os p do zen supporting*/
+
+    line-height: 1.5;
+    
+}
+a{
+font-weight: 700;
+color: aqua;
+}
+
+abbr{
+   color: aqua; 
+}
