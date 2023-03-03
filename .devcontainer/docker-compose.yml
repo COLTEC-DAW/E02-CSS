@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  web:
+    image: httpd:latest
+    ports:
+      - "8080:80"
+    volumes:
+      - ../:/usr/local/apache2/htdocs/
+
+
+  cypress:
+    image: "cypress/included:4.4.0"
+    depends_on:
+      - web
+    environment:
+      - CYPRESS_baseUrl=http://web:80
+    working_dir: /css
+    volumes:
+      - ../.github/actions/css/:/css

@@ -7,11 +7,12 @@
     "test": "test"
   },
   "scripts": {
-    "test": "jest"
+    "test": "cypress run"
   },
   "author": "João Eduardo Montandon",
   "license": "ISC",
   "devDependencies": {
+    "cypress": "^12.7.0",
     "jest": "^27.5.1",
     "jquery": "^3.6.0",
     "jsdom": "^19.0.0"

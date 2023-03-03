@@ -4,89 +4,69 @@
 * COLTEC/UFMG
 * Professor: João Eduardo Montandon
 
+
+## CSS Zen Garden
+
+O projeto CSS Zen Garden é um site criado por Dave Shea que tem como objetivo demonstrar o poder do CSS no design web.
+O conceito é simples: fornecer um único arquivo HTML básico e uma variedade de arquivos CSS diferentes que mudam a aparência do site sem modificar a estrutura HTML.
+O projeto se tornou uma vitrine para designers e desenvolvedores demonstrarem suas habilidades em design usando apenas CSS.
+
+Os participantes são incentivados a criar designs inovadores, criativos e impressionantes, mostrando o que pode ser alcançado usando CSS.
+Os designers podem baixar o HTML fornecido e criar uma folha de estilo personalizada para transformar o site em sua própria obra de arte.
+O site é atualizado regularmente com novos designs apresentados pelos participantes e continua sendo uma plataforma popular para testar as habilidades de design e programação.
+
+**O objetivo desta atividade é criar seu próprio layout CSS!**
+
 ## Instruções
 
-Você deverá entregar a atividade por meio dos arquivos `noticia.html` e `noticia.css`.
+Você deverá entregar a atividade por meio dos arquivos `index.html` e `style.css`.
 
 Para realização e entrega dos exercícios, siga as instruções disponíveis na página da disciplina.
 Para cada questão, gere um commit específico!!
 
-## Parte I: Notícia do dia
+## Parte I: Introdução
 
-É hora de dar uma estilizada na página de notícia do dia, criada anteriormente no exercício de HTML.
-Para isso, copie o arquivo `noticia.html` da lista de exercícios de HTML, e implemente os requisitos pedidos abaixo:
+### Aparência geral da página
 
-### T1: Aparência Geral
-
-A primeira etapa a se fazer ao estilizar uma página é definir uma aparência geral. 
+A primeira etapa a se fazer ao estilizar uma página é definir uma aparência geral.
 Mais especificamente, você deverá customizar as seguintes características da página:
 
-1. Fonte geral da página não serifada
-    * Escolha dentre uma das opções presentes [aqui](https://www.w3schools.com/cssref/css_websafe_fonts.asp).
-2. Paleta de cores básica (cor de fundo e cor da fonte), onde a cor de fundo deverá ser escura, e a cor da fonte deverá ser clara.
-    * Recomendo o uso da ferramenra [Adobe Kuler](https://color.adobe.com).
-3. Espaçamento da largura da página (entre 10% e 20%)
+* Fonte geral da página não serifada
+  * Escolha dentre uma das opções presentes [aqui](https://www.w3schools.com/cssref/css_websafe_fonts.asp).
+* Paleta de cores básica (cor de fundo e cor da fonte), onde a cor de fundo deverá ser escura, e a cor da fonte deverá ser clara.
+  * Recomendo o uso da ferramenta [Adobe Kuler](https://color.adobe.com).
+
+Para isso, você deverá:
+
+1. Defina um tamanho fixo de fonte geral pra página inteira (`html`).
+2. Adicionar ao `body` da página o estilo de fonte, uma cor de fundo, e cor para fonte
+3. Identar os parágrafos em pelo menos `1rem`
+
+### Títulos
+
+1. Alinhe todos os títulos da página para centro ou a direita
+2. Defina o tamanho dos títulos `h1` em `1.8rem`
+3. Defina o tamanho dos títulos `h2` em `1.4rem`
+4. Defina o tamanho dos títulos `h3` em `1.2rem`
 
 
-### T2: Estilo do título
+### Seções de resumo e principal
 
-É hora de customizar o título principal da página. 
-O título deve chamar atenção mas não ser agressivo aos olhos do leitor.
+Localize os elementos que representam a seção de resumo e principal da página, e aplique a elas:
 
-1. Aumente o tamanho da fonte para um tamanho que você considere agradável, mas limite ao tamanho de `72px`.
-2. Centralize o texto.
-3. Adicione um `margin` para prover um espaçamento pequeno entre o título e corpo da notícia.
-4. Altere a cor da fonte para dar contraste com o estilo aplicado anteriormente na página. Novamente, use o Adobe Kuler.
-5. Altere o `padding` do título para para aumentar o preenchimento do título.
+1. Alinhamento a direita ou centralizado para a seção de resumo
+2. Espaçamento entre as linhas de `1.5` para os parágrafos da seção principal
 
-### T3: Customizando subtítulo
+### Links e abreviaturas
 
-O subtítulo deve possuir um estilo diferente do texto convencional, porém diferente do título principal.
+Customize todos os links e abreviaturas (`<abbr>`) da página da seguinte forma:
 
-1. Alinhe subtítulo a direita.
-2. Adicione um efeito de itálico na fonte.
-
-### T4: Parágrafos
-
-Se você fez a parte 01 de forma correta, a fonte dos parágrafos já estão com a fonte devidamente estilizada. 
-É necessário fazer alguns outros ajustes.
-
-1. Torne o texto justificado.
-2. Aumente o espaçamento entre as linhas para um valor maior que o padrão (maior que `100%`).
-
-## Parte II: Melhorias Avançadas
-
-### T5: Links
-
-O estilo padrão dos links é simplesmente horrível!! 
-Você pode dar um **up** alterando as seguintes propriedades:
-
-1. Adicione um efeito de negrito na fonte.
-2. Altere as cores do link de acordo com seus diferentes estados (`:link`, `:visited`, `:hover`, `:active`). Configure pelo menos duas cores diferentes. Novamente, utilize o Adobe Kuler para tal.
-
-### T6: Primeiro parágrafo
-
-É normal em sites de notícias que o primeiro parágrafo ganhe um destaque particular. 
-Altere-o da seguinte forma:
-
-1. Primeira letra do parágrafo com tamanho de 350%.
-2. Escolher um tom mais claro para esse parágrafo.
-
-### T7: Ajustes nos títulos
-
-Foi requisitado que você alterasse o pocionamento dos títulos `<h3>`, `<h4>`, `<h5>` e `<h6>`.
-
-1. Deixe esses elementos alinhados a esquerda.
-2. Deixe esses elementos em itálico.
-
-### T8: Links mais ricos
-
-Uma boa prática de customização de links envolve em fornecer ao usuário um elemento visual indicando o tipo de recurso que aquele link abre. 
-
-1. Adicione esse elemento visual em links que abrem PDFs.
-    * O símbolo de um arquivo, por exemplo.
-2. Adicione efeito similar para páginas do youtube. 
-    * O símbolo de um globo, por exemplo.
+1. A fonte em negrito (700) para os links, e uma cor diferente da padrão
+2. A mesma cor aplicada no link deverá ser aplicada para as abreviaturas
 
 
-Para realização desse exercício, você deverá utilizar a biblioteca [font awesome](http://fontawesome.io/).
+## Parte II: Box model
+
+## Parte III: Page Layout
+
+## Parte IV: Estilos Avançados
