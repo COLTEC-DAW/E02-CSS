@@ -1,0 +1,46 @@
+html {
+    font-size: 30px;
+}
+
+body {
+    font-family: Arial;
+    color:bisque;
+    background-color:black;
+}
+
+p {
+    text-indent: 1.5em;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+.summary {
+    text-align: center;
+}
+
+.main:p {
+    line-height: 1.5;
+}
+
+a{
+    font-weight: 700;
+    color:aqua;
+}
+
+abbr{
+    color:aqua;
+}
