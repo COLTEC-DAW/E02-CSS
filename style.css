@@ -1,0 +1,18 @@
+body{
+    font-family: Roboto;
+}
+
+h1, h2, h3{
+    text-align: right;
+    font-size: 24px;
+}
+
+.skill-title{
+    text-align: right;
+}
+
+p{
+    line-height: 1.5;
+    text-align: justify;
+    text-indent: 2em;
+}
