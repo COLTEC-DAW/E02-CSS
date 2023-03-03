@@ -1,0 +1,34 @@
+body{
+    font-family: Tahoma, sans-serif;
+    font-size: 1em;
+    background-color: #25134b;
+    color: #9b72f2;
+    line-height: 1rem;    
+    text-align: justify;
+}
+
+h1{
+    font-size: 1.8rem;
+    text-align: center;
+}
+h2{
+    font-size: 1.4rem;
+    text-align: center;
+}
+h3{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#zen-summary{
+    text-align: right;
+}
+
+#zen-supporting{
+    line-height: 1.5rem;
+}
+
+abbr, a{
+    font-weight: 700 bolder;
+    color: #4602d9;
+}
