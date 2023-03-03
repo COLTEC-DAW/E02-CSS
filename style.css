@@ -1,0 +1,79 @@
+/* Aparência geral da página */
+*{
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+    background-color: #0A1926;
+}
+
+/* Títulos */
+h1,h2,h3{
+    text-align: center;
+}
+
+h1{
+    font-size: 1.8rem;
+}
+
+h2{
+    font-size: 1.4rem;
+}
+
+h3{
+    font-size: 1.2rem;
+}
+
+/* Seções de resumo e principal */
+
+#summary{
+    line-height: 1.5rem;
+    text-align: center;
+    border-color: #1F2D38;
+    border-style: solid;
+    border-width: 2px;
+}
+
+/* Links e abreviaturas */
+a, abbr{
+    color: #929CA6;
+    font-weight: 700;
+}
+
+/* Personalização adicionais aparência*/
+.cabecalho{
+    margin-bottom: 0px;
+}
+
+#menusuperior{
+    background-color: #1F2D38;
+    height: 140px;
+    border-style: solid;
+    border-color: #1F2D38;
+    border-width: 1px;
+   
+}
+
+nav{
+    border-style: outset;
+    border-color: #EDF0F2;
+    border-width: 1px;
+    background-color: #243340;
+}
+
+
+span{
+    background-color: #1F2D38;
+}
+
+ul{
+    text-align: center;
+}
+
+div{
+    margin-bottom: 60px;
+}

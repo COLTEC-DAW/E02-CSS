@@ -12,16 +12,17 @@
     <meta name="robots" content="all">
 </head>
 
-<body id="css-zen-garden">
-    <div class="page-wrapper">
-
+<body>
+    <div class="cabecalho" >
         <section class="intro" id="zen-intro">
-            <header role="banner">
+            <div class="cabecalho">
+                <header id="menusuperior">
                 <h1>CSS Zen Garden</h1>
                 <h2>The Beauty of <abbr title="Cascading Style Sheets">CSS</abbr> Design</h2>
             </header>
+            </div>
 
-            <div class="summary" id="zen-summary" role="article">
+            <div class="cabecalho" id="summary" role="article">
                 <p>A demonstration of what can be accomplished through <abbr
                         title="Cascading Style Sheets">CSS</abbr>-based design. Select any style sheet from the list to
                     load it into this page.</p>
@@ -30,7 +31,8 @@
                         href="/examples/style.css" title="This page's sample CSS, the file you may modify.">css file</a>
                 </p>
             </div>
-
+        </section>
+    </div>
             <div class="preamble" id="zen-preamble" role="article">
                 <h3>The Road to Enlightenment</h3>
                 <p>Littering a dark and dreary road lay the past relics of browser-specific tags, incompatible <abbr
@@ -144,7 +146,7 @@
         <aside class="sidebar" role="complementary">
             <div class="wrapper">
                 <div class="design-selection" id="design-selection">
-                    <h3 class="select">Select a Design:</h3>
+                    <h3><span>Select a Design:</span></h3>
                     <nav role="navigation">
                         <ul>
                             <li>
@@ -184,7 +186,7 @@
                 </div>
 
                 <div class="design-archives" id="design-archives">
-                    <h3 class="archives">Archives:</h3>
+                    <h3><span>Archives:</span></h3>
                     <nav role="navigation">
                         <ul>
                             <li class="next">
@@ -202,7 +204,8 @@
                 </div>
 
                 <div class="zen-resources" id="zen-resources">
-                    <h3 class="resources">Resources:</h3>
+                    <h3><span>Resources:</span></h3>
+                    <nav>
                     <ul>
                         <li class="view-css">
                             <a href="style.css" title="View the source CSS file of the currently-viewed design.">
@@ -228,6 +231,7 @@
                                 Translations </a>
                         </li>
                     </ul>
+                </nav>
                 </div>
             </div>
         </aside>
