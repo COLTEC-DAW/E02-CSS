@@ -1,0 +1,43 @@
+body{
+    font-size: 18px;
+    font-family: 'Arial';
+
+    background-color: #4A89E0;
+    color:#D9E6F1;
+
+    text-indent: 2rem;
+    margin:auto;
+    width: 1000px;
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+    font-size: 1.8rem;
+}
+h2{
+    text-align: center;
+    font-size: 1.4rem;
+}
+h3{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.main{
+    line-height: 1.5;
+}
+
+a {
+    font-weight: 700;
+    color: #4561F7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+abbr {
+    color: #4561F7;
+}
