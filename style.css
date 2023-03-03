@@ -1,0 +1,51 @@
+body{
+        font-family: Arial, Helvetica, sans-serif;
+        color:white;
+        font-size: 12px;
+        text-indent: 2rem; 
+
+        background-color:#ce82ad;
+    }
+    h1
+    {
+        font-size: 1.8rem;
+        -webkit-text-stroke-width: 1px; /* largura da borda */
+        -webkit-text-stroke-color: white; /* cor da borda */
+        text-shadow: 2px 4px 0.4px #aa5c88;  /* a cor da sombra é cinza. */
+    }
+    h2
+    {
+        font-size: 1.4rem;
+        color:#ce82ad;
+        background-color:white;
+    }
+    h3
+    {
+        color:#ce82ad;
+        background-color:white;
+        font-size: 1.2rem;
+    }
+    h1,h2,h3
+    {
+        text-align: center;
+    }
+    p{
+        color:white;
+
+    }
+    .intro,.sumary
+    {
+        line-height:1.5rem;
+        text-align: center;
+
+    }
+    abbr,a
+    {
+        color: #2c2c2c;
+        font-weight: 700;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
