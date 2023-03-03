@@ -1,0 +1,57 @@
+html{
+    font-size:1rem;
+}
+
+body{
+    background-color:black;
+    color:orange;
+    margin:auto;
+    font-family:Arial, sans-serif;
+    width:80%;
+    text-align:justify;
+}
+
+h1{
+    font-weight:700;
+    font-size:1.8rem;
+    text-align:center;
+}
+
+h2{
+    font-size:1.4rem;
+    font-weight:700;
+    text-align:center;
+}
+
+h3{
+    font-size:1.2rem;
+    font-weight:700;
+    text-align:center;
+}
+
+p{
+    text-indent:1rem;
+}
+
+.summary{
+    text-align:center;
+}
+
+.main.supporting{
+    line-height:1.5;
+}
+
+a:link{
+    color:orangered;
+    text-decoration:underline;
+    font-weight:700;
+}
+
+a:hover{
+    color:red;
+    font-style:italic;
+}
+
+abbr{
+    color:orangered;
+}
