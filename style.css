@@ -1,0 +1,33 @@
+* {
+    font-size: 105%;
+}
+
+body {
+    background-color: #613F3A;
+    color: #F5C4BC;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+h1{ font-size: 1.8rem; }
+h2{ font-size: 1.4rem; }
+h3{ font-size: 1.2rem; }
+
+#zen-intro, footer {text-align: center;}
+
+#zen-preamble, #zen-supporting, #zen-participation, #zen-benefits, #zen-requirements {
+    line-height: 1.5;
+    text-align: justify;
+}
+
+p {
+    text-indent: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+a, abbr{
+    font-weight: 700;
+}
+a{ color: rgb(187, 4, 4);}
