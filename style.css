@@ -1,11 +1,16 @@
+
+
 html {
-    font-size: 30px;
+    font-size: 20px;
+    width: 80%;
+    margin-bottom: 30px;
+    max-width: 1280px;
 }
 
 body {
     font-family: Arial;
-    color:bisque;
-    background-color:black;
+    color:black;
+    background-color:rgb(143, 255, 212);
 }
 
 p {
@@ -38,9 +43,84 @@ h3 {
 
 a{
     font-weight: 700;
-    color:aqua;
+    color:rgb(0, 17, 255);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+a:visited{
+    color:purple;
 }
 
 abbr{
-    color:aqua;
+    color:rgb(0, 17, 255);
+}
+
+footer{
+    display:block;
+    position:fixed;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+    height: 20px;
+    background-color: rgb(25, 0, 255);
+    padding: 1%;
+}
+footer>a{
+    margin-left:1%;
+    margin-right:1%;
+    color: aqua;
+}
+
+.main{
+    float: left;
+    width: 66%;
+}
+
+aside{
+    padding-left: 1px;
+    padding-right: 1px;
+    float: left;
+    width: 33%;
+}
+
+aside ul{
+    list-style-type: none;
+}
+
+aside li{
+    margin:1em;
+    border-top: solid;
+}
+
+aside h3{
+    text-align: center;
+}
+
+aside li:last-child{
+    border-bottom: solid;
+}
+
+.main div p:first-of-type::first-letter{
+    font-size: 2em;
+    font-weight: 900;
+    border-bottom: solid 0.5px;
+    border-top: solid 0.5px;
+} 
+
+.design-selection {
+    display:block;
+}
+
+.designer-name:before{
+    font-size: 0.2em;
+    content:"\00A9";
+}
+
+.designer-name{
+    font-size: 0.8em;
 }
