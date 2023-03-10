@@ -1,28 +1,88 @@
+html{
+    padding: 0 10% 0 10%;
+    width: 80%;
+    max-width: 1280px;
+    font-size: 16px;
+    margin-bottom: 5%;
+}
+
 body{
-    font-family: Georgia, Times, serif;
+    font-family: 'Courier New', Courier, monospace;
     background-color:black;
     color: white;
 }
 
-p{
-    margin-left: 1rem;
+p{margin-left: 1rem;}
+
+.supporting p::first-letter{
+    font-size: 2rem;
+    font-weight: 900;
+    border-top: solid darkgray 0.5px;
+    border-bottom: solid darkgray 0.5px;
 }
 
-h1,h2,h3{
-    text-align: center;
+ul{list-style: none;}
+
+ul li{
+    border-top: solid darkgray 0.5px;
+    padding-top: 1rem;
 }
+
+ul li:last-child{border-bottom: solid darkgray 0.5px;}
+
+h1,h2,h3{text-align: center;}
+
 h1{font-size: 1.8rem;}
 h2{font-size: 1.4rem;}
 h3{font-size: 1.2rem;}
 
 .intro{text-align: center;}
 
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 1%;
+    background-color: aliceblue;
+}
+
+footer a{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
 .supporting{
+    float: left;
+    width: 66%;
     text-align: center;
     line-height: 1.5;
+}
+
+.sidebar{
+    float: left;
+    width: 33%;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 abbr, a {
     color:yellowgreen;
     font-weight: 700;
+}
+
+a{text-decoration: none;}
+
+a:hover{text-decoration: underline;}
+
+a:visited{color: white;}
+
+.design-selection{
+    display: block;
+    font-size: 0.8em;
+}
+
+.design-name::before{
+    content: "\00A9";
+    font-size: 0.2rem;
 }
