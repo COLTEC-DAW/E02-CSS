@@ -1,15 +1,24 @@
 html{
-    font-size:16px;
+    font-size:1rem;
 }
 body{
-    width: 940px;
-    margin: auto;
     font-family: Arial, Verdana, sans-serif;
     background-color: #4d5975;
     color: #E6DFD1;
     text-indent: 1rem;
     text-align: justify;
+    width: 80%;
+    max-width: 1280px;
+    margin: auto;
+    margin-bottom: 20px;
 }
+.page-wrapper{
+    overflow: hidden;
+}
+/*
+    background-color: #1E3F4A;
+    color: #AAC4CC;
+*/
 h1, h2, h3{
     text-align: center;
 }
@@ -26,12 +35,72 @@ h3{
     text-align: right;
 }
 .main{
-    line-height: 1.5;
+    line-height: 1.5rem;
+    float:left;
+    width: 65%;
+    left: 0;
+}
+
+abbr{
+    color: #A7B7DB;
+}
+
+footer{
+    display:block;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: #E6DFD1;
+    text-align: center;
+}
+
+footer>a{
+    margin-left: 1%;
+    margin-right: 1%;
+    color: #4d5975;
+}
+.sidebar{
+    float:left;
+    width: 32%;
+    left:0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.sidebar li{
+    list-style-type: none;
+}
+.wrapper div{
+    margin: 1em;
+    border-top: #E6DFD1 1px solid;
+}
+.wrapper div:last-child{
+    border-bottom: #E6DFD1 1px solid;
+}
+.main p::first-letter{
+    font-size: 2em;
+    font-weight: 900;
+    border-top: #E6DFD1 0.5px solid;
+    border-bottom: #E6DFD1 0.5px solid;
 }
 a{
     font-weight: 700;
     color: #A7B7DB;
+    text-decoration: none;
 }
-abbr{
-    color: #A7B7DB;
+a:hover{
+    text-decoration: underline;
+    color: #242c3d;
 }
+a:visited{
+    color: #E6DFD1;
+}
+.design-selection li{ 
+    display: block;
+    font-size: 0.9rem;
+}
+.designer-name::before{
+    content:'\00A9';
+    font-size:0.9rem; 
+}
+
