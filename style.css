@@ -1,4 +1,10 @@
-html {padding: 0 45px 0 45px;}
+html {
+    /* padding: 0 45px 0 45px; */
+    width: 80%;
+    max-width: 1280px;
+    font-size: 18px;
+    margin-bottom: 6vh;
+}
 
 body {
     background-color: black;
@@ -18,13 +24,12 @@ h2, h3 {
     font-family: 'Rowdies', cursive;
 }
 
-h1 {font-size: 1.8rem;}
-h2 {font-size: 1.4rem;}
-h3 {font-size: 1.2rem;}
 
-.intro {text-align: center;}
-
-.main{ line-height: 1.5;}
+.main{ 
+    line-height: 1.5;
+    float: left;
+    width: 63%;
+}
 
 abbr, a {
     color:cornflowerblue;
@@ -33,10 +38,63 @@ abbr, a {
 
 }
 
-.design-selection, .design-archives, .zen-resources{
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
+ul {list-style: none;}
+
+
+ul li {
+    border-top: groove darkgray 1px;
+    padding-top: 1rem;
 }
 
-ul {list-style: mongolian;}
+li:last-child {border-bottom: groove darkgray 1px;}
+
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: darkslateblue;
+    padding: 1%;
+    max-height: 4vh;
+}
+
+footer a {
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+footer a:hover{color: whitesmoke;}
+
+.sidebar {
+    float: left;
+    width: 33%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.main p::first-letter{
+    font-size: 2em;
+    font-weight: bolder;
+    border-top: solid darkgray 0.5px;
+    border-bottom: solid darkgray 0.5px;
+    font-family: 'Rowdies', cursive;
+}
+
+a{text-decoration: none;}
+
+a:hover{
+    text-decoration: underline;
+    color: aqua;
+}
+
+a:visited{color: darkgrey;}
+
+.design-selection{
+    display: block;
+    font-size: 0.8em;
+}   
+
+.design-name::before{
+    content: "\00A9";
+    font-size: 0.2rem;
+}
