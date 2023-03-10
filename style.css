@@ -1,12 +1,22 @@
+html{
+   width: 100%; /* largura*/
+   max-width: 1280px;
+   margin-bottom:2%; /*define a margem embaixo*/
+}
 body{
     font-family: Verdana;
     background-color: blueviolet;
     color: aliceblue;
     line-height: 1.5rem;
-    width: 50%;
+    text-align: center;
+
+    
+    
+    
 }
+
 h1,h2,h3,h4,h5,h6{
-    text-align: left;
+    text-align: center;
 
 }
 
@@ -19,20 +29,72 @@ h2{
 h3{
     line-height: 1.2rem;
 }
-#zen-summary { /*.summary puxa a classe summary*/
+#zen-summary { /*.summary puxa a classe pelo id # summary*/
     text-align: right;
 
 }
+#zen-supporting{ /*acessa o texto central*/
+    width: 62%;
+    float: left;
+
+}
+.sidebar{ /*acessa painel lateral pela classe (.)*/
+width: 33%;
+float: left; /*alinha a esquerda do espaço possuído*/
+padding-left: 10px; /*espaçamento interno a direita e esquerda*/
+padding-right: 10px;
+}
+
 #zen-supporting p{  /*Especificando que quer configurar todos os p do zen supporting*/
 
     line-height: 1.5;
     
+}
+p{
+    text-align: center;
 }
 a{
 font-weight: 700;
 color: aqua;
 }
 
-abbr{
+abbr{ /*acessa abreviaturas*/
    color: aqua; 
 }
+footer {
+    position: fixed;
+    bottom:0;
+    background-color: red;
+    color: black;
+    text-align: center;
+    line-height: 20px; /*espaço para começar a escrita*/
+    display: block;
+    width: 100%; /*largura*/
+   padding: 1%; /*a distância entre o elemento e as bordas da página*/
+
+}
+footer a{ /*mexe nos links do footer */
+margin: 1%;
+margin-left: 1%; /*espaço a esquerda*/
+color: black;
+
+
+}
+.sidebar li{ /* acessa as listas do sidebar */
+    line-height: 1em; /* espaçamento entre as linhas*/
+    list-style: none; /* tira os estilos (nesse caso pontos) das linhas*/
+    border-top-style: solid ; /*coloca uma linha em cima de cada elemento*/
+    border-top-width: 2px;
+    
+
+
+}
+.sidebar li:last-child{ /*acessa o ultimo elemento*/
+    border-bottom: solid;
+}
+.sidebar h1,h2,h3,h4,h5,h6{ /*acessa os títulos do sidebar*/
+    text-align: center;
+
+}
+
+
