@@ -1,16 +1,25 @@
 :root {
     --cor-detalhe: #f89959;
+    --cor-detalhe-secundario: #a74c0f;
+    --cor-fonte: #70d8f8;
+    --cor-background: #202020;
     --fonte: "Tahoma";
 }
-
+/* Conteúdo */
 body {
-    background-color: #202020;
-    color: #70d8f8;
-    width: 50%;
+    background-color: var(--cor-background);
+    color: var(--cor-fonte);
+}
+
+.page-wrapper {
+    width: 80%;
+    max-width: 1280px;
     margin: 0 auto;
     font-size: 16px;
     font-family: 'Courier New', Courier, monospace;
     text-align: justify;
+    margin-bottom: 8vh;
+    overflow: hidden;
 }
 
 .main {
@@ -45,4 +54,85 @@ a {
 
 abbr {
     color: var(--cor-detalhe);
+}
+
+/* Rodapé */
+footer {
+    display: block;
+    width: 100vw;
+    text-align: center;
+    background-color: var(--cor-detalhe);
+    padding: 1%;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+footer a {
+    margin: 0 1%;
+    color: var(--cor-background);
+}
+
+/* sidebar */
+.main {
+    width: 66%;
+    float: left;
+}
+
+.sidebar {
+    width: 33%;
+    float: left;
+    padding: auto 10px;
+    margin-left: 0.5em;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar .wrapper div {
+    margin-bottom: 1em;
+    border-top: solid var(--cor-fonte) 1px;
+
+}
+
+.sidebar .wrapper:last-of-type {
+    border-bottom: solid var(--cor-fonte) 1px;
+}
+
+/* Paragrafos */
+.main p::first-letter {
+    font-size: 2em;
+    font-weight: 900;
+    border-top: solid 0.5px;
+    border-bottom: solid 0.5px;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--cor-detalhe-secundario);
+}
+
+a:visited {
+    color: var(--cor-detalhe-secundario);
+}
+
+.design-selection a{
+    font-size: 0.8em;
+}
+
+.design-selection li{
+    margin-bottom: 1em;
+}
+
+
+.design-selection li a:nth-child(2)::before{
+    content: "\00A9";
+    font-size: 0.8rem;
 }
