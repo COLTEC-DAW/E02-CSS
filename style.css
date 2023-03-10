@@ -1,7 +1,9 @@
 /* Aparência geral da página */
-*{
-    margin-right: 0.5%;
-    margin-left: 0.5%;
+
+#principal{
+    width: 66%;
+    float: left;
+
 }
 
 body{
@@ -10,6 +12,8 @@ body{
     font-family: 'Courier New', Courier, monospace;
     background-color: #0A1926;
     text-indent: 2rem;
+    margin-top: -80px;
+    max-width: 1280px;
 }
 
 /* Títulos */
@@ -51,29 +55,35 @@ a, abbr{
 }
 
 #menusuperior{
-    background-color: #1F2D38;
-    height: 140px;
-    border-style: solid;
-    border-color: #1F2D38;
-    border-width: 1px;
-   
+    background-color: aliceblue;
+    width: 100%;
+    left: 0;
+    position: absolute;
+}
+#a{
+    margin-top: 200px;
 }
 
-nav{
-    border-style: outset;
-    border-color: #EDF0F2;
-    border-width: 1px;
-    background-color: #243340;
-}
-
-span{
-    background-color: #1F2D38;
-}
-
-ul{
-    text-align: center;
+#rodape{
+    background-color: aliceblue;
+    width: 100%;
+    left: 0;
+    position: fixed;
+    height: 50px;
+    display: block;
+    bottom: 0;
 }
 
 div{
     margin-bottom: 60px;
+}
+
+.menu{
+    float: left;
+    width: 33%;
+    background-color: #1F2D38;
+}
+
+.menu li{
+    list-style-type: none;
 }

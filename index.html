@@ -13,9 +13,10 @@
 </head>
 
 <body>
-    <div class="cabecalho" >
+    <div id="principal">
+    <div  >
         <section class="intro" id="zen-intro">
-            <div class="cabecalho">
+            <div>
                 <header id="menusuperior">
                 <h1>CSS Zen Garden</h1>
                 <h2>The Beauty of <abbr title="Cascading Style Sheets">CSS</abbr> Design</h2>
@@ -33,6 +34,7 @@
             </div>
         </section>
     </div>
+    
             <div class="preamble" id="zen-preamble" role="article">
                 <h3>The Road to Enlightenment</h3>
                 <p>Littering a dark and dreary road lay the past relics of browser-specific tags, incompatible <abbr
@@ -102,20 +104,13 @@
                     provided. The CSS Zen Garden is about functional, practical <abbr
                         title="Cascading Style Sheets">CSS</abbr> and not the latest bleeding-edge tricks viewable by 2%
                     of the browsing public. The only real requirement we have is that your <abbr
-                        title="Cascading Style Sheets">CSS</abbr> validates.</p>
-                <p>Luckily, designing this way shows how well various browsers have implemented <abbr
-                        title="Cascading Style Sheets">CSS</abbr> by now. When sticking to the guidelines you should see
-                    fairly consistent results across most modern browsers. Due to the sheer number of user agents on the
-                    web these days &#8212; especially when you factor in mobile &#8212; pixel-perfect layouts may not be
-                    possible across every platform. That&#8217;s okay, but do test in as many as you can. Your design
-                    should work in at least IE9+ and the latest Chrome, Firefox, iOS and Android browsers (run by over
-                    90% of the population).</p>
-                <p>We ask that you submit original artwork. Please respect copyright laws. Please keep objectionable
+                        title="CMenuin at least IE9+ and the latest Chrome, Firefox, iOS and Android browsers (run by over
+                    90% of the population)."></abbr> </p>
+                <p>We ask that you submit original artwork. Please respect copyrot laws. Please keep objectionable
                     material to a minimum, and try to incorporate unique and interesting visual themes to your work.
                     We&#8217;re well past the point of needing another garden-related design.</p>
                 <p>This is a learning exercise as well as a demonstration. You retain full copyright on your graphics
-                    (with limited exceptions, see <a
-                        href="http://www.mezzoblue.com/zengarden/submit/guidelines/">submission guidelines</a>), but we
+                    (with limited exceptions, see <a bhref="http://www.mezzoblue.com/zengarden/submit/guidelines/"> submission guidelines</a>), but we
                     ask you release your <abbr title="Cascading Style Sheets">CSS</abbr> under a Creative Commons
                     license identical to the <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/"
                         title="View the Zen Garden's license information.">one on this site</a> so that others may learn
@@ -126,7 +121,7 @@
                 </p>
             </div>
 
-            <footer>
+            <footer id="rodape">
                 <a href="http://validator.w3.org/check/referer" title="Check the validity of this site&#8217;s HTML"
                     class="zen-validate-html">HTML</a>
                 <a href="http://jigsaw.w3.org/css-validator/check/referer"
@@ -141,11 +136,11 @@
             </footer>
 
         </div>
+    </div>
 
-
-        <aside class="sidebar" role="complementary">
-            <div class="wrapper">
-                <div class="design-selection" id="design-selection">
+        <!-- menu principal -->
+       <aside class="sidebar" role="complementary">
+                <div class="menu" id="a">
                     <h3><span>Select a Design:</span></h3>
                     <nav role="navigation">
                         <ul>
@@ -185,7 +180,8 @@
                     </nav>
                 </div>
 
-                <div class="design-archives" id="design-archives">
+                
+                <div class="menu">
                     <h3><span>Archives:</span></h3>
                     <nav role="navigation">
                         <ul>
@@ -203,7 +199,8 @@
                     </nav>
                 </div>
 
-                <div class="zen-resources" id="zen-resources">
+      
+                <div class="menu" id="zen-resources">
                     <h3><span>Resources:</span></h3>
                     <nav>
                     <ul>
@@ -233,8 +230,7 @@
                     </ul>
                 </nav>
                 </div>
-            </div>
-        </aside>
+        </aside>  
     </div>
 </body>
 </html>
