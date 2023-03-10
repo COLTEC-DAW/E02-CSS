@@ -7,7 +7,7 @@ body {
     max-width: 1280px;
     width: 80%;
     margin: auto; 
-    margin-bottom: auto;
+    margin-bottom: 180%;
 }
 
 p{
@@ -79,6 +79,14 @@ footer > a {
     padding-left: 10px;
     padding-right: 10px;
     list-style-type: none;
+}
+
+li{
+    border-top: 1px solid #05191b;
+}
+
+li:last-child{
+    border-top: 1px solid #000000;
 }
 
 .main{
