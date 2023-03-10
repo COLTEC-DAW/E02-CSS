@@ -1,23 +1,29 @@
-html{
-    height: 2rem;
-}
 body{
     background-color: #264653;
     color: #E9C46A;
     text-align: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    max-width: 1280px;
+    margin-bottom: 20px;
 }
 p{
-    line-height: 1.5rem;
+    line-height: 2em;
     text-indent: 1rem;
 }
 a:link{
     font-weight: bold;
     color: #E76F51;
+    text-decoration: none;
 }
 a:hover{
     font-weight: bold;
     color: #2A9D8F;
+    text-decoration: underline;
+}
+a:visited{
+    font-weight: bold;
+    color: #85402f;
 }
 abbr{
     font-weight: bold;
@@ -34,4 +40,47 @@ h3{
 }
 h1, h2, h3{
     text-align: center;
+}
+footer{
+    position: fixed;
+    left:0px;
+    bottom:0px;
+    width: 100%;   
+    padding: 1%;
+    background-color: #E9C46A;
+    height: 20px;
+    font-style: bold;
+    font-size: 20px;
+}
+footer > a{
+    margin-left:1%;
+    margin-right:1%;
+}
+.sidebar{
+    float: left;
+    width: 33%;
+    padding: left 10px;
+    padding: left 10px;
+    line-height: 1em;
+    text-align: center;
+}
+.main{
+    float:left;
+    width: 66%;
+}
+ul {
+    list-style-type: none;
+    
+}
+.main div > p:first-of-type::first-letter{
+    font-size: 2em;
+    font-weight: bold;
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+.designer-name::before{
+    display: block;
+    content: '\00A9';
+    font-size: 0.8em;
+
 }
