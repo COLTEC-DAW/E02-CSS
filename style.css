@@ -1,6 +1,6 @@
 #css-zen-garden{
-    margin-left: 160px; /* Same as the width of the sidebar */
-    padding: 0px 10px;
+    margin: 0px;
+    padding: 0px;
     background: url(https://rare-gallery.com/mocahbig/467751-nature-landscape-mountains-water-reflection-rocks.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -8,25 +8,43 @@
     font-family: Arial;
     text-indent: 1rem;
     align-items: center;
+    width: 80%;
+    max-width: 1280px;
 }
 
 .page-wrapper a:hover{
     font-style: italic;
-    font-size: 1.1rem;
+    color: purple;
 }
+
+.intro  a{
+    color: rgb(95, 95, 95);
+}
+.main-supporting a{
+    color: rgb(95, 95, 95);
+}
+
+.intro a:hover{
+    text-decoration: underline;
+}
+.main-supporting a:hover{
+    text-decoration: underline;
+}
+
 
 .intro{
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 5px 5px 0px 0px;
     font-family: sans-serif;
     text-align: center;
-    line-height: 1;
+    line-height: 1.5em;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
-    max-width: 70%;
+    max-width: 60%;
     max-height: 50%;
     padding: 20px 40px;
-    margin-right: 150px;
+    margin-left: 5%;
+    margin-right: 10%;
     float: right;
 }
 
@@ -36,14 +54,15 @@
     font-family: sans-serif;
     text-align: center;
     line-height: 1.5em;
-    line-height: 1;
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
-    max-width: 70%;
+    max-width: 60%;
     max-height: 50%;
     padding: 20px 40px;
-    margin-right: 150px;
+    margin-left: 5%;
+    margin-right: 10%;
     float: right;
+    margin-bottom: 60px;
 }
 
 
@@ -72,6 +91,12 @@
     margin-bottom: 0px;
 }
 
+.intro p::first-letter, .main-supporting p::first-letter{
+    font-size: 2em;
+    border-bottom: #222 .5px solid;
+    border-top: #222 .5px solid;
+}
+
 .banner h2{
     font-size: 1.6rem
 }
@@ -86,20 +111,61 @@
 }
 
 .sidebar{
-    border-radius: 5px;
+    border-radius:5px;
     height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 160px; /* Set the width of the sidebar */
+    padding: 5px;
+    margin-left: 7%;
+    margin-top: 20px;
+    width: 10%; /* Set the width of the sidebar */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     background-color: rgba(0, 0, 0, 0.2); /* Black */
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-right: 10px;
     padding-top: 20px;
-    text-align: center;
+    text-align: start;
+}
+.sidebar h3{ 
+    text-align: center; 
+    border-top: grey 1px dotted;
+}
+
+.sidebar h3:last-child{
+    border-bottom: grey 1px dotted;
 }
 
 .sidebar a{
     color: antiquewhite;
+}
+
+.designer-name::before{
+    content: '\00A9';
+}
+
+.sidebar li{
+    list-style: none;
+    margin-bottom: 1em;
+}
+
+.design-selection a{
+    display: block;
+}
+
+footer{
+    padding-top: 20px;
+    align-items: center;
+    text-align: center;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+footer a{
+    color: antiquewhite;
+    margin: 1%
 }
 
 @media screen and (max-height: 450px) {
