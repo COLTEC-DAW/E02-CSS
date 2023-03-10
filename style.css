@@ -7,7 +7,6 @@ body {
     padding-bottom: 2.5%;
     margin-left: 0;
 }
-
 p {
     text-indent: 1rem;
 }
@@ -30,6 +29,12 @@ h3 {
     line-height: 1.5;
     float: left;
     width: 62%;
+}
+.main-supporting p::first-letter {
+    font-size: 2em;
+    font-weight: 900;
+    border-top: 0.5px solid;
+    border-bottom: 0.5px solid;
 }
 .sidebar {
     float: left;
@@ -54,26 +59,37 @@ h3 {
 a {
     font-weight: 700;
     color: #78DAE3;
+    text-decoration: none;
 }
-
+a:hover {
+    text-decoration: underline;
+    color: #FA19FF;
+}
+a:visited {
+    color: #E70000;
+}
+.design-selection {
+    display: block;
+    font-size: 0.8em;
+    
+}
+.design-name::before {
+    content: '\00A9';
+    font-size: 1.0rem;
+}
 abbr {
-    color: #78DAE3;
+    color: #192BFF;
 }
-
 footer{
     display: block;
     width: 100%;
     position: fixed;
-
     bottom: 0;
     padding: 1%;
     background: #4359FF;
     text-align: center;
     margin-top: 0px;
-   
-    
 }
-
 footer > a {
     margin-left: 1%;
     margin-right: 1%;
