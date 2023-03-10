@@ -2,9 +2,12 @@ body {
     background-color: #00565C;
     color: #F0F0F0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    width: 940px;
-    margin: auto;  
+    font-size: 20px; 
+    text-align: justify;
+    max-width: 1280px;
+    width: 80%;
+    margin: auto; 
+    margin-bottom: auto;
 }
 
 p{
@@ -48,5 +51,73 @@ abbr {
     color: #B3AD8F;
 }
 
+footer {
+    width: 100%;
+    display: block;
+    background: #03383d;
+    color: #ffffff;
+    padding: 1%;
+    border: 2px solid #05191b;
+    position: fixed; 
+    bottom: 0px;
+    left: 0px;  
+    text-align: center;
+}
 
+footer > a {
+    margin-left: 1%;
+    margin-right: 1%;
+    margin: 1em;
+    border-top: 1px solid #05191b;
+}
 
+.sidebar{
+    float: left;
+    width: 33%;
+    background-color: #15828A;
+    color: #05191b;
+    padding-left: 10px;
+    padding-right: 10px;
+    list-style-type: none;
+}
+
+.main{
+    float: left;
+    width: 66%;
+}
+
+.main p:first-child::first-line {
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.main > p{
+    border-bottom: #05191b;
+    border-top:#05191b;
+}
+
+a:link{
+    color: #B3AD8F;
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(155, 127, 255);
+} 
+
+a:hover{
+    color: rgb(140, 174, 230);
+} 
+
+a:active{
+    color: #B3AD8F;
+}
+
+.design-selection a:link{
+    block-size: auto;
+}
+
+.design-selection a:link:before { 
+    content:"\00A9"; 
+    font-size: 0.8em;
+}
