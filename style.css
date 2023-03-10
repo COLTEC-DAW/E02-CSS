@@ -1,9 +1,16 @@
+html{
+    margin-bottom: 50px;
+}
+html a {
+    text-decoration: none;
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(4, 10, 94);
     color: white;
     font-size: 20px;
-  
+    width: 80%;
+    max-width: 1280px;
 }
 p{
     text-indent: 1rem;
@@ -28,19 +35,89 @@ h3{
     text-align: center;
 }
 .main{
-    line-height: 1.5;
+    line-height: 1.5rem;
+    float: left;
+    width: 66%;
 }
+
 a{
     font-weight: 700;
 }
+
 a, abbr{
     color: #A85E0A;
 }
 
 a:hover{
     color:#F5AC58;
+    text-decoration: underline;
+}
+
+a:visited{
+    color:lawngreen;
 }
 
 .resources, .archives, .select{
     text-align: left;
+}
+
+footer{
+    display: block;
+    padding: 1%;
+    background-color: rgb(197, 195, 195);
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+
+    
+}
+
+footer > a{
+    margin: 0 1%;
+    color: rgb(221, 8, 8);
+    
+}
+
+aside.sidebar{
+    float: left;
+    width: 33%;
+    padding-left: 10px;
+    padding-right: 2px;
+}
+
+.sidebar li{
+    list-style-type: none;
+}
+
+.wrapper div{
+    margin: 1em;
+    border-top: #f5f8f8 3px solid;
+}
+
+.wrapper div:last-child{
+    margin: 1em;
+    border-bottom: #f5f8f8 3px solid;
+}
+
+.wrapper div h3{
+    text-align: center;
+    
+}
+
+.main p::first-letter{
+    font-size: 2em;
+    font-weight: bolder;
+    border-top: gray 0.5px solid;
+}
+
+.design-selection a{
+    display: block;
+    font-size: 0.8rem;
+}
+
+.designer-name::before{
+    content: '\00A9';
+    font-size: 0.9rem;
+    color: white;
 }
