@@ -9,9 +9,26 @@ body{
     background-color: #014573;
     font-family: 'Times New Roman', Times, serif;
     color: #fdcfcf; 
+}
+
+.page-wrapper{
     margin: auto;
-    min-width: 320px;
-    max-width: 800px;
+    margin-bottom: 5%;
+    width: 80%;
+    max-width: 1280px;
+    overflow: hidden;
+}
+
+.main{
+    line-height: 1.5;
+    float: left;
+    width: 66%;
+}
+
+.sidebar{
+    float: left;
+    width: 33%;
+    padding: auto 10px auto 10px;
 }
 
 h1{
@@ -25,10 +42,6 @@ h3{
     text-align: center;
 }
 
-.main{
-    line-height: 1.5;
-}
-
 .intro{
     text-align: center;
 }
@@ -36,16 +49,66 @@ h3{
 a{
     font-weight: 700;
     color: var(--corLinks);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration:underline;
+    color: #fdcfcf;
+}
+
+a:visited{
+    color:#fdcfcf;
+}
+
+.design-selection a{
+    font-size: 0.8em;
+}
+
+.designer-name::before{
+    content: '\00A9';
+    font-size: 0.8rem;
 }
 
 abbr{
     color: var(--corLinks);
 }
 
-.wrapper{
-    text-align: left;
-}
-
 p{
     padding-left: 1rem;
+}
+
+.main p::first-letter{
+    font-size: 2em;
+    font-weight: bold;
+    border-top: solid 0.5px;
+    border-bottom: solid 0.5px;
+}
+
+footer{
+    display:block;
+    width: 100vw;
+    position: fixed;
+    left:0;
+    bottom: 0;;
+    background-color: #fdcfcf;
+    padding: 1%;
+}
+
+footer a{
+    color: #014573;
+    margin: auto 1% auto 1%;
+}
+
+.sidebar li{
+    list-style-type: none;
+}
+
+.sidebar .wrapper div{
+    margin-bottom: 1em;
+    border-top: solid 0.5px;
+}
+
+.sidebar .wrapper div:last-of-type{
+    border-bottom: solid 0.5px;
 }
