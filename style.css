@@ -1,16 +1,31 @@
 html{
-    font-size: 24px;
+    font-size: 20px;
     font-family: Tahoma, sans-serif;
+    width: 80%;
+    margin-bottom: 42px;
+    max-width: 1280px;
+    margin-left: 0%;
+    margin-right: 0%;
 }
 
 body{
     font-style: oblique;
-    background: #102542;
-    color: #FFF372;
+    background: #2f323a;
+    color: #ffffff;
 }
 
 p{
     text-indent: 2rem;
+}
+
+p::first-letter{
+    font-size: 2em;
+    font-weight: bold 100%;
+    border-top-style:solid;
+    border-top-width: 0.5px;
+    border-bottom-style:solid;
+    border-bottom-width: 0.5px;
+
 }
 
 h1, h2, h3{
@@ -34,15 +49,74 @@ h3{
 }
 
 .main{
-    padding: 1.5;
+    padding: 0;
+    float: left;
+    width: 60%;
 }
 
 a{
     font-weight: bold, 700;
-    color: #48E5C2;
+    color: #fb8b24;
+    text-decoration: none;
 
 }
 
+a:hover{
+    text-decoration: underline;
+    color: #b6dc76;
+}
+
+a:visited{
+    color: #e4e6c3;
+}
+
 abbr{
-    color: #48E5C2;
+    color: #fb8b24;;
+}
+
+footer{
+    display: block;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: 1%;
+    background: #899878;
+    text-align: center;
+    left: 0;
+}
+
+footer a{
+    color: #e4e6c3;
+}
+
+.sidebar{
+    float: left;
+    width: 30%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: top;
+}
+
+ul{
+    list-style-type: none;
+    padding: 1em;
+}
+
+li{
+    border-top-style:solid;
+    border-top-width: 2px;
+}
+
+li:last-child{
+    border-bottom-style: solid;
+}
+
+.design-name::before{
+    content: "\00A9";
+    font-size: 0.2rem;
+}
+
+.design-selection{
+    display: block;
+    font-size: 0.8em;
 }
