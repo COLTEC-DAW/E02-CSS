@@ -3,6 +3,7 @@
 html
 {
     font-size: 25px;
+    margin-bottom: 62.844px;
 }
 
 body
@@ -10,6 +11,7 @@ body
     font-family: Roboto;
     background-color: #070E70;
     color: #5762F2;
+    width: 1280px;
 }
 
 h1, h2, h3
@@ -56,4 +58,27 @@ abbr
 .main
 {
     line-height: 1.5;
+}
+
+.page-wrapper
+{
+    width: 80%;
+}
+
+footer
+{
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    padding: 1%;
+    background-color: #5762F2;
+    color: #070E70;
+}
+
+footer a
+{
+    margin-left: 1%;
+    margin-right: 1%;
+    color: #070E70;
 }
