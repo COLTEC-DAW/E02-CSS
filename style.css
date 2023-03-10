@@ -3,11 +3,14 @@ html{
 }
 
 body{
+    margin-bottom:20px;
     background-color:black;
     color:orange;
-    margin:auto;
+    margin:0;
+    padding-bottom:50px;
     font-family:Arial, sans-serif;
     width:80%;
+    max-width:1280px;
     text-align:justify;
 }
 
@@ -43,15 +46,111 @@ p{
 
 a:link{
     color:orangered;
-    text-decoration:underline;
     font-weight:700;
+    text-decoration:none;
 }
 
 a:hover{
     color:red;
     font-style:italic;
+    text-decoration:underline;
+}
+
+a:visited{
+    color:red;
 }
 
 abbr{
     color:orangered;
+}
+
+footer{
+    display:block;
+    width:100%;
+    height:20px;
+    position:fixed;
+    padding:1%;
+    bottom:0;
+    background-color:blue;
+}
+
+footer a:link{
+    margin-left:1%;
+    margin-right:1%;
+    color:cyan;
+}
+
+footer a:hover{
+    color:purple;
+}
+
+footer a:visited{
+    color:purple;
+}
+
+.main.supporting{
+    float:left;
+    width:66%;
+    padding-bottom: 4%;
+}
+
+.sidebar{
+    float:left;
+    width:33%;
+    padding-left:10px;
+    padding-bottom:10px;
+}
+
+.sidebar ul{
+    list-style-type:none;
+}
+
+.sidebar ul li{
+    margin-bottom:1em;
+    border-top:1px solid orangered;
+}
+
+.sidebar ul li:last-child{
+    padding-bottom:1em;
+    border-bottom:1px solid orangered;
+}
+
+.explanation > p:first-of-type:first-letter{
+    font-size:2em;
+    font-weight:bolder;
+    border-top:0.5px solid orange;
+    border-bottom:0.5px solid orange;
+}
+
+.participation > p:first-of-type:first-letter{
+    font-size:2em;
+    font-weight:bolder;
+    border-top:0.5px solid orange;
+    border-bottom:0.5px solid orange;
+}
+
+.benefits > p:first-of-type:first-letter{
+    font-size:2em;
+    font-weight:bolder;
+    border-top:0.5px solid orange;
+    border-bottom:0.5px solid orange;
+}
+
+.requirements > p:first-of-type:first-letter{
+    font-size:2em;
+    font-weight:bolder;
+    border-top:0.5px solid orange;
+    border-bottom:0.5px solid orange;
+}
+
+.design-selection a:link{
+    display:block;
+}
+
+.designer-name:before{
+    content:"\00A9";
+}
+
+.designer-name{
+    font-size:0.8rem;
 }
