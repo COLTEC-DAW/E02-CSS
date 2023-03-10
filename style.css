@@ -1,14 +1,17 @@
-* {
+*{
     font-size: 105%;
+}
+
+html {
+    width: 80%;
+    margin-bottom: 3%;
+    padding: 0 10% 0 10%;
 }
 
 body {
     background-color: #613F3A;
     color: #F5C4BC;
     font-family: 'Courier New', Courier, monospace;
-    width: 1280px;
-    margin: auto;
-    margin-bottom: 80px;
 }
 
 h1, h2, h3 {
@@ -18,11 +21,30 @@ h1{ font-size: 1.8rem; }
 h2{ font-size: 1.4rem; }
 h3{ font-size: 1.2rem; }
 
-#zen-intro, footer {text-align: center;}
+#zen-intro section, footer {text-align: center;}
 
-#zen-preamble, #zen-supporting, #zen-participation, #zen-benefits, #zen-requirements {
+.sidebar{
+    float: left;
+    width: 33%;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+.main{
+    float: left;
+    width: 66%;
+}
+
+.supporting, .intro{
     line-height: 1.5;
     text-align: justify;
+}
+
+.supporting p::first-letter{
+    font-size: 2em;
+    font-weight: bolder;
+    border-top: solid crimson 0.5px;
+    border-bottom: solid crimson 0.5px;
 }
 
 p {
@@ -33,20 +55,47 @@ p {
 a, abbr{
     font-weight: 700;
 }
-a{ color: rgb(187, 4, 4);}
+a{
+    color: rgb(187, 4, 4);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
+a:visited{ color: rgb(168, 96, 96); }
+
+.design-selection{
+    display: block;
+    font-size: 0.8em;
+}
+.design-name::before{
+    content: '\00A9';
+    font-size: 1.0rem;
+}
 
 footer{
-    display: block;
     background-color: #b9b9b9;
     position: fixed;
     bottom: 0px;
     left: 0px;
     width: 100%;
-    height: 30px;
     padding: 1%;
 }
 footer a{
     color: rgb(255, 210, 86);
     margin-left: 1%;
     margin-right: 1%;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+li{
+    border-top: solid rgb(255, 165, 165) 0.5px;
+    padding-top: 0.5em;
+}
+ul li:last-child{
+    border-bottom: solid white 0.5px;
 }
