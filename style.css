@@ -1,3 +1,6 @@
+/*Ordem de instruções passadas em alguma estilização = Idéia do relógio: Superior - Direita - Inferior - Esquerda*/
+
+/*CORPO GERAL DA PÁGINA*/
 body{
     font-family: Tahoma, sans-serif;
     font-size: 1em;
@@ -5,8 +8,37 @@ body{
     color: #9b72f2;
     line-height: 1rem;    
     text-align: justify;
+    margin: 0%;
+    margin-bottom: 100px;
+    width: 1280px;
 }
 
+
+/*LINKS DO SITE*/
+body a{
+    text-decoration: none;
+}
+body a:hover{
+    text-decoration: underline;
+    color:rgb(98, 0, 255);
+}
+body a:visited{
+    color:rgb(242, 199, 29);
+}
+.design-selection{
+    display: block;
+    font-size: 0.8em;
+}
+.design-selection .designer-name::before {
+    content: "\00A9 ";
+    font-size: 0.2em;
+}
+body p{
+    padding-left: 10px;
+}
+
+
+/*TÍTULOS*/
 h1{
     font-size: 1.8rem;
     text-align: center;
@@ -20,15 +52,74 @@ h3{
     text-align: center;
 }
 
+/*  SUMÁRIO?  */
 #zen-summary{
     text-align: right;
 }
 
-#zen-supporting{
+
+/*  TEXTO PRINCIPAL  */
+.main_supporting{
     line-height: 1.5rem;
+    float: left;
+    width: 66%;
+}
+/*  primeira letra do parágrafo  */
+.main_supporting p:first-of-type:first-letter{
+    font-size: 2em;
+    font-weight: 900;
+    border-top: 0.5px solid rgb(89, 0, 255);
+    border-bottom: 0.5px solid rgb(89, 0, 255);
 }
 
+.main_supporting .requirements{ /* espaçamento entre texto e footer*/
+    padding-bottom: 70px;
+}
+
+
+/*  BARRA LATERAL  */
+.sidebar{
+    float: left;
+    width: 32%;
+    padding: 0 10px 0 10px;    
+}
+.sidebar ul{
+    list-style: none;
+}
+.sidebar ul li{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-top: solid rgb(81, 0, 211) 1px;
+}
+.sidebar ul li:first-child {
+    border-top: 1px solid rgb(81, 0, 211);
+}
+.sidebar ul li:not(:first-child):last-child {
+    border-bottom: 1px solid rgb(81, 0, 211);
+}
+
+
+/*  REFERÊNCIAS  */
 abbr, a{
     font-weight: 700 bolder;
     color: #4602d9;
+}
+
+
+/*  RODAPÉ  */
+footer{
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 5%;
+    padding: 1%;
+    background: #d2bffc;
+    text-align: center;
+
+}
+footer a{
+    
+    margin-left: 1%;
+    color:#4602d9;
 }
