@@ -30,8 +30,17 @@ p {
     line-height: 1.5rem;
 }
 
+.main div > p:first-of-type::first-letter{
+    font-size: 2em;
+    font-weight:bold;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 0.5px;
+}
+
 a:link{
     color: #DBD56E;
+    text-decoration: none;
 }
 
 body{
@@ -39,10 +48,70 @@ body{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 16px;
     color: #F2EFEA;
+    width: 80%;
+    max-width: 1280px;
+    margin-bottom: 20px;
 }
+
 
 abbr{
     font-weight: bold;
     color: #DBD56E;
 }
 
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color:#F2EFEA;
+    height: 20px;
+    font-size: 1.4rem;
+    text-align: center;
+    background-color: #3b399e;
+    padding: 1%;
+
+}
+
+footer > a{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.sidebar{
+    padding-right: 10px;
+    padding-left: 10px;
+    float: left;
+    width: 30%; 
+}
+
+.designer-name{
+    display: block;
+
+    font-size: 0.8rem;
+}
+
+.designer-name::before{
+    
+    content: '\00A9';
+    font-size: 0.5rem;
+    
+}
+
+.main{
+    float: left;
+    width: 66%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a:hover{
+    color:#FC7753;
+    text-decoration: underline;
+}
+
+a:visited{
+    color:orange;
+}
