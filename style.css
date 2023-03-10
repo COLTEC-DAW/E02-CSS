@@ -2,6 +2,9 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #4b4343;
     color: rgb(207, 202, 202);
+    width: 80%;
+    max-width: 1280px;
+    margin-bottom: 5000px;
 }
 
 p{
@@ -29,13 +32,73 @@ h3{
 
 .main{
     line-height: 1.5;
+    float: left;
+    width: 66%;
 }
 
+.main p::first-letter{
+    font-size: 2rem;
+    font-weight: bolder;
+    border-bottom: cornsilk 0.5px solid;
+    border-top: cornsilk 0.5px solid;
+}
+
+footer{
+    background-color: rgb(124, 59, 28);
+    display: block;
+    padding: 0.5%;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+}
+
+footer > a{
+    margin: 0 1%;
+    color: rgb(192, 141, 64);
+}
 a{
-    font-weight: 700;
+    text-decoration: none;
     color: #ffffff;
+}
+a:hover{
+    font-weight: 700;
+    color: rgb(104, 61, 32);
+}
+a:visited{
+    color: rgb(94, 41, 7);
 }
 
 abbr{
     color: #ffffff;
 }
+
+.sidebar{
+    float: left;
+    width: 33%;
+    padding: 0 5px;
+    padding-right: 2px;
+}
+
+.sidebar li{
+    list-style-type: none ;
+}
+
+.wrapper div{
+    margin: 1rem;
+    border-top: cornsilk 1px solid;
+}
+
+.wrapper div:last-child{
+    border-bottom:  cornsilk 1px solid;
+}
+
+.design-selection a{
+    font-size: 0.8rem;
+}
+
+.designer-name::before{
+    content: '\00A9';
+    font-size: 0.9rem;
+}
+
