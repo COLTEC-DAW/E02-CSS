@@ -1,7 +1,14 @@
+html{
+    width: 80%;
+    max-width: 1280px;
+    margin-bottom: 2%;
+}
+
 body{
     font-family: Georgia;
     background-color: darkcyan;
     color: white;
+    text-align: center;
 }
 
 p{
@@ -15,19 +22,66 @@ h1, h2, h3{
 h1{
     font-size: 1.8rem
 }
+
 h2{
     font-size: 1.4rem;
 }
+
 h3{
     font-size: 1.2rem
+}
+
+.sidebar{
+    float: left;
+    width: 33%;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sidebar li{
+    padding-top: 1em;
+    margin-bottom: 1em;
+    list-style: none;
+    border-top-style: solid;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.sidebar li:last-child{
+    border-bottom: solid;
+    padding-bottom: 1em;
+}
+
+.sidebar h3{
+    text-align: center;
+}
+
+.design-selection{
+    display: block;
+    font-size: 0.8em;
+}
+
+.design-name::before{
+    content: '/00A9';
+    font-size: 0.2rem;
 }
 
 #zen-summary{
     text-align: right;
 }
 
-#zen-supporting p{
+#zen-supporting{
    line-height: 1.5;
+   float: left;
+   width: 62%;
+}
+
+#zen-supporting ::first-letter{
+    font-size: 2em;
+    font-weight: bolder;
+    border-top: solid 0.5px;
+    border-bottom: solid  0.5px;
 }
 
 a, abbr{
@@ -35,3 +89,36 @@ a, abbr{
     font-weight: bold;
 }
 
+a{
+    color: wheat;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: wheat;
+}
+
+a:visited{ 
+    color: wheat; 
+}
+
+footer{
+    text-align: center;
+    position: fixed;
+    display: block;
+    bottom: 0%;
+    width: 100%;
+    padding: 0.1%;
+    padding-top: 1px;
+    background-color:gray;
+    left: 0%;
+}
+
+footer a{
+    color: black;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
