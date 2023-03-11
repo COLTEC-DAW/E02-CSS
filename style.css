@@ -1,9 +1,15 @@
 /* Aparência geral da página */
 
-#principal{
-    width: 66%;
+.principal{
+    width: 63%;
     float: left;
+}
 
+.principal p:first-of-type::first-letter{
+    font-size: 2em;
+    font-weight: 900;
+    border-top: #ffffff 0.2px solid;
+    border-bottom: #ffffff 0.2px solid;
 }
 
 body{
@@ -12,7 +18,7 @@ body{
     font-family: 'Courier New', Courier, monospace;
     background-color: #0A1926;
     text-indent: 2rem;
-    margin-top: -80px;
+    margin: -80px 0px 40px 100px;
     max-width: 1280px;
 }
 
@@ -47,43 +53,84 @@ h3{
 a, abbr{
     color: #929CA6;
     font-weight: 700;
+    text-decoration: none;
 }
 
 /* Personalização adicionais aparência*/
-.cabecalho{
-    margin-bottom: 0px;
-}
 
 #menusuperior{
-    background-color: aliceblue;
+    background-color: #1F2D38;
     width: 100%;
     left: 0;
     position: absolute;
+    border-bottom: #ffffff 0.2px solid;
 }
 #a{
     margin-top: 200px;
 }
+#b{
+    margin-top: 200px;
+}
 
-#rodape{
-    background-color: aliceblue;
+footer{
+    background-color: #e3e9ee;
     width: 100%;
     left: 0;
     position: fixed;
-    height: 50px;
+    height: 40px;
     display: block;
     bottom: 0;
+    padding: 1%;
+}
+
+footer > a{
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 div{
     margin-bottom: 60px;
 }
 
-.menu{
+
+.sidebar{
     float: left;
     width: 33%;
     background-color: #1F2D38;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 1em;
+    margin-left: 25px;
 }
 
-.menu li{
+.sidebar li{
     list-style-type: none;
+}
+
+.sidebar li:last-child{
+   border-bottom: 1px solid #ffffff;
+   padding-bottom: 30px;
+}
+
+.sidebar h3{
+    text-align: center;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #929CA6;
+}
+
+a:visited{
+    color: #ffffff;
+}
+
+.design-selection a:link{
+    block-size: auto;
+}
+
+.design-selection a:link::before{
+    content: "\00A9";
+    font-size: 0.8em;
+    text-align: block;
 }
