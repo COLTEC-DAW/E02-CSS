@@ -86,3 +86,31 @@ footer a{
 .wrapper:last-child{
     border-top: white 1px solid;
 }
+#zen-supporting ::first-letter{
+    font-size: 2em;
+    font-weight: bolder;
+    border-top: solid 0.5px;
+    border-bottom: solid  0.5px;
+}
+a{
+    color: wheat;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: wheat;
+}
+
+a:visited{ 
+    color: wheat; 
+}
+.design-selection{
+    display: block;
+    font-size: 0.8em;
+}
+
+.design-name::before{
+    content: '/00A9';
+    font-size: 0.2rem;
+}
