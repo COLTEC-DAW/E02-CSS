@@ -84,7 +84,7 @@ color: black;
     line-height: 1em; /* espaçamento entre as linhas*/
     list-style: none; /* tira os estilos (nesse caso pontos) das linhas*/
     border-top-style: solid ; /*coloca uma linha em cima de cada elemento*/
-    border-top-width: 2px;
+    border-top-width: 2px;   /*coloca a espessura da borda de cima*/
     
 
 
@@ -97,72 +97,13 @@ color: black;
 
 }
 
+
 /*ultimo commit*/
-.design-selection{
-    display: block;
-    font-size: 0.8em;
-}
-
-.design-name::before{
-    content: '/00A9';
-    font-size: 0.2rem;
-}
-
-#zen-summary{
-    text-align: right;
-}
-
-#zen-supporting p {
-
-   line-height: 1.5;
-   float: left;
-   width: 62%;
-}
-
 #zen-supporting ::first-letter{
-    font-size: 2em;
-    font-weight: bolder;
-    border-top: solid 0.5px;
-    border-bottom: solid  0.5px;
+    font-size: 2em; /*tamanho da letra */
+    font-weight: bolder; /*deixa a fonte em negrito */
+    border-top: solid 0.5px; /* deixa a borda de cima solida e com 0.5px*/ /*border top acessa todos os elementos da borda*/
+    border-bottom: solid  0.5px; /* deixa a borda de baixo solida e com 0.5px de expessura*/
 }
 
-a, abbr{
-    color: cyan;
-    font-weight: bold;
-}
-
-a{
-    color: wheat;
-    text-decoration: none;
-}
-
-a:hover{
-    text-decoration: underline;
-    color: wheat;
-}
-
-a:visited{ 
-    color: wheat; 
-}
-
-footer{
-    text-align: center;
-    position: fixed;
-    display: block;
-    bottom: 0%;
-    width: 100%;
-    padding: 0.1%;
-    padding-top: 1px;
-    background-color:gray;
-    left: 0%;
-}
-
-footer a{
-    color: black;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-
+ 
