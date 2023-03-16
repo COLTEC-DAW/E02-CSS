@@ -83,86 +83,46 @@ color: black;
 .sidebar li{ /* acessa as listas do sidebar */
     line-height: 1em; /* espaçamento entre as linhas*/
     list-style: none; /* tira os estilos (nesse caso pontos) das linhas*/
-    border-top-style: solid ; /*coloca uma linha em cima de cada elemento*/
-    border-top-width: 2px;
+    border-top-style: solid ; /*coloca uma linha continua em cima (top) de cada elemento*/
+    border-top-width: 2px; /* define a expessura da borda superior para 2px/*
     
 
 
 }
 .sidebar li:last-child{ /*acessa o ultimo elemento*/
-    border-bottom: solid;
+    border-bottom: solid; /*define a borda de baixo como continua*/
 }
 .sidebar h1,h2,h3,h4,h5,h6{ /*acessa os títulos do sidebar*/
-    text-align: center;
+    text-align: center; /*alinha os titutulos no centro*/
 
 }
+#zen-supporting ::first-letter{ /*acessa todas as primeiras letras dos paragrafos da parte principal*/
+    font-size: 2em; /*define o tamanho da fonte*/
+    font-weight: bolder; /*define o negrito*/
+    border-top: solid 0.5px; /*border top todas as propriedades da borda superior*/ /*solid= borda continua 0,5px grossura*/
+    border-bottom: solid  0.5px; /*border bottom todas as propriedades da borda inferior*/ /*solid= borda continua 0,5px grossura*/
+}
 
-/*ultimo commit*/
-.design-selection{
-    display: block;
-    font-size: 0.8em;
+a{ /*referencias a links*/
+    color: wheat; /*define a cor dos links para branco*/
+    text-decoration: none; /*tira todas as decorações dos textos,(underline, overline etcs*/
+}
+
+a:hover{  /*hover quer dizer que o mousse está posicionado sobre o link*/
+    text-decoration: underline; /*coloca um underline em todos os links tocados pelo usuario*/
+    color: wheat; /*define a cor dos links tocados para branco*/
+}
+
+a:visited{  /*visited quer dizer que link já foi visitado, é bem limitado por privacidade*/
+    color: wheat; /*define a cor dos links tocados para branco*/
+}
+
+.design-selection{ /*dentro da classe design, acessa os selections (coisas selecionadas como cntl c cntrv)*/
+    display: block; /*coloca essas partes selecionadas em bloco*/
+    font-size: 0.8em; /*tamanho da fonte*/
 }
 
 .design-name::before{
     content: '/00A9';
-    font-size: 0.2rem;
+    font-size: 0.2rem; /*tamanho da fonte*/
 }
-
-#zen-summary{
-    text-align: right;
-}
-
-#zen-supporting p {
-
-   line-height: 1.5;
-   float: left;
-   width: 62%;
-}
-
-#zen-supporting ::first-letter{
-    font-size: 2em;
-    font-weight: bolder;
-    border-top: solid 0.5px;
-    border-bottom: solid  0.5px;
-}
-
-a, abbr{
-    color: cyan;
-    font-weight: bold;
-}
-
-a{
-    color: wheat;
-    text-decoration: none;
-}
-
-a:hover{
-    text-decoration: underline;
-    color: wheat;
-}
-
-a:visited{ 
-    color: wheat; 
-}
-
-footer{
-    text-align: center;
-    position: fixed;
-    display: block;
-    bottom: 0%;
-    width: 100%;
-    padding: 0.1%;
-    padding-top: 1px;
-    background-color:gray;
-    left: 0%;
-}
-
-footer a{
-    color: black;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-
