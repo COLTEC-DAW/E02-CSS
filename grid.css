@@ -1,29 +1,60 @@
 .container {
     width: 80%;
-    max-width: 1280px;
+    max-width: 1480px;
     min-width: 480;
-    margin: auto;
-
 }
 
 .row {}
 
-
+.col_1,
+.col_2,
+.col_3,
 .col_4,
+.col_5,
+.col_6,
+.col_7,
 .col_8,
+.col_9,
+.col_10,
+.col_11,
 .col_12 {
     float: left;
-    padding: 0 1%;
+    padding: 0 1% 0 0;
 }
 
+.col_1{
+    width: 8%;
+}
+.col_2{
+    width: 16%;
+}
+.col_3{
+    width: 24%;
+}
 .col_4{
-    width: 33%;
+    width: 32%;
 }
-
+.col_5{
+    width: 40%;
+}
+.col_6{
+    width: 48%;
+}
+.col_7{
+    width: 56%;
+}
 .col_8{
-    width: 63%;
+    width: 64%;
 }
-
+.col_9{
+    width: 72%;
+}
+.col_10{
+    width: 80%;
+}
+.col_11{
+    width: 88%;
+}
 .col_12{
-    width: 98%;
+    width: 96%;
 }
