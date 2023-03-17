@@ -1,0 +1,29 @@
+.container {
+    width: 80%;
+    max-width: 1280px;
+    min-width: 480;
+    margin: auto;
+    
+}
+
+.row {}
+
+
+.col_4,
+.col_8,
+.col_12 {
+    float: left;
+    padding: 0 1%;
+}
+
+.col_4{
+    width: 33%;
+}
+
+.col_8{
+    width: 63%;
+}
+
+.col_12{
+    width: 98%;
+}
