@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "/home/aluno/Documentos/DAW/E02-CSS/index.html"
+            "file": "index.html"
         }
     ]
 }
