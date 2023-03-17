@@ -60,7 +60,7 @@ a:visited{
     color:red;
 }
 
-abbr{
+abr{
     color:orangered;
 }
 
@@ -115,28 +115,7 @@ footer a:visited{
     border-bottom:1px solid orangered;
 }
 
-.explanation > p:first-of-type:first-letter{
-    font-size:2em;
-    font-weight:bolder;
-    border-top:0.5px solid orange;
-    border-bottom:0.5px solid orange;
-}
-
-.participation > p:first-of-type:first-letter{
-    font-size:2em;
-    font-weight:bolder;
-    border-top:0.5px solid orange;
-    border-bottom:0.5px solid orange;
-}
-
-.benefits > p:first-of-type:first-letter{
-    font-size:2em;
-    font-weight:bolder;
-    border-top:0.5px solid orange;
-    border-bottom:0.5px solid orange;
-}
-
-.requirements > p:first-of-type:first-letter{
+.main div > p:first-of-type:first-letter{
     font-size:2em;
     font-weight:bolder;
     border-top:0.5px solid orange;
