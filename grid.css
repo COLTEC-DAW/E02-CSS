@@ -1,0 +1,15 @@
+.container{
+    width: 100%;
+    margin: auto;
+    max-height: 900px;
+    max-width: 1600px;
+}
+
+.col4, .col8, .col12 {
+    float: left;
+    padding: 0 1% 0 1%;
+}
+
+.col_4{width:30%;}
+.col_8{width: 60%;}
+.col_12{width: 98%;}
