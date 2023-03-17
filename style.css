@@ -3,13 +3,12 @@ body{
     color: #E9C46A;
     text-align: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    width: 100%;
-    max-width: 1280px;
     margin-bottom: 20px;
 }
 p{
     line-height: 2em;
     text-indent: 1rem;
+    text-align: left;
 }
 a:link{
     font-weight: bold;
@@ -30,13 +29,13 @@ abbr{
     color: #E76F51;
 }
 h1{
-    height: 1.8rem;
+    font-size: 1.3rem;
 }
 h2{
-    height: 1.4rem;
+    font-size: 1.3rem;
 }
 h3{
-    height: 1.2rem;
+    font-size: 1rem;
 }
 h1, h2, h3{
     text-align: center;
@@ -84,3 +83,7 @@ ul {
     font-size: 0.8em;
 
 }
+meta{
+    color: crimson;
+}
+

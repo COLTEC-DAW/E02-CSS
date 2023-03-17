@@ -1,0 +1,49 @@
+.container{
+    width: 100%;
+    max-width: 1400;
+    min-width: 480;
+}
+
+.col_1, .col_2, .col_3, .col_4, .col_5, .col_6, .col_7, .col_8, .col_9, .col_10, .col_11, .col_12
+{
+    float: left;
+    padding: 0 1% 0 1%;
+}
+
+.col_1{
+    width: 6.3%;
+}
+.col_2{
+    width: 14.6%;
+}
+.col_3{
+    width: 22.9%;
+}
+.col_4{
+    width: 31.33%;
+}
+.col_5{
+    width: 39.5%;
+}
+.col_6{
+    width: 47.8%;
+}
+.col_7{
+    width: 56.1%;
+}
+.col_8{
+    width: 64.66%;
+}
+.col_9{
+    width: 72.7%;
+}
+.col_10{
+    width: 81%;
+}
+.col_11{
+    width: 89.3%;
+}
+.col_12{
+    width: 97.6%;
+}
+
