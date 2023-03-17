@@ -35,6 +35,9 @@ h3 {
 
 .main {
     line-height: 1.5rem;
+    float: left;
+    width: 66%;
+    margin-right: 10px;
 }
 
 a {
@@ -89,10 +92,7 @@ li:last-child{
     border-top: 1px solid #000000;
 }
 
-.main{
-    float: left;
-    width: 66%;
-}
+
 
 .main p:first-child::first-line {
     font-size: 2em;
@@ -128,4 +128,7 @@ a:active{
 .design-selection a:link:before { 
     content:"\00A9"; 
     font-size: 0.8em;
+}
+.banner-col4{
+    border:#03383d solid 4px;
 }
