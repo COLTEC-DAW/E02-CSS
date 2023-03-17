@@ -11,13 +11,11 @@ html {
 
 body {
     
-    margin: auto;
-    width: 80%;
+
     font-family: Verdana, sans-serif;
     background-color: #4C3882;
     color: #FFDEE5;
-    max-width: 1280px;
-    margin-bottom: 150%;
+    
     
 }
 
@@ -110,8 +108,6 @@ footer > a:hover {
 
     background-color: #1B1236;
     border: 20px solid #1B1236;
-    float: left;
-    width: 60%;
     margin-left: 10px;
     margin-right: 10px;
 
@@ -131,8 +127,6 @@ footer > a:hover {
 
     background-color: #1B1236;
     border: 20px solid #1B1236;
-    float: left;
-    width: 30%;
     margin-left: 10px;
     margin-right: 10px;
 
@@ -193,6 +187,8 @@ a:hover {
 }
 
 .design-selection a:last-child:link::before { 
+
     content:"\00A9"; 
     font-size: 0.8em;
+
 }
