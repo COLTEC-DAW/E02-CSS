@@ -1,0 +1,40 @@
+.container{
+    width: 100%;
+    max-width: 1600px;
+    max-height: 900px;
+    margin: auto;
+}
+
+/* .row{
+
+} */
+
+.col1, .col2, .col4, .col8, .col12 {
+    float: left;
+    padding: 0 1% 0 1%;
+}
+
+.col1   { width: 6%; }
+.col2   { width: 15%; }
+.col4   { width: 30%; }
+.col8   { width: 60%; }
+.col12  { width: 98%; }
+.col2{
+    width: 13%;
+}
+
+.col4{
+    width: 30%;
+}
+
+.col8{
+    width: 60%;
+}
+
+.col12{
+    width: 98%;
+}
+
+/* .col8{
+
+} */
