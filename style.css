@@ -1,53 +1,39 @@
-/* Aparência geral da página */
+/*PARTE I*/
 
-.principal{
-    width: 63%;
-    float: left;
-}
-
-.principal p:first-of-type::first-letter{
-    font-size: 2em;
-    font-weight: 900;
-    border-top: #ffffff 0.2px solid;
-    border-bottom: #ffffff 0.2px solid;
-}
-
-body{
-    color: #ffffff;
+/*geral pra página inteira (html)*/
+*{
     font-size: 16px;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: #0A1926;
-    text-indent: 2rem;
-    margin: -80px 0px 40px 100px;
-    max-width: 1280px;
+    /*width: 80%;*/
 }
+
+/* aparencia geral da pagina - body*/
+#css-zen-garden{
+    font-family: 'Courier New', Courier, monospace; 
+    color: #ffffff;
+    text-indent: 2rem;
+    /*max-width: 1280px;*/
+    margin: 0 auto;
+    background-color: #0A1926; /*bug background-color id*/
+} 
 
 /* Títulos */
 h1,h2,h3{
     text-align: center;
 }
-
-h1{
-    font-size: 1.8rem;
-}
-
-h2{
-    font-size: 1.4rem;
-}
-
-h3{
-    font-size: 1.2rem;
-}
+h1 {   font-size: 1.8rem;     }
+h2 {    font-size: 1.4rem;    }
+h3 {    font-size: 1.2rem;    }
 
 /* Seções de resumo e principal */
-
-#summary{
+.summary{
     line-height: 1.5rem;
     text-align: center;
+    margin-left: 400px;
     border-color: #1F2D38;
     border-style: solid;
     border-width: 2px;
-}
+}  
+/* main suporting*/
 
 /* Links e abreviaturas */
 a, abbr{
@@ -56,25 +42,13 @@ a, abbr{
     text-decoration: none;
 }
 
-/* Personalização adicionais aparência*/
 
-#menusuperior{
-    background-color: #1F2D38;
-    width: 100%;
-    left: 0;
-    position: absolute;
-    border-bottom: #ffffff 0.2px solid;
-}
-#a{
-    margin-top: 200px;
-}
-#b{
-    margin-top: 200px;
-}
+/*PARTE II*/
 
+/*Rodapé*/
 footer{
     background-color: #e3e9ee;
-    width: 100%;
+    /*width: 100%;*/
     left: 0;
     position: fixed;
     height: 40px;
@@ -82,55 +56,102 @@ footer{
     bottom: 0;
     padding: 1%;
 }
-
 footer > a{
     margin-left: 1%;
     margin-right: 1%;
 }
 
-div{
-    margin-bottom: 60px;
+/* conteudo principal*/
+#main_content{
+    /* width: 60%; */
+    float: left;
+    margin-left: 40px;
+    line-height: 1.5;
+    text-align: right;
 }
 
-
+/*Paineis Laterais*/
 .sidebar{
+    margin-top: 200px;
     float: left;
-    width: 33%;
+    /*width: 33%;*/
     background-color: #1F2D38;
     padding-left: 10px;
     padding-right: 10px;
     line-height: 1em;
     margin-left: 25px;
 }
-
 .sidebar li{
     list-style-type: none;
 }
-
 .sidebar li:last-child{
    border-bottom: 1px solid #ffffff;
    padding-bottom: 30px;
 }
-
 .sidebar h3{
     text-align: center;
 }
 
+/* Mais mudanças na tipografia */
+/*Links*/
 a:hover{
     text-decoration: underline;
     color: #929CA6;
 }
-
-a:visited{
-    color: #ffffff;
-}
-
-.design-selection a:link{
-    block-size: auto;
-}
-
+a:visited  {   color: #ffffff;   }
+.design-selection a:link  {   block-size: auto;   }
 .design-selection a:link::before{
     content: "\00A9";
     font-size: 0.8em;
     text-align: block;
 }
+/*Parágrafos*/
+#css-zen-garden p:first-of-type::first-letter{
+    font-size: 2em;
+    font-weight: 900;
+    border-top: #ffffff 0.2px solid;
+    border-bottom: #ffffff 0.2px solid;
+}
+
+/* Personalização adicionais aparência*/
+header{
+    background-color: #1F2D38;
+    /*width: 100%;*/
+    /*left: 0;*/
+    float: left;
+    border-radius: 55px;
+    /*position: absolute;
+    border-bottom: #ffffff 0.2px solid;*/
+}
+.espace_header_footer{
+    margin-top:35px ;
+}
+
+
+/*  CLASSES E IDs - INDEX.html
+#zen_summary{}  div - lin 25  
+.page-wrapper{} /* div - lin 17 
+.intro{}    #zen-intro{} /* div - lin 19    
+.preamble{}  #zen-preamble{} /* div - lin 35    
+.main supporting{} #zen-supporting{} /* div - lin 49    
+.explanation{} #zen-explanation{}   /* div - lin 50     
+.participation{} #zen-participation{} /*div - lin 64    
+.benefits{} #zen-benefits{} /*div - lin 88  
+.requirements{} #zen-requirements{} /*div - lin 96  
+.sidebar{} /* aside - lin 145   
+.wrapper{} /* div - lin 146     
+.design-selection{} #design-selection{} /* div - lin 147    
+.select{}   /* div - lin 148    
+.design-archives{} #design-archives{} /* div - lin 187  
+.archives{} /* h3 - lin 188     
+.next{} /* li - lin 191     
+.indicator{} /* a - lin 192 
+.viewall{} /* li - lin 196  
+.zen-resources{} #zen-resources{} /* div - lin 205  
+.resources{}  /* h3 - lin 206   
+.view-css{} /* li - lin 196 
+.css-resources{} /* li - lin 196    
+.zen-faq{} /* li - lin 196  
+.zen-submit{} /* li - lin 196   
+.zen-translations{} /* li - lin 196
+*/
