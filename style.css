@@ -1,5 +1,4 @@
 
-/* ----------------------------------- */
 
 /* PARTE I */
 
@@ -61,10 +60,10 @@ a {
 /* PARTE II */
 
 /* Posicionamento Geral */
-html {
+/* html {
     width: 80%;
     max-width: 1280px;
-}
+} */
 
 /* Rodapé */
 footer{
@@ -93,8 +92,8 @@ body {
     margin-bottom: 30px;
   }
   
-
-/* Painéis principais e laterais */
+/* 
+Painéis principais e laterais */
 
 .main {
     float: left;
@@ -160,6 +159,24 @@ a:visited{
 .designer-name::before{
     /* font-size: 0.2rem; */
     content: '\00A9';
+}
+
+/* ----------------------------------- */
+
+
+
+/* Links */
+a{
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; 
+    color: #556b2f;
+}
+
+a:visited{
+    color: #fde910;
 }
 
 /* ----------------------------------- */
