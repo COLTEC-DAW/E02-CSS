@@ -76,12 +76,13 @@ footer a {
     /*float: left;*/
     line-height: 1.5rem;
 }
-
+/*
 .sidebar {
     width: 33%;
-    /*float: left;*/
+    float: left;
     padding: auto 10px;
 }
+*/
 
 .sidebar ul {
     list-style-type: none;
