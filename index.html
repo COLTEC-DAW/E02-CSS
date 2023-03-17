@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <title>CSS Zen Garden: The Beauty of CSS Design</title>
 
-    <link rel="stylesheet" media="screen" href="style.css">
+    <link rel="stylesheet" media="screen" href="grid.css">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Dave Shea">
     <meta name="description" content="A demonstration of what can be accomplished visually through CSS-based design.">
@@ -13,15 +14,18 @@
 </head>
 
 <body id="css-zen-garden">
-    <div class="page-wrapper">
+    <div class="page-wrapper container">
+     
+    <div class="row">
+        
 
-        <section class="intro" id="zen-intro">
-            <header role="banner">
+        <section class="intro col12" id="zen-intro col">
+            <header role="banner col4">
                 <h1>CSS Zen Garden</h1>
                 <h2>The Beauty of <abbr title="Cascading Style Sheets">CSS</abbr> Design</h2>
             </header>
 
-            <div class="summary" id="zen-summary" role="article">
+            <div class="summary col8" id="zen-summary" role="article">
                 <p>A demonstration of what can be accomplished through <abbr
                         title="Cascading Style Sheets">CSS</abbr>-based design. Select any style sheet from the list to
                     load it into this page.</p>
@@ -31,7 +35,7 @@
                 </p>
             </div>
 
-            <div class="preamble" id="zen-preamble" role="article">
+            <div class="preamble col12" id="zen-preamble" role="article">
                 <h3>The Road to Enlightenment</h3>
                 <p>Littering a dark and dreary road lay the past relics of browser-specific tags, incompatible <abbr
                         title="Document Object Model">DOM</abbr>s, broken <abbr
@@ -44,9 +48,10 @@
                     Become one with the web.</p>
             </div>
         </section>
-
-        <div class="main-supporting" id="zen-supporting" role="main">
-            <div class="explanation" id="zen-explanation" role="article">
+    
+    
+        <div class="main-supporting col8" id="zen-supporting" role="main">
+            <div class="explanation col12" id="zen-explanation" role="article">
                 <h3>So What is This About?</h3>
                 <p>There is a continuing need to show the power of <abbr title="Cascading Style Sheets">CSS</abbr>. The
                     Zen Garden aims to excite, inspire, and encourage participation. To begin, view some of the existing
@@ -60,7 +65,7 @@
                     always push it further.</p>
             </div>
 
-            <div class="participation" id="zen-participation" role="article">
+            <div class="participation col12" id="zen-participation" role="article">
                 <h3>Participation</h3>
                 <p>Strong visual design has always been our focus. You are modifying this page, so strong <abbr
                         title="Cascading Style Sheets">CSS</abbr> skills are necessary too, but the example files are
@@ -92,7 +97,7 @@
                     and gallery of future techniques we can all look forward to.</p>
             </div>
 
-            <div class="requirements" id="zen-requirements" role="article">
+            <div class="requirements col12" id="zen-requirements" role="article">
                 <h3>Requirements</h3>
                 <p>Where possible, we would like to see mostly <abbr title="Cascading Style Sheets, levels 1 and 2">CSS
                         1 &amp; 2</abbr> usage. <abbr title="Cascading Style Sheets, levels 3 and 4">CSS 3 &amp;
@@ -109,7 +114,7 @@
                     should work in at least IE9+ and the latest Chrome, Firefox, iOS and Android browsers (run by over
                     90% of the population).</p>
                 <p>We ask that you submit original artwork. Please respect copyright laws. Please keep objectionable
-                    material to a minimum, and try to incorporate unique and interesting visual themes to your work.
+                    section.i             material to a minimum, and try to incorporate unique and interesting visual themes to your work.
                     We&#8217;re well past the point of needing another garden-related design.</p>
                 <p>This is a learning exercise as well as a demonstration. You retain full copyright on your graphics
                     (with limited exceptions, see <a
@@ -124,24 +129,12 @@
                 </p>
             </div>
 
-            <footer>
-                <a href="http://validator.w3.org/check/referer" title="Check the validity of this site&#8217;s HTML"
-                    class="zen-validate-html">HTML</a>
-                <a href="http://jigsaw.w3.org/css-validator/check/referer"
-                    title="Check the validity of this site&#8217;s CSS" class="zen-validate-css">CSS</a>
-                <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/"
-                    title="View the Creative Commons license of this site: Attribution-NonCommercial-ShareAlike."
-                    class="zen-license">CC</a>
-                <a href="http://mezzoblue.com/zengarden/faq/#aaa" title="Read about the accessibility of this site"
-                    class="zen-accessibility">A11y</a>
-                <a href="https://github.com/mezzoblue/csszengarden.com" title="Fork this site on Github"
-                    class="zen-github">GH</a>
-            </footer>
+            
 
         </div>
 
 
-        <aside class="sidebar" role="complementary">
+        <aside class="sidebar col4" role="complementary">
             <div class="wrapper">
                 <div class="design-selection" id="design-selection">
                     <h3 class="select">Select a Design:</h3>
@@ -151,7 +144,7 @@
                                 <a href="/221/" class="design-name">Mid Century Modern</a> by <a
                                     href="http://andrewlohman.com/" class="designer-name">Andrew Lohman</a>
                             </li>
-                            <li>
+                            section.i                     <li>
                                 <a href="/220/" class="design-name">Garments</a> by <a href="http://danielmall.com/"
                                     class="designer-name">Dan Mall</a>
                             </li>
@@ -182,7 +175,7 @@
                         </ul>
                     </nav>
                 </div>
-
+    
                 <div class="design-archives" id="design-archives">
                     <h3 class="archives">Archives:</h3>
                     <nav role="navigation">
@@ -232,5 +225,22 @@
             </div>
         </aside>
     </div>
+
+    <footer>
+        <a href="http://validator.w3.org/check/referer" title="Check the validity of this site&#8217;s HTML"
+            class="zen-validate-html">HTML</a>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer"
+            title="Check the validity of this site&#8217;s CSS" class="zen-validate-css">CSS</a>
+        <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/"
+            title="View the Creative Commons license of this site: Attribution-NonCommercial-ShareAlike."
+            class="zen-license">CC</a>
+        <a href="http://mezzoblue.com/zengarden/faq/#aaa" title="Read about the accessibility of this site"
+            class="zen-accessibility">A11y</a>
+        <a href="https://github.com/mezzoblue/csszengarden.com" title="Fork this site on Github"
+            class="zen-github">GH</a>
+    </footer>   
+
+</div>
+
 </body>
 </html>
