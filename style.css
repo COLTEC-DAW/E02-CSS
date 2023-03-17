@@ -1,8 +1,8 @@
 html {
     width: 80%;
     max-width: 1280px;
-    margin: auto;
     padding-bottom: 5%;
+    margin: auto;
 }
 
 body {
@@ -14,8 +14,6 @@ body {
 }
 
 p {
-    padding-left: 1rem;
-    padding-right: 1rem;
     text-indent: 2rem;
     text-align: justify;
     line-height: 2rem
@@ -24,8 +22,6 @@ p {
 .main p::first-letter {
     font-size: 1.5em;
     font-weight: 900;
-    border-top: thin solid #E1EEF0;
-    border-bottom: thin solid #E1EEF0;
     padding-bottom: 0;
 }
 
@@ -69,16 +65,12 @@ design-selection a {
 .summary p {
     text-align: center;
 }
-
 .sidebar {
     float: left;
-    width: 33%;
-    padding-left: 10px;
 }
 
 .main {
     float: left;
-    width: 66%;
 }
 
 footer {
