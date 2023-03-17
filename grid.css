@@ -1,0 +1,24 @@
+/* grid */
+.container {
+    width: 80%;
+    max-width: 1480px;
+    min-width: 480px;
+    margin: auto;
+}
+
+.col4, .col8, .col12 {
+    float: left;
+    padding: 0 1%;
+}
+
+.col4 {
+    width: 31.33%;
+}
+
+.col8 {
+    width: 64.66%;
+}
+
+.col12 {
+    width: 98%;
+}

@@ -22,10 +22,6 @@ body {
     overflow: hidden;
 }
 
-.main {
-    line-height: 1.5rem;
-} 
-
 .summary{
     text-align: center;
 }
@@ -77,14 +73,14 @@ footer a {
 /* sidebar */
 .main {
     width: 66%;
-    float: left;
+    /*float: left;*/
+    line-height: 1.5rem;
 }
 
 .sidebar {
     width: 33%;
-    float: left;
+    /*float: left;*/
     padding: auto 10px;
-    margin-left: 0.5em;
 }
 
 .sidebar ul {
