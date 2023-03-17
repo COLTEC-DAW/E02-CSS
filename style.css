@@ -21,12 +21,12 @@ body{
 
 .main{
     line-height: 1.5;
-    float: left;
+    /* float: left; */
     width: 66%;
-}
+} */
 
 .sidebar{
-    float: left;
+    /* float: left; */
     width: 33%;
     padding: auto 10px auto 10px;
 }
