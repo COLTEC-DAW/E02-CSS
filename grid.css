@@ -1,0 +1,20 @@
+.container{
+    padding: 0%;
+    margin: 0%;
+}
+.row{
+
+}
+.col-4, .col-8, .col-12{
+    float: left;
+    padding: 0% 2% 0% 0%;
+}
+.col-4{
+    width: 33%;
+}
+.col-8{
+    width: 63%;
+}
+.col-12{
+    width: 98%;
+}
