@@ -36,9 +36,9 @@ h3{
 }
 .main{
     line-height: 1.5rem;
-    float:left;
+    /*float:left;
     width: 65%;
-    left: 0;
+    left: 0;*/
 }
 
 abbr{
@@ -61,9 +61,9 @@ footer>a{
     color: #4d5975;
 }
 .sidebar{
-    float:left;
+    /*float:left;
     width: 32%;
-    left:0;
+    left:0;*/
     padding-left: 10px;
     padding-right: 10px;
 }
