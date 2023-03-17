@@ -10,12 +10,48 @@
     float: left;
 }
 
+.col1{
+    width: 6.33%;
+}
+
+.col2{
+    width: 14.66%;
+}
+
+.col3{
+    width: 22.99%;
+}
+
 .col4{
     width: 31.33%;
 }
 
+.col5{
+    width: 39.66%;
+}
+
+.col6{
+    width: 47.99%;
+}
+
+.col7{
+    width: 56.33%;
+}
+
 .col8{
     width: 64.66%;
+}
+
+.col9{
+    width: 72.99%;
+}
+
+.col10{
+    width: 81.33%;
+}
+
+.col11{
+    width: 89.66%;
 }
 
 .col12{
