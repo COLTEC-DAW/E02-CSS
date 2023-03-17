@@ -2,6 +2,8 @@
 
 :root{
     --back-color: #282D38;
+    --back-color-d: #3b465c;
+    --visitado: #526791;
     --font-color: #D3D6FB;
     --destaque: #7586b6;
     --titulo: #86a1eb;
@@ -17,7 +19,10 @@ body{
     color: var(--font-color);
     text-align: justify;
     width: 85vw;
+    max-width: 1280px;
     margin: auto;
+    
+    margin-bottom: 54px;
 }
 
 h1{
@@ -45,23 +50,81 @@ p{
     text-align: center;
     
 }
+
+.design-selection{
+    display: block;
+}
+
+.designer-name::before{
+    content: '\00A9';
+    height: 0.2rem;
+    font-size: 0.8em;
+}
+
 .main{
     line-height: 1.5rem;
+    float: left;
+    left: 0;
+
+    width: 66%;
+
+}
+
+.main p::first-letter{
+    font-size: 2em;
+    font-weight: 900;
+    border-top: 0.5px solid black;
+    border-bottom: 0.8px solid black;
+}
+
+.sidebar{
+    float: left;
+    right: 0;
+
+    width: 33%;
+    line-height: 1em;
+
+    padding: 0 5px 0 5px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.sidebar h3{
+    text-align: center;
+}
+
+.sidebar li{
+    padding-top: 10px;
+}
+
+.sidebar li:last-of-type{
+    padding-bottom: 50px;
 }
 
 a{
     font-weight: 700;
     color: var(--destaque);
-    
+    text-decoration: none;
 
 }
-footer{
-    padding: 0.5rem 1rem 0.5rem 1rem;
+a:hover{
+    text-decoration: underline;
+    color: var(--titulo);
+}
+
+a:visited{
+    color: var(--visitado);
+
 }
 
 abbr{
     color: var(--destaque);
+    text-decoration: none;
 }
+
+
 
 li{
     padding: 0.4rem;
@@ -71,3 +134,22 @@ li{
     text-align: left;
 }
 
+footer{
+    background-color: var(--back-color-d);
+
+    display: block;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 10px;
+
+    padding: 1%;
+
+
+}
+footer > a{
+    margin: 0 1% 0 1%;
+
+    color: var(--font-color);
+
+}
