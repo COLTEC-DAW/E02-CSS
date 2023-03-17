@@ -1,0 +1,116 @@
+#css-zen-garden{
+    background: #101820FF;
+    color: #FEE715FF;
+    font-family: 'Sono', sans-serif;
+    align-items: center;
+}
+
+.page-wrapper p{
+    text-indent: 1rem;
+}
+
+.page-wrapper a:hover{
+    font-style: italic;
+    color: purple;
+    text-decoration: underline;
+}
+
+.intro  a{
+    color: rgb(95, 95, 95);
+}
+.main-supporting a{
+    color: rgb(95, 95, 95);
+}
+.sidebar a{
+    color: rgb(95, 95, 95);
+}
+.main-supporting a:hover{
+    text-decoration: underline;
+}
+
+.main-supporting h1{
+    font-size: 1.8rem;
+}
+
+.main-supporting h2{
+    font-size: 1.6rem;
+}
+
+.main-supporting h3{
+    font-size: 1.2rem;
+}
+
+.banner{
+    font-family: Ubuntu;
+    color: yellow;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.banner h1{
+    font-size: 4rem;
+    margin-bottom: 0px;
+}
+
+.intro p::first-letter, .main-supporting p::first-letter{
+    font-size: 2em;
+    border-bottom: #222 .5px solid;
+    border-top: #222 .5px solid;
+}
+
+.banner h2{
+    font-size: 1.6rem
+}
+
+#css-zen-garden abbr, a{
+    text-decoration: none;
+}
+
+.summary{
+    font-size: 16px;
+    text-align: right;
+    margin-bottom: 40px;
+}
+
+.main-supporting{
+    float: left;
+    width: 66%;
+    padding-bottom: 2%;
+}
+
+.sidebar{
+    float: left;
+    width: 20%;
+    padding: 0 10px 0 10px;
+    margin-bottom: 10%;
+}
+
+.sidebar h3{ 
+    text-align: center; 
+    border-top: yellowgreen 1px dotted;
+}
+
+.sidebar h3:last-child{
+    border-bottom: yellowgreen 1px dotted;
+}
+
+footer{
+    margin: 0px;
+    display: block;
+    width: 70%;
+
+    position: fixed;
+    bottom: 0;
+
+    background-color: rgb(255, 255, 67);
+
+    padding: .5%;
+    text-align: center;
+    opacity: 90%;
+
+}
+
+footer > a{
+    margin: 0 1% 0 1%;
+    color: black;
+}
