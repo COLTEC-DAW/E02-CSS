@@ -1,6 +1,7 @@
 html{
     font-family: Verdana, sans-serif;
     width: 80%;
+    padding: 0 15% 0 15%;
     max-width: 1280px;
     font-size: 16px;
     margin-top: 10px;
@@ -11,7 +12,6 @@ body{
     font-style: italic;
     background-color: #1D1E2C;
     color: #F7EBEC;
-   
 }
 footer{
     display: block;
@@ -76,14 +76,12 @@ section{
 }
 .main{
     padding: 1.5;
-    float: left;
     width: 66%;
     
     
 }
 .sidebar{
     border: 30px black;
-    float: left;
     width: 31%; 
     padding-left: 10px;
     padding-right: 10px;
