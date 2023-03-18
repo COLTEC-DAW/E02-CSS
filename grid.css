@@ -1,0 +1,72 @@
+.container {
+    width: 80%;
+    max-width: 1280px;
+    min-width: 480px;
+    margin: auto;
+
+}
+
+.row {
+    
+}
+
+.col1{
+    width: 6.33%;
+    float: left;
+    padding: 0 1%; 
+}
+.col2{
+    width: 14.66%;
+    float: left;
+    padding: 0 1%;
+}
+.col3{
+    width: 22.99%;
+    float: left;
+    padding: 0 1%;
+}
+.col4{
+    width: 31.32%;
+    float: left;
+    padding: 0 1%;
+}
+.col5{
+    width:39.65%;
+    float: left;
+    padding: 0 1%;
+}
+.col6{
+   width: 47.98%;
+   float: left;
+    padding: 0 1%;
+}
+.col7{
+   width: 56.31%;
+   float: left;
+    padding: 0 1%;
+}
+.col8{
+   width: 64.64%;
+   float: left;
+    padding: 0 1%;
+}
+.col9{
+   width: 72.97%;
+   float: left;
+   padding: 0 1%;
+}
+.col10{
+   width: 81.3%;
+   float: left;
+    padding: 0 1%;
+}
+.col11{
+   width: 89.63%;
+   float: left;
+    padding: 0 1%;
+}
+.col12{
+   width: 100%;
+   float: left;
+    padding: 0 1%;
+}

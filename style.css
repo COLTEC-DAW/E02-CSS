@@ -28,7 +28,7 @@ a {
 p 
 {
     text-indent: 1rem;
-    
+
 }
 .main p::first-letter
 {
@@ -59,7 +59,7 @@ footer {
     text-align: center;
     padding: 1%;
     height: 40px;
-    
+
 }
 
 footer a{
@@ -68,7 +68,7 @@ footer a{
 .main {
     float: left;
     width: 66%;
-    
+
 }
 .sidebar{
     float: left;
@@ -95,16 +95,16 @@ abbr{
     font-weight: 700 bold;
 }
 a:link{
-    color:#143986;
+    color:#ffffff;
     text-decoration: none;
 }a:visited{
-    color: #1d628a;
+    color: #ffffff;
 }
 
 a:hover{
-    color:#021d41;
+    color:#ffffff;
 }
 
 a:active{
-    color: #060047;
+    color: #fdfdfd;
 }
