@@ -47,8 +47,9 @@ h3 {
 .main > p:first-of-type::first-letter {
     font-size: 2em;
     font-weight: bolder;
-    border-bottom: 0.5px solid white;
-    border-top: 0.5 solid white;
+    border-bottom-style: 0.5px solid white;
+    border-top-style: 0.5 solid white;
+
 }
 
 a {
@@ -107,16 +108,4 @@ ul {
 
 li {
     padding: 1em;
-}
-
-.sidebar {
-    float: left;
-    width: 33%;
-    background-color: black;
-    color: white;
-    padding-left: 10px;
-    padding-right: 10px;
-    list-style-type: none;
-
-    margin-bottom: 10%;
 }
