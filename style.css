@@ -1,6 +1,6 @@
 html{
-   width: 100%; /* largura*/
-   max-width: 1280px;
+   /*width: 100%; /* largura*/
+   /*max-width: 1280px;
    margin-bottom:2%; /*define a margem embaixo*/
 }
 body{
@@ -34,12 +34,12 @@ h3{
 
 }
 #zen-supporting{ /*acessa o texto central*/
-    width: 62%;
+   /* width: 62%;*/
     float: left;
 
 }
 .sidebar{ /*acessa painel lateral pela classe (.)*/
-width: 33%;
+/*width: 33%;*/
 float: left; /*alinha a esquerda do espaço possuído*/
 padding-left: 10px; /*espaçamento interno a direita e esquerda*/
 padding-right: 10px;
@@ -69,7 +69,7 @@ footer {
     text-align: center;
     line-height: 20px; /*espaço para começar a escrita*/
     display: block;
-    width: 100%; /*largura*/
+   /* width: 100%; /*largura*/
    padding: 1%; /*a distância entre o elemento e as bordas da página*/
 
 }
@@ -104,7 +104,7 @@ color: black;
 }
 
 
-/*ultimo commit*/
+
 #zen-supporting ::first-letter{
     font-size: 2em; /*tamanho da letra */
     font-weight: bolder; /*deixa a fonte em negrito */

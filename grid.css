@@ -5,6 +5,7 @@
        hibrido: é um fluido mas com tamanho minimo e maximo, depois desse tamanho ele vira fixo 
        grid system: divide o espaço em sla 5 e coloca cada elemento para ocupar uma determinada quantidade
        */
+       /*cada col divide a página em um espaço, no html definimos até que coluna o bloco vai ocupar*/
 
 .container{ /*classe principal (tamanho body)*/
     
