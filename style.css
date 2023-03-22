@@ -4,69 +4,71 @@ html{
    margin-bottom:2%; /*define a margem embaixo*/
 }
 body{
-    font-family: Verdana;
-    background-color: blueviolet;
-    color: aliceblue;
-    line-height: 1.5rem;
-    text-align: center;
+    font-family: Verdana; /*fonte*/
+    background-color: blueviolet; /*cor da fonte*/
+    color: aliceblue; /*cor da letra*/
+    line-height: 1.5rem; /*distancia entre as linhas*/
+    text-align: center; /*alinhamento do texto, no centro*/
+    /*ao decorrer do código vã0 existir vários text align, quanto mais especifico maior a prevalência*/
 
     
     
     
 }
 
-h1,h2,h3,h4,h5,h6{
-    text-align: center;
+h1,h2,h3,h4,h5,h6{ /*acessa todos os títulos*/
+    text-align: center; /*alinha os textos no centro*/
 
 }
 
 h1{
-    line-height: 1.8rem;
+    line-height: 1.8rem; /*distância entre as linhas*/
 }
 h2{
-    line-height: 1.4rem;
+    line-height: 1.4rem; /*distância entre as linhas*/
 }
 h3{
-    line-height: 1.2rem;
+    line-height: 1.2rem; /*distância entre as linhas*/
 }
 #zen-summary { /*.summary puxa a classe pelo id # summary*/
-    text-align: right;
+    text-align: right; /*alinha os textos da classe zen summary a direita*/
 
 }
 #zen-supporting{ /*acessa o texto central*/
    /* width: 62%;*/
-    float: left;
+    /*float: left;*/
 
 }
 .sidebar{ /*acessa painel lateral pela classe (.)*/
 /*width: 33%;*/
-float: left; /*alinha a esquerda do espaço possuído*/
-padding-left: 10px; /*espaçamento interno a direita e esquerda*/
-padding-right: 10px;
+/*float: left; /*alinha a esquerda do espaço possuído*/
+/*padding-left: 10px; /*espaçamento interno a direita e esquerda*/
+/*padding-right: 10px;*/
 }
 
 #zen-supporting p{  /*Especificando que quer configurar todos os p do zen supporting*/
 
-    line-height: 1.5;
+    line-height: 1.5; /*distância entre as linhas*/
     
 }
-p{
-    text-align: center;
+p{ /*acessa todos o p do código*/
+    text-align: center; /* alinha o texto no centro*/
 }
-a{
-font-weight: 700;
-color: aqua;
+a{ /*acessa todos os a (links) da página*/
+font-weight: 700; /*intensidade da fonte (ex negrito)*/
+color: aqua; /*define a cor dos lins*/
 }
 
 abbr{ /*acessa abreviaturas*/
-   color: aqua; 
+   color: aqua; /*define a cor das abreviatura*/
 }
-footer {
-    position: fixed;
-    bottom:0;
-    background-color: red;
-    color: black;
-    text-align: center;
+footer { /*rodapé da página html*/
+    position: fixed; /*geralmente os elementos se mantem fixos de acordo com a página*/
+    /*nesse caso do position deixamos o rodape fixo (não muda de acordo com a página)*/
+    bottom:0; /*define a posição vertical do elemento em relação a janela do navegador*/
+    background-color: red; /*define a cor do rodape*/
+    color: black; /*define a cor das letras do rodape*/
+    text-align: center; /*alinha o texto no centro*/
     line-height: 20px; /*espaço para começar a escrita*/
     display: block;
    /* width: 100%; /*largura*/
