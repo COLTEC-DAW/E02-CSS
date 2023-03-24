@@ -1,7 +1,4 @@
 html {
-    /* padding: 0 45px 0 45px; */
-    /* width: 80%; */
-    /* max-width: 1280px; */
     font-size: 18px;
     margin-bottom: 6vh;
     margin: 0px;
@@ -16,27 +13,29 @@ body {
 p {text-indent: 1rem;}
 
 h1 {
-    /* text-align: right; */
     font-family: 'Rowdies', cursive;
 }
 
 h2, h3 {
-    /* text-align: center; */
     font-family: 'Rowdies', cursive;
 }
 
 
 .main{ 
     line-height: 1.5;
-    /* float: left; */
-    /* width: 63%; */
+    float: left;
+    width: 63%;
+}
+
+.sidebar {
+    float: left;
+    width: 33%;
 }
 
 abbr, a {
     color:cornflowerblue;
     font-weight: 700;
     font-family: 'Rowdies', cursive;
-
 }
 
 ul {list-style: none;}
@@ -59,19 +58,7 @@ footer{
     max-height: 4vh;
 }
 
-footer a {
-    /* margin-right: 1%; */
-    /* margin-left: 1%; */
-}
-
 footer a:hover{color: whitesmoke;}
-
-.sidebar {
-    /* float: left; */
-    /* width: 33%;
-    padding-left: 10px;
-    padding-right: 10px; */
-}
 
 .main p::first-letter{
     font-size: 2em;
