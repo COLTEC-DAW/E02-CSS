@@ -132,7 +132,7 @@ Esse layout deverá seguir as seguintes restrições:
 
 * Criar uma classe `.container` para representar o canvas do grid.
 * Criar uma classe `.row` para representar uma linha do grid.
-* As colunas deverão ser representadas pela classe `.col*`, onde `*` representa o número de colunas. Por exemplo, a classe `.col1` ocupa uma coluna, enquanto a classe `.col6` ocupa seis colunas.
+* As colunas deverão ser representadas pela classe `.large_col*`, onde `*` representa o número de colunas. Por exemplo, a classe `.large_col1` ocupa uma coluna, enquanto a classe `.large_col6` ocupa seis colunas.
 * Espaçamento de 1% a esquerda e a direita de cada coluna.
 
 

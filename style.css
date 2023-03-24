@@ -27,7 +27,6 @@ h3{ font-size: 1.2rem; }
     float: left;
     padding-left: 5px;
     padding-right: 5px;
-    
 }
 .main{
     float: left;
@@ -89,6 +88,7 @@ footer a{
 ul{
     list-style: none;
     text-align: center;
+    padding-inline-start: 0;
 }
 li{
     border-top: solid rgb(255, 165, 165) 0.5px;
