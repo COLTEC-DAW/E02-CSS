@@ -155,4 +155,12 @@ Modifique o layout da página para que ele suporte o grid layout. Para isso voc�
     * `div.requirements`: 12 colunas
   * `aside.sidebar`: 4 colunas
 
-## Parte IV: Estilos Avançados
+## Parte IV: Design Responsivo
+
+Nesta parte você deverá adicionar suporte ao design responsivo através do uso de *media queries*.
+Esse suporte se dará da seguinte forma:
+
+* Definir breakpoints para dimensão mobile (`small`), tablet (`medium`), e desktop (`large`).
+* O layout atual deverá ser atribuído a versão desktop.
+* Na versão tablet, o `header.banner` e `div.summary` deverão ocupar 12 colunas, cada.
+* Na versão mobile, a  `div.main` e o `aside.sidebar` deverão ocupar 12 colunas, cada.
