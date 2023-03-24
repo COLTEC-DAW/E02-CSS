@@ -88,3 +88,175 @@
     width: 97.6%;
     
 }
+
+/*Tablet*/
+@media screen and (max-width: 860px){
+    
+    .col1M .col2M, .col3M, .col4M, .col5M, .col6M, .col7M, .col8M, .col9M, .col10M, .col11M, .col12M {
+
+        float: left;
+        padding: 0% 1% 0% 1%;
+        
+    }
+    
+    
+    .col1M {
+    
+        width: 6.3%;
+        
+    }
+    
+    .col2M {
+    
+        width: 14.6%;
+        
+    }
+    
+    .col3M {
+    
+        width: 22.9%;
+        
+    }
+    
+    .col4M {
+    
+        width: 31.2%;
+        
+    }
+    
+    .col5M {
+    
+        width: 39.5%;
+        
+    }
+    
+    .col6M {
+    
+        width: 47.8%;
+        
+    }
+    
+    .col7M {
+    
+        width: 56.1%;
+        
+    }
+    
+    .col8M {
+    
+        width: 64.4%;
+        
+    }
+    
+    .col9M {
+    
+        width: 72.2%;
+        
+    }
+    
+    .col10M {
+    
+        width: 81%;
+        
+    }
+    
+    .col11M {
+    
+        width: 89.3%;
+        
+    }
+    
+    .col12M {
+    
+        width: 97.6%;
+        
+    }
+
+
+}
+
+/*Celular*/
+@media screen and (max-width: 560px){
+    
+    .col1S .col2S, .col3S, .col4S, .col5S, .col6S, .col7S, .col8S, .col9S, .col10S, .col11S, .col12S {
+
+        float: left;
+        padding: 0% 1% 0% 1%;
+        
+    }
+    
+    
+    .col1S {
+    
+        width: 6.3%;
+        
+    }
+    
+    .col2S {
+    
+        width: 14.6%;
+        
+    }
+    
+    .col3S {
+    
+        width: 22.9%;
+        
+    }
+    
+    .col4S {
+    
+        width: 31.2%;
+        
+    }
+    
+    .col5S {
+    
+        width: 39.5%;
+        
+    }
+    
+    .col6S {
+    
+        width: 47.8%;
+        
+    }
+    
+    .col7S {
+    
+        width: 56.1%;
+        
+    }
+    
+    .col8S {
+    
+        width: 64.4%;
+        
+    }
+    
+    .col9S {
+    
+        width: 72.2%;
+        
+    }
+    
+    .col10S {
+    
+        width: 81%;
+        
+    }
+    
+    .col11S {
+    
+        width: 89.3%;
+        
+    }
+    
+    .col12S {
+    
+        width: 97.6%;
+        
+    }
+
+
+}
