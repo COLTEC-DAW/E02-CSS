@@ -48,8 +48,6 @@ body{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 16px;
     color: #F2EFEA;
-    width: 80%;
-    max-width: 1280px;
     margin-bottom: 20px;
 }
 
@@ -114,4 +112,90 @@ a:hover{
 
 a:visited{
     color:orange;
+}
+
+/*tela mobile*/
+@media screen and (max-width: 568px){
+    .col_1sm{
+        width:6,33%;
+    }
+    .col_2sm{
+        width:14,66%;
+    }
+    .col_3sm{
+        width:23%;
+    }
+    .col_4sm{
+        width:31,33%;
+    }
+    .col_5sm{
+        width:39,66%;
+    }
+    .col_6sm{
+        width:48%;
+    }
+    .col_7sm{
+        width:56,33%;
+    }
+    .col_8sm{
+        width:64,66%;
+    }
+    .col_9sm{
+        width:73%;
+    }
+    .col_10sm{
+        width:82,33%;
+    }
+    .col_11sm{
+        width:89,66%;
+    }
+    .col_12sm{
+        width:98%;
+    }
+
+}
+
+@media screen and (max-width: 1000px) and (min-width: 569px){
+    .col_1md{
+        width:6,33%;
+    }
+    .col_2md{
+        width:14,66%;
+    }
+    .col_3md{
+        width:23%;
+    }
+    .col_4md{
+        width:31,33%;
+    }
+    .col_5md{
+        width:39,66%;
+    }
+    .col_6md{
+        width:48%;
+    }
+    .col_7md{
+        width:56,33%;
+    }
+    .col_8md{
+        width:64,66%;
+    }
+    .col_9md{
+        width:73%;
+    }
+    .col_10md{
+        width:82,33%;
+    }
+    .col_11md{
+        width:89,66%;
+    }
+    .col_12md{
+        width:98%;
+    }
+
+}
+
+@media screen and (min-width: 1001px){
+
+  
 }
