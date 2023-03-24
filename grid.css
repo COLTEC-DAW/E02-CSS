@@ -1,8 +1,10 @@
+
+
 .container{
     width: 80%;
     margin: auto;
     max-width: 1440px;
-    min-width: 480px;
+    min-width: 200px;
 }
 .col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9, .col10, .col11, .col12{
     float: left;
@@ -43,5 +45,84 @@
    width: 89.63%;
 }
 .col12{
-   width: 98;
+    width: 98%;
 }
+
+@media screen and (max-width: 480px){
+.col1-celular{
+    width: 6.33%; 
+}
+.col2-celular{
+    width: 14.66%;
+}
+.col3-celular{
+    width: 22.99%;
+}
+.col4-celular{
+    width: 31.32%;
+}
+.col5-celular{
+    width:39.65%;
+}
+.col6-celular{
+   width: 47.98%;
+}
+.col7-celular{
+   width: 56.31%;
+}
+.col8-celular{
+   width: 64.64%;
+}
+.col9-celular{
+   width: 72.97%
+}
+.col10-celular{
+   width: 81.3%;
+}
+.col11-celular{
+   width: 89.63%;
+}
+.col12-celular{
+    width: 98%;
+}
+}
+
+@media screen and (max-width: 768px){
+    .col1-tablet{
+    width: 6.33%; 
+    }
+    .col2-tablet{
+        width: 14.66%;
+    }
+    .col3-tablet{
+        width: 22.99%;
+    }
+    .col4-tablet{
+        width: 31.32%;
+    }
+    .col5-tablet{
+        width:39.65%;
+    }
+    .col6-tablet{
+    width: 47.98%;
+    }
+    .col7-tablet{
+    width: 56.31%;
+    }
+    .col8-tablet{
+    width: 64.64%;
+    }
+    .col9-tablet{
+    width: 72.97%
+    }
+    .col10-tablet{
+    width: 81.3%;
+    }
+    .col11-tablet{
+    width: 89.63%;
+    }
+    .col12-tablet{
+        width:98%;
+    }
+}
+
