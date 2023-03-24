@@ -51,3 +51,22 @@
 .col_12{
     width:98%;
 }
+
+/*Mobile*/
+@media screen and (max-width: 576px){
+    .col_12_sm{
+        width: 98%;
+    }
+}
+
+/*tablet*/
+@media screen and (max-width: 768px){
+    .col_12_md{
+        width: 98%;
+    }
+}
+
+/*Desktop*/
+@media screen and (max-width: 992px){
+    
+}
