@@ -4,18 +4,15 @@ html {
 
     font-size: 120%;
     text-align: justify;
-    align-content: center;
-    
     
 }
 
 body {
     
-
     font-family: Verdana, sans-serif;
     background-color: #4C3882;
     color: #FFDEE5;
-    
+    margin-bottom: 150px;
     
 }
 
@@ -23,7 +20,6 @@ p {
 
     text-indent: 1rem;
     
-
 }
 
 h1 {
@@ -105,11 +101,8 @@ footer > a:hover {
 
 .main {
 
-
     background-color: #1B1236;
-    border: 20px solid #1B1236;
-    margin-left: 10px;
-    margin-right: 10px;
+    border-right: 3px solid #4C3882;
 
 }
 
@@ -126,9 +119,9 @@ footer > a:hover {
 .sidebar {
 
     background-color: #1B1236;
-    border: 20px solid #1B1236;
-    margin-left: 10px;
-    margin-right: 10px;
+    border-left: 2px solid #4C3882;
+    /*margin-left: 10px;
+    margin-right: 10px;*/
 
 }
 
@@ -190,5 +183,13 @@ a:hover {
 
     content:"\00A9"; 
     font-size: 0.8em;
+
+}
+
+.container::after {
+
+    content: "";
+    clear: both;
+    display: table;
 
 }
