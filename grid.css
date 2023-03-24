@@ -1,7 +1,7 @@
 .container{
     width: 80%;
     margin: auto;
-    min-width: 480px;
+    min-width: 200px;
     max-width: 1400px;
 }
 
@@ -56,4 +56,114 @@
 
 .col12{
     width: 98%;
+}
+
+.col1_mobile{
+    width: 6.33%;
+}
+
+.col2_mobile{
+    width: 14.66%;
+}
+
+.col3_mobile{
+    width: 22.99%;
+}
+
+.col4_mobile{
+    width: 31.33%;
+}
+
+.col5_mobile{
+    width: 39.66%;
+}
+
+.col6_mobile{
+    width: 47.99%;
+}
+
+.col7_mobile{
+    width: 56.33%;
+}
+
+.col8_mobile{
+    width: 64.66%;
+}
+
+.col9_mobile{
+    width: 72.99%;
+}
+
+.col10_mobile{
+    width: 81.33%;
+}
+
+.col11_mobile{
+    width: 89.66%;
+}
+
+.col12_mobile{
+    width: 98%;
+}
+
+
+.col1_tablet{
+    width: 6.33%;
+}
+
+.col2_tablet{
+    width: 14.66%;
+}
+
+.col3_tablet{
+    width: 22.99%;
+}
+
+.col4_tablet{
+    width: 31.33%;
+}
+
+.col5_tablet{
+    width: 39.66%;
+}
+
+.col6_tablet{
+    width: 47.99%;
+}
+
+.col7_tablet{
+    width: 56.33%;
+}
+
+.col8_tablet{
+    width: 64.66%;
+}
+
+.col9_tablet{
+    width: 72.99%;
+}
+
+.col10_tablet{
+    width: 81.33%;
+}
+
+.col11_tablet{
+    width: 89.66%;
+}
+
+.col12_tablet{
+    width: 98%;
+}
+
+
+@media screen and (max-width:768px){
+    .col12_tablet{
+        width: 98%;
+    }
+}
+
+@media screen and (max-width:480px){
+    .col12_mobile{
+        width: 98%;
+    }
 }
