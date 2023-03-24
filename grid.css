@@ -45,3 +45,21 @@
 .col_12{
    width: 97.96;
 }
+
+/*Dimensão para celular*/
+@media (max-width: 576px) {
+    .col_12_small{
+        width: 97.96%;
+    }
+}
+
+/*Dimensão para tablet*/
+@media (max-width: 768px) {
+    .col_12_medium{
+        width: 97.96%;
+    }
+}
+
+/*Dimensão para pc*/
+@media (max-width: 992px) {
+}
