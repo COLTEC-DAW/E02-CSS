@@ -1,7 +1,6 @@
 .container {
     width: 80%;
     max-width: 1280px;
-    min-width: 480px;
     margin: auto;
 
 }
@@ -50,5 +49,5 @@
    width: 89.63%;
 }
 .col12{
-   width: 100%;
+   width: 98%;
 }

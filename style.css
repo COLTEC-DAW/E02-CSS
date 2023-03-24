@@ -7,6 +7,7 @@
     --font-color: #D3D6FB;
     --destaque: #7586b6;
     --titulo: #86a1eb;
+
 }
 
 html{
@@ -153,3 +154,5 @@ footer > a{
     color: var(--font-color);
 
 }
+
+
