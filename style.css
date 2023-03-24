@@ -1,20 +1,27 @@
 body {
     background-color: #00565C;
     color: #F0F0F0;
+
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px; 
+    font-size: 100%;
     text-align: justify;
+
     max-width: 1280px;
     width: 80%;
-    margin: auto; 
-    margin-bottom: 180%;
+
+    margin: auto;
+    margin-bottom: 50px;
 }
 
-p{
+header {
+    border: 2px solid #03383d;
+}
+
+p {
     text-indent: 1rem;
 }
 
-h1, h2, h3 {
+h1,h2,h3 {
     text-align: center;
 }
 
@@ -22,7 +29,7 @@ h1 {
     color: #F5C3A2;
     font-size: 1.8rem;
     line-height: 24px;
- 
+
 }
 
 h2 {
@@ -34,10 +41,12 @@ h3 {
 }
 
 .main {
+    background: #15828A;
+    border: 2px solid #00565C;
+
     line-height: 1.5rem;
     float: left;
     width: 66%;
-    margin-right: 10px;
 }
 
 a {
@@ -55,16 +64,19 @@ abbr {
 }
 
 footer {
+    color: #ffffff;
+    text-align: center;
+
+    border: 2px solid #05191b;
     width: 100%;
     display: block;
     background: #03383d;
-    color: #ffffff;
     padding: 1%;
-    border: 2px solid #05191b;
-    position: fixed; 
+
+    position: fixed;
     bottom: 0px;
-    left: 0px;  
-    text-align: center;
+    left: 0px;
+    margin: auto;
 }
 
 footer > a {
@@ -74,61 +86,63 @@ footer > a {
     border-top: 1px solid #05191b;
 }
 
-.sidebar{
+.sidebar {
     float: left;
     width: 33%;
     background-color: #15828A;
     color: #05191b;
+
     padding-left: 10px;
     padding-right: 10px;
+
     list-style-type: none;
+    margin-bottom: 10%;
 }
 
-li{
+li {
     border-top: 1px solid #05191b;
 }
 
-li:last-child{
+li:last-child {
     border-top: 1px solid #000000;
 }
-
-
 
 .main p:first-child::first-line {
     font-size: 2em;
     font-weight: 900;
 }
 
-.main > p{
+.main>p {
     border-bottom: #05191b;
-    border-top:#05191b;
+    border-top: #05191b;
 }
 
-a:link{
+a:link {
     color: #B3AD8F;
     text-decoration: none;
 }
 
-a:visited{
+a:visited {
     color: rgb(155, 127, 255);
-} 
+}
 
-a:hover{
+a:hover {
     color: rgb(140, 174, 230);
-} 
+}
 
-a:active{
+a:active {
     color: #B3AD7F;
 }
 
-.design-selection a:link{
+.design-selection a:link {
     block-size: auto;
 }
 
-.design-selection a:link:before { 
-    content:"\00A9"; 
+.design-selection a:link:before {
+    content: "\00A9";
     font-size: 0.8em;
 }
-.banner-col4{
-    border:#03383d solid 4px;
+
+.banner-col4 {
+    border: #03383d solid 4px;
 }
