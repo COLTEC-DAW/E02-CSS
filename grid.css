@@ -1,4 +1,5 @@
 .container {
+    
     width: 80%;
     max-width: 1280px;
     min-width: 480px;
@@ -15,40 +16,123 @@
     padding: 0 1%;
 }
 
+@media screen and (max-width: 600px){
 
-.col1{
-    width: 6.33%; 
+    .col_sm_1{
+        width: 6.33%; 
+    }
+    .col_sm_2{
+        width: 14.66%;
+    }
+    .col_sm_3{
+        width: 22.99%;
+    }
+    .col_sm_4{
+        width: 31.32%;
+    }
+    .col_sm_5{
+        width:39.65%;
+    }
+    .col_sm_6{
+       width: 47.98%;
+    }
+    .col_sm_7{
+       width: 56.31%;
+    }
+    .col_sm_8{
+       width: 64.64%;
+    }
+    .col_sm_9{
+       width: 72.97%
+    }
+    .col_sm_10{
+       width: 81.3%;
+    }
+    .col_sm_11{
+       width: 89.63%;
+    }
+    .col_sm_12{
+       width: 100%;
+    }
 }
-.col2{
-    width: 14.66%;
+
+@media screen and (max-width: 900px){
+
+    .col_tablet_1{
+        width: 6.33%; 
+    }
+    .col_tablet_2{
+        width: 14.66%;
+    }
+    .col_tablet_3{
+        width: 22.99%;
+    }
+    .col_tablet_4{
+        width: 31.32%;
+    }
+    .col_tablet_5{
+        width:39.65%;
+    }
+    .col_tablet_6{
+       width: 47.98%;
+    }
+    .col_tablet_7{
+       width: 56.31%;
+    }
+    .col_tablet_8{
+       width: 64.64%;
+    }
+    .col_tablet_9{
+       width: 72.97%
+    }
+    .col_tablet_10{
+       width: 81.3%;
+    }
+    .col_tablet_11{
+       width: 89.63%;
+    }
+    .col_tablet_12{
+       width: 100%;
+    }
+    
 }
-.col3{
-    width: 22.99%;
-}
-.col4{
-    width: 31.32%;
-}
-.col5{
-    width:39.65%;
-}
-.col6{
-   width: 47.98%;
-}
-.col7{
-   width: 56.31%;
-}
-.col8{
-   width: 64.64%;
-}
-.col9{
-   width: 72.97%
-}
-.col10{
-   width: 81.3%;
-}
-.col11{
-   width: 89.63%;
-}
-.col12{
-   width: 100%;
-}
+
+@media screen and (max-width: 1200px){
+ 
+    .col_dktp_1{
+        width: 6.33%; 
+    }
+    .col_dktp_2{
+        width: 14.66%;
+    }
+    .col_dktp_3{
+        width: 22.99%;
+    }
+    .col_dktp_4{
+        width: 31.32%;
+    }
+    .col_dktp_5{
+        width:39.65%;
+    }
+    .col_dktp_6{
+       width: 47.98%;
+    }
+    .col_dktp_7{
+       width: 56.31%;
+    }
+    .col_dktp_8{
+       width: 64.64%;
+    }
+    .col_dktp_9{
+       width: 72.97%
+    }
+    .col_dktp_10{
+       width: 81.3%;
+    }
+    .col_dktp_11{
+       width: 89.63%;
+    }
+    .col_dktp_12{
+       width: 100%;
+    }
+    }
