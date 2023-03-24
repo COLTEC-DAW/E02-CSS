@@ -124,4 +124,43 @@ Para a primeira letra do primeiro parágrafo das seções presentes no painel pr
 
 ## Parte III: Page Layout
 
-## Parte IV: Estilos Avançados
+
+### Implementação do Grid Layout
+
+Você deverá criar um arquivo CSS chamado `grid.css` e nele implementar um layout de grid de 12 colunas.
+Esse layout deverá seguir as seguintes restrições:
+
+* Criar uma classe `.container` para representar o canvas do grid.
+* Criar uma classe `.row` para representar uma linha do grid.
+* As colunas deverão ser representadas pela classe `.col*`, onde `*` representa o número de colunas. Por exemplo, a classe `.col1` ocupa uma coluna, enquanto a classe `.col6` ocupa seis colunas.
+* Espaçamento de 1% a esquerda e a direita de cada coluna.
+
+
+### Atualização do layout da página
+
+Modifique o layout da página para que ele suporte o grid layout. Para isso você deverá seguir **estritamente** os passos abaixo:
+
+* Adicionar `.container` a `div.page-wrapper`
+* Criar uma `div.row` que contenha:
+  * `section.intro`
+  * `div.main` e `aside.sidebar`
+* Aplique a seguinte divisão de colunas:
+  * `section.intro`: 12 colunas
+    * `header.banner`: 4 colunas
+    * `div.summary`: 8 colunas
+    * `div.preamble`: 12 colunas
+  * `div.main`: 8 colunas
+    * `div.explanation`: 12 colunas
+    * `div.participation`: 12 colunas
+    * `div.requirements`: 12 colunas
+  * `aside.sidebar`: 4 colunas
+
+## Parte IV: Design Responsivo
+
+Nesta parte você deverá adicionar suporte ao design responsivo através do uso de *media queries*.
+Esse suporte se dará da seguinte forma:
+
+* Definir breakpoints para dimensão mobile (`small`), tablet (`medium`), e desktop (`large`).
+* O layout atual deverá ser atribuído a versão desktop.
+* Na versão tablet, o `header.banner` e `div.summary` deverão ocupar 12 colunas, cada.
+* Na versão mobile, a  `div.main` e o `aside.sidebar` deverão ocupar 12 colunas, cada.
