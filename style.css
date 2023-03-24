@@ -55,7 +55,7 @@ abbr {
 /* Rodapé */
 footer {
     display: block;
-    width: 100vw;
+    width: 100%;
     text-align: center;
     background-color: var(--cor-detalhe);
     padding: 1%;
