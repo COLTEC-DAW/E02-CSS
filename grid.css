@@ -6,65 +6,194 @@
        grid system: divide o espaço em sla 5 e coloca cada elemento para ocupar uma determinada quantidade
        */
        /*cada col divide a página em um espaço, no html definimos até que coluna o bloco vai ocupar*/
+       /*midia screen define um tamanho pra determinado tipo de tela, smarthphone desktop etcc*/
+        /* colocar no html todas as configuraçõpes de tamanho, midia query vai por ordem, o primeiro do codigo é o primeiro do html*/
 
 .container{ /*classe principal (tamanho body)*/
     
 
-}
+    }
+    
+    .row{
+    
+    }
+    .col_lg_1, .col_lg_2, .col_lg_3, .col_lg_4, .col_lg_5, .col_lg_6, 
+    .col_lg_7, .col_lg_8, .col_lg_9, .col_lg_10, .col_lg_11, .col_lg_12{
+    float: left; /*deixa as colunas na esquerda*/
+    padding: 0 1% 0 1%; /*define o espaçamento a esquerda e a direita*/
+    }
+    .col_lg_1{
+        width: 6%;
+    
+    }
+    .col_lg_2{
+        width: 14%;
+    
+    }
+    .col_lg_3{
+        width: 22%;
+    
+    }
+    .col_lg_4{
+        width: 30%;
+    
+    }
+    .col_lg_5{
+        width: 38%;
+    
+    }
+    .col_lg_6{
+        width: 46%;
+    
+    }
+    .col_lg_7{
+        width: 54%;
+    
+    }
+    .col_lg_8{
+        width: 62%;
+    
+    }
+    .col_lg_9{
+        width: 70%;
+    
+    }
+    .col_lg_10{
+        width: 78%;
+    }
+    .col_lg_12{
+        width: 94%;
+    
+    }
+    
 
-.row{
+@media screen and (max-width: 960px) { /*sÒ colocar nas classes do html quando o tamanho alterar, se não tiver nada prevalece o ultimo que foi colocado*/
+    .container{ /*classe principal (tamanho body)*/
+    
+
+    }
+    
+    .row{
+    
+    }
+    .col1_md_1, .col_md_2, .col_md_3, .col_md_4, .col_md_5, .col_md_6, 
+    .col_md_7, .col_md_8, .col_md_9, .col_md_10, .col_md_11, .col_md_12{
+    float: left; /*deixa as colunas na esquerda*/
+    padding: 0 1% 0 1%; /*define o espaçamento a esquerda e a direita*/
+    }
+    .col_md_1{
+        width: 6%;
+    
+
+    }
+    .col_md_2{
+        width: 14%;
+    
+    }
+    .col_md_3{
+        width: 22%;
+    
+    }
+    .col_md_4{
+        width: 30%;
+    
+    }
+    .col_md_5{
+        width: 38%;
+    
+    }
+    .col_md_6{
+        width: 46%;
+    
+    }
+    .col_md_7{
+        width: 54%;
+    
+    }
+    .col_md_8{
+        width: 62%;
+    
+    }
+    .col_md_9{
+        width: 70%;
+    
+    }
+    .col_md_10{
+        width: 78%;
+    
+    }
+    .col_md_11{
+        width: 86%;
+    
+    }
+    .col_md_12{
+        width: 94%;
+    
+    }
+     
 
 }
-.col1, .col2, .col3, .col4, .col5, .col6, 
-.col7, .col8, .col9, .col10, .col11, .col12{
-float: left; /*deixa as colunas na esquerda*/
-padding: 0 1% 0 1%; /*define o espaçamento a esquerda e a direita*/
-}
-.col1{
-    width: 6%;
+@media screen and (max-width: 568px) {
+    .container{ /*classe principal (tamanho body)*/
+    
 
-}
-.col2{
-    width: 14%;
+    }
+    
+    .row{
+    
+    }
+    .col1_sm_1, .col_sm_2, .col_sm_3, .col_sm_4, .col_sm_5, .col_sm_6, 
+    .col_sm_7, .col_sm_8, .col_sm_9, .col_sm_10, .col_sm_11, .col_sm_12{
+    float: left; /*deixa as colunas na esquerda*/
+    padding: 0 1% 0 1%; /*define o espaçamento a esquerda e a direita*/
+    }
+    .col_sm_1{
+        width: 6%;
+    
 
-}
-.col3{
-    width: 22%;
-
-}
-.col4{
-    width: 30%;
-
-}
-.col5{
-    width: 38%;
-
-}
-.col6{
-    width: 46%;
-
-}
-.col7{
-    width: 54%;
-
-}
-.col8{
-    width: 62%;
-
-}
-.col9{
-    width: 70%;
-
-}
-.col10{
-    width: 78%;
-
-}
-.col11{
-    width: 86%;
-
-}
-.col12{
-    width: 94%;
-
+    }
+    .col_sm_2{
+        width: 14%;
+    
+    }
+    .col_sm_3{
+        width: 22%;
+    
+    }
+    .col_sm_4{
+        width: 30%;
+    
+    }
+    .col_sm_5{
+        width: 38%;
+    
+    }
+    .col_sm_6{
+        width: 46%;
+    
+    }
+    .col_sm_7{
+        width: 54%;
+    
+    }
+    .col_sm_8{
+        width: 62%;
+    
+    }
+    .col_sm_9{
+        width: 70%;
+    
+    }
+    .col_sm_10{
+        width: 78%;
+    
+    }
+    .col_sm_11{
+        width: 86%;
+    
+    }
+    .col_sm_12{
+        width: 94%;
+    
+    }
 }
