@@ -29,9 +29,9 @@ h3 {font-size: 1.2;}
 
 .main {
     line-height: 1.5;
-    float: left;
-    width: 66%;
-    
+    /*float: left;
+    width: 66%;*/   
+    padding-bottom: 100px;
 }
 
 .main p::first-letter{
@@ -57,12 +57,15 @@ footer a:visited {
     color: #268d69;
 }
 .sidebar {
-    float: left;
-    width: 32%;
+    /*float: left;
+    width: 30%;*/
     padding-left: 10px;
     padding-right: 10px;
 }
-
+.sidebar ul {
+    padding: 0px 10px;
+    text-align: center;
+}
 .sidebar li {
     list-style-type: none;
     margin-bottom: 1em;
