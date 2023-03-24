@@ -57,3 +57,143 @@
 .col12{
     width: 98%;
 }
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .container{
+        display: grid;
+        max-width: 1440px;
+        min-width: 480px;
+        margin: auto;
+    }
+    
+    .colsm1, .colsm2, .colsm3, .colsm4, .colsm5, .colsm6, .colsm7, .colsm8, .colsm9, .colsm10, .colsm11, .colsm12{
+        float: left;
+        padding: 0 1%;
+    }
+    
+    .colsm1{
+        width: 6%;
+    }
+    
+    .colsm2{
+        width: 14%;
+    }
+    
+    .colsm3{
+        width: 23%;
+    }
+    
+    .colsm4{
+        width: 31%;
+    }
+    
+    .colsm5{
+        width: 37%;
+    }
+    
+    .colsm6{
+        width: 45%;
+    }
+    
+    .colsm7{
+        width: 53%;
+    }
+    
+    .colsm8{
+        width: 61%;
+    }
+    
+    .col9sm{
+        width: 69%;
+    }
+    
+    .colsm10{
+        width: 77%;
+    }
+    
+    .colsm11{
+        width: 85%;
+    }
+    
+    .colsm12{
+        width: 98%;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .container{
+        display: grid;
+        max-width: 1440px;
+        min-width: 480px;
+        margin: auto;
+    }
+    
+    .colmd1, .colmd2, .colmd3, .colmd4, .colmd5, .colmd6, .colmd7, .colmd8, .colmd9, .colmd10, .colmd11, .colmd12{
+        float: left;
+        padding: 0 1%;
+    }
+    
+    .colmd1{
+        width: 6%;
+    }
+    
+    .colmd2{
+        width: 14%;
+    }
+    
+    .colmd3{
+        width: 23%;
+    }
+    
+    .colmd4{
+        width: 31%;
+    }
+    
+    .colmd5{
+        width: 37%;
+    }
+    
+    .colmd6{
+        width: 45%;
+    }
+    
+    .colmd7{
+        width: 53%;
+    }
+    
+    .colmd8{
+        width: 61%;
+    }
+    
+    .colmd9{
+        width: 69%;
+    }
+    
+    .colmd10{
+        width: 77%;
+    }
+    
+    .colmd11{
+        width: 85%;
+    }
+    
+    .colmd12{
+        width: 98%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    .colmd4{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 576px){
+
+    .colsm3{
+        width: 100%;
+    }
+    
+}
