@@ -8,6 +8,19 @@
     float: left;
 }
 
-.col4{width: 25.33%;}
+.col4{width: 25.33%; }
 .col8{width: 60%;}
 .col12{width: 98%;}
+
+ 
+@media screen and (max-width: 768px) {
+    .col-md-12{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .col-sm-12{
+        width: 100%;
+    }
+}

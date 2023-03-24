@@ -23,13 +23,6 @@ h2, h3 {
 
 .main{ 
     line-height: 1.5;
-    float: left;
-    width: 63%;
-}
-
-.sidebar {
-    float: left;
-    width: 33%;
 }
 
 abbr, a {
@@ -54,11 +47,13 @@ footer{
     bottom: 0;
     left: 0;
     background-color: darkslateblue;
-    /* padding: 1%; */
     max-height: 4vh;
 }
 
+
+
 footer a:hover{color: whitesmoke;}
+
 
 .main p::first-letter{
     font-size: 2em;
