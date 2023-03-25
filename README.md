@@ -65,8 +65,102 @@ Customize todos os links e abreviaturas (`<abbr>`) da página da seguinte forma:
 2. A mesma cor aplicada no link deverá ser aplicada para as abreviaturas
 
 
-## Parte II: Box model
+## Parte II: Box Model & Posicionamento
+
+
+### Posicionamento Geral
+
+1. Defina a largura geral da página em 80%, limitado a no máximo `1280px` de largura
+
+#### Rodapé
+
+Para esse site, iremos "fixar" o rodapé ao final da página para que ele fique sempre visível.
+
+1. Transforme o rodapé em um elemento de bloco, e o faça ocupar toda a largura disponível
+2. Fixe o rodapé para que fique visível na parte debaixo da página o tempo todo
+3. Aumente o espaçamento entre links presentes dentro do rodapé para 1% a esquerda e a direita (utilize os atributos de `margin`)
+4. Inclua um padding no rodapé em si de 1%, e uma cor de fundo que contraste com o fundo do site
+5. Aplique uma cor de fonte que contraste com a cor de fundo
+6. Defina a margem inferior de toda a página para um valor que seja equivalente a altura do rodapé
+
+
+#### Painéis principais e laterais
+
+1. Flutue o painel principal a esquerda, fazendo com que ele ocupe 66% da largura da página
+2. Flutue o painel lateral também a esquerda, fazendo com que ele ocupe 33% da largura da página
+3. Aplique um espaçamento interno de 10px a direita e a esquerda do painel lateral
+
+### Menus
+
+Vamos dar uma melhorada visual nos menus presentes no site.
+
+1. Remova os bullets dos itens de menu do painel lateral
+2. Aumente o espaçamento entre os itens do menu para `1em`
+3. Centralize os títulos presentes em cada menu
+4. Inclua uma borda na parte superior de todos os itens de menu
+5. Inclua uma borda **inferior** apenas no último item das listas (dica: use pseudo-seletores!)
+
+### Mais mudanças na tipografia
+
+Vamos incrementar os parágrafos presentes no nosso texto.
+
+#### Parágrafos
+
+Para a primeira letra do primeiro parágrafo das seções presentes no painel principal:
+
+1. Altere o tamanho da fonte para `2em`
+2. Coloque a fonte no maior nível de negrito possível
+3. Aplique bordas sólidas de `0.5px` no topo e abaixo
+
+#### Links
+
+1. Remova o underline presente nos links
+2. Exiba o underline apenas quando o usuário estiver interagindo com o link
+3. Customize as cores dos links para as seguintes situações: normal, hover, e visitado
+4. Para os links presentes na área de `design-selection`
+   1. Coloque-os em bloco
+   2. Inclua o glifo `\00A9` antes o link referente ao autor
+   3. Altere o tamanho do glifo para `0.2rem` e o tamanho da fonte para `0.8em`
 
 ## Parte III: Page Layout
 
-## Parte IV: Estilos Avançados
+
+### Implementação do Grid Layout
+
+Você deverá criar um arquivo CSS chamado `grid.css` e nele implementar um layout de grid de 12 colunas.
+Esse layout deverá seguir as seguintes restrições:
+
+* Criar uma classe `.container` para representar o canvas do grid.
+* Criar uma classe `.row` para representar uma linha do grid.
+* As colunas deverão ser representadas pela classe `.col*`, onde `*` representa o número de colunas. Por exemplo, a classe `.col1` ocupa uma coluna, enquanto a classe `.col6` ocupa seis colunas.
+* Espaçamento de 1% a esquerda e a direita de cada coluna.
+
+
+### Atualização do layout da página
+
+Modifique o layout da página para que ele suporte o grid layout. Para isso você deverá seguir **estritamente** os passos abaixo:
+
+* Adicionar `.container` a `div.page-wrapper`
+* Criar uma `div.row` que contenha:
+  * `section.intro`
+  * `div.main` e `aside.sidebar`
+* Aplique a seguinte divisão de colunas:
+  * `section.intro`: 12 colunas
+    * `header.banner`: 4 colunas
+    * `div.summary`: 8 colunas
+    * `div.preamble`: 12 colunas
+  * `div.main`: 8 colunas
+    * `div.explanation`: 12 colunas
+    * `div.participation`: 12 colunas
+    * `div.requirements`: 12 colunas
+  * `aside.sidebar`: 4 colunas
+
+## Parte IV: Design Responsivo
+
+Nesta parte você deverá adicionar suporte ao design responsivo através do uso de *media queries*.
+Esse suporte se dará da seguinte forma:
+
+* Definir breakpoints para dimensão mobile (`small`), tablet (`medium`), e desktop (`large`).
+* O layout atual deverá ser atribuído a versão desktop.
+* Na versão tablet, o `header.banner` e `div.summary` deverão ocupar 12 colunas, cada.
+* Na versão mobile, a  `div.main` e o `aside.sidebar` deverão ocupar 12 colunas, cada.
