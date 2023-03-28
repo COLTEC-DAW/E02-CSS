@@ -25,3 +25,19 @@
 .col_12{
     width: 98%;
 }
+/*Small (mobile)*/
+@media screen and (max-width:480px){
+    .col_s_12{
+        width:98%;
+    }
+}
+
+/*Medium (tablet)*/
+@media screen and (min-width:481px) and (max-width:768px){
+    .col_m_12{
+        width:98%;
+    }
+}
+
+/*Large*/
+@media screen and (min-width:769px){}
