@@ -11,13 +11,13 @@ O CSS Zen Garden é um projeto criado por Dave Shea em 2003 que demonstra a capa
 
 O conceito por trás do CSS Zen Garden é simples: uma única página HTML é fornecida como base para todos os participantes do projeto. **O desafio é criar diferentes designs, estilos e layouts para essa página usando apenas CSS**. O conteúdo da página permanece o mesmo, incluindo o texto e as imagens, mas cada designer tem a liberdade de personalizar totalmente a aparência da página.
 
-![[./assets/img/zengarden-website.png|800]]
+![website zen garden](./assets/img/zengarden-website.png)
 
 Os designs apresentados no CSS Zen Garden variam de simples e minimalistas a elaborados e criativos, e muitos designers talentosos de todo o mundo contribuíram ao longo dos anos. O site oficial do projeto[^1] serve como uma galeria virtual de designs, permitindo que os visitantes comparem e apreciem as diferentes abordagens de design utilizando apenas CSS.
 
 ### Estrutura
 
-![[assets/img/zengarden-estrutura.png|800]]
+![zen garden estrutura](assets/img/zengarden-estrutura.png)
 
 Do ponto de vista de estrutura, a página do CSS Zen Garden pode ser dividida em três grandes containers
 
