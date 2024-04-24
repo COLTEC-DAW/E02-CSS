@@ -71,4 +71,36 @@ Nesta atividade iremos personalizar o texto presente na página [CSS Zen Garden:
 	2. Espaçamento entre as linhas de `1.5` para os parágrafos da seção principal.
 4. **Abreviaturas.** Customize todos as abreviaturas para que a fonte seja carregada em `small-caps`.
 
+
+### T3: Box Model
+
+1. Vamos definir algumas diretivas gerais para nossa página.  
+    - Defina a largura geral da página em 80%, limitado a no máximo `1280px` de largura. Centralize a página na tela.  
+    - Defina a altura da seção de introdução em `550px`  
+    - Remova o container `#design-archives` da renderização da página
+2. Agora vamos incrementar o cabeçalho da página.  
+    - Inverta a cor do cabeçalho aplicando o fundo escuro e a fonte clara.  
+    - Coloque título e subtítulo lado-a-lado, mas mantendo espaçamento entre eles e o restante da página.  
+    - Adicione um espaçamento lateral de 1em para o título principal.
+3. É hora de incrementar os menus!  
+    - Remova os bullets dos itens de menu presentes no painel lateral.  
+    - Aumente o espaçamento entre os itens do menu para 1em, pelo menos.  
+    - Centralize os itens presentes em cada menu.
+4. Por fim, vamos aplicar uma inversão de cores no rodapé para ele ganhar um contraste em relação ao restante da página.  
+    - Adicione 4% de espaçamento externo no rodapé.  
+    - Transforme cada link do rodapé em uma caixa colocando borda sólida de 2px, e espaçamento interno de 0.5em.
+
+### T4: Posicionamento
+
+O foco dessa atividade será reposicionar os elementos da nossa página!
+
+1. Defina o elemento `.page-wrapper` como referência para posicionamento.
+2. Faça com que o painel `.explanation` ocupe 60% da largura disponível, mas crie um espaçamento a direita de 35% utilizando `margin`.  
+    - Adicione uma borda à direita do painel de 1px, com a cor `#1f295c`  
+    - Adicione um espaçamento interno de 2% no lado direito do painel.
+3. Agora mova o menu de designs para a direita da página, ocupando o espaço em branco deixado pelo elemento `.explanation`.  
+    - Faça-o iniciar na parte superior da página, após a parte de introdução (por exemplo, aplicando `top: 560px`).  
+    - Faça-o iniciar após o elemento `.explanation` (por exemplo, aplicando `left: 62%`).  
+    - Adicione um espaçamento interno horizontal de 2% no menu para centralizá-lo.
+
 [^1]: [CSS Zen Garden: The Beauty of CSS Design](https://www.csszengarden.com/)
