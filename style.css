@@ -1,0 +1,14 @@
+/*#65223A fundo 
+#F6F7D9 texto 
+#C04B3B 
+
+Aspectos gerais. Aplique os seguintes estilos a estrutura geral da página.
+Defina um tamanho fixo para a página inteira
+Defina uma fonte do tipo sans-serif para a página inteira
+Indente os parágrafos em 1em */
+
+*{
+    width: 1000px;
+    font-family: sans-serif;
+    text-indent: 1em;
+}
