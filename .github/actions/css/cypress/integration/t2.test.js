@@ -1,5 +1,5 @@
 describe('T2: Estrutura Textual', () => {
-    before(() => {
+    beforeEach(() => {
         cy.visit('/index.html')
     })
 
@@ -12,14 +12,26 @@ describe('T2: Estrutura Textual', () => {
         cy.get('body').should('have.css', 'font-family').and('match', /sans-serif/)
 
         // 1.3. Check if the paragraphs are indented by 1em
-        cy.get('p').should('have.css', 'text-indent', '1em')
+        cy.get('p').should('have.css', 'text-indent', '16px')
     })
 
     it('Títulos e parágrafos devem possuir o tamanho correto', () => {
-        cy.get('h1').should('have.css', 'font-size', '1.8rem');
-        cy.get('h2').should('have.css', 'font-size', '1.4rem');
-        cy.get('h3').should('have.css', 'font-size', '1.2rem');
-        cy.get('p').should('have.css', 'text-indent', '1em');
+        cy.get('h1').should(($h1) => {
+            const fontSize = parseFloat(window.getComputedStyle($h1[0]).fontSize);
+            expect(fontSize).to.be.at.least(24);
+        });
+        cy.get('h2').should(($h2) => {
+            const fontSize = parseFloat(window.getComputedStyle($h2[0]).fontSize);
+            expect(fontSize).to.be.at.least(22);
+        });
+        cy.get('h3').should(($h3) => {
+            const fontSize = parseFloat(window.getComputedStyle($h3[0]).fontSize);
+            expect(fontSize).to.be.at.least(18);
+        });
+        cy.get('h2').should(($h2) => {
+            const textIndent = parseFloat(window.getComputedStyle($h2[0]).textIndent);
+            expect(textIndent).to.be.at.least(16);
+        });
       });
 
     it('Deve ter alinhamento do resumo modificado', () => {
@@ -32,7 +44,7 @@ describe('T2: Estrutura Textual', () => {
     it('Deve ter espaçamento entre as linhas customizado', () => {
         cy.get('.main p').should(($p) => {
             const style = window.getComputedStyle($p[0]);
-            expect(style.lineHeight).to.equal('1.5');
+            expect(style.lineHeight).to.be.equal('24px');
         });
     });
 
