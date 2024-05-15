@@ -103,4 +103,34 @@ O foco dessa atividade será reposicionar os elementos da nossa página!
     - Faça-o iniciar após o elemento `.explanation` (por exemplo, aplicando `left: 62%`).  
     - Adicione um espaçamento interno horizontal de 2% no menu para centralizá-lo.
 
+### T5: Seletores de Pseudo-Classe
+
+1. Customize a aparência dos links da seguinte forma:
+	- Por padrão, devem ter a cor de destaque e estarem em negrito.
+	- Se sobrepostos, devem ter sua cor alterada para uma tonalidade mais clara/escura.
+	- Os links visitados não devem ficar mais em negrito.
+2. Vamos dar um destaque a primeira letra do primeiro parágrafo da seção principal. Você deverá customizá-lo para que:
+	- Tenha tamanho de fonte 3 vezes maior que o padrão.
+	- Seja de uma fonte diferente da escolhida para o site.
+	- Fique flutuando a esquerda.
+	- *OBS: você precisará aplicar mais de um pseudo-seletor para realizar essa estilização. Fique atento!*
+3. Utilize bordas para criar um separador entre os itens presentes no menu de design.
+	- Aplique uma borda superior no topo de todos os itens de menu.
+	- Aplique uma borda inferior apenas no último item da lista.
+
+### T6: Flexbox
+
+1. Aplique o flexbox no rodapé da seção principal, e posicione os links de forma que fiquem centralizados e com espaçamento entre eles.  
+    - Defina um mesmo tamanho para os links.  
+    - Não se esqueça de tratar o caso de quebra de linha.
+2. Configure um layout de flexbox para a seção de benefícios da seguinte forma:  
+    - O texto deve ficar à esquerda, e o título à direita.  
+    - O título deve ficar centralizado verticalmente.  
+    - O texto deve ocupar aproximadamente 70% da largura, e o título 30%.
+3. Configure um layout de flexbox para a seção de participação da seguinte forma:  
+    - Cada item deve ocupar 50% do espaço disponível.  
+    - O título deverá ficar centralizado verticalmente.
+4. Inclua uma linha no topo e embaixo das seções de benefícios e participação, utilizando a propriedade `border-bottom` e `border-top` respectivamente.  
+    - Remova a ocorrência de borda duplicada entre as duas seções
+
 [^1]: [CSS Zen Garden: The Beauty of CSS Design](https://www.csszengarden.com/)
