@@ -1,18 +1,16 @@
-const cypressPath = process.env.cypressPath ? process.env.cypressPath : '.';
-
 module.exports = {
   e2e: {
     baseUrl: "http://localhost:8080",
-    specPattern: `${cypressPath}/cypress/integration/**/*.test.js`,
+    specPattern: `${process.env.cypressPath}/cypress/integration/**/*.test.js`,
     video: true,
-    screenshotsFolder: `${cypressPath}/cypress/screenshots`,
-    videosFolder: `${cypressPath}/cypress/videos`,
+    screenshotsFolder: `${process.env.cypressPath}/cypress/screenshots`,
+    videosFolder: `${process.env.cypressPath}/cypress/videos`,
     viewportWidth: 1280,
     viewportHeight: 720,
     supportFile: false,
     reporter: 'junit',
     reporterOptions: {
-      mochaFile: `${cypressPath}/cypress/reports/report-[hash].xml`
+      mochaFile: `${process.env.cypressPath}/cypress/reports/report-[hash].xml`
     },
   }
 }
