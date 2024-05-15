@@ -1,0 +1,14 @@
+{
+  "name": "autograder",
+  "version": "1.0.0",
+  "description": "Autograder for HTML exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "author": "João Eduardo Montandon",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.6"
+  }
+}

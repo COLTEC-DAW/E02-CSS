@@ -1,0 +1,65 @@
+name: Correção
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+  workflow_dispatch:
+  
+
+permissions:
+  checks: write
+  actions: read
+  contents: read
+  pull-requests: write
+
+env:
+  FILES_PATH: ${{ github.workspace }}
+  CYPRESS_PATH:  .github/actions/css
+
+jobs:
+  setup:
+    name: Correção
+    runs-on: [self-hosted, html]
+    if: github.actor != 'github-classroom[bot]'
+    steps:
+      - name: Checkout 
+        uses: actions/checkout@v2
+  
+      - name: Inicialização do servidor
+        run: npm install && npm start &
+
+      - name: Cypress run
+        uses: cypress-io/github-action@v6
+        with:
+          project: ${{github.workspace}}
+          browser: chrome
+          wait-on: "http://localhost:8080"
+          working-directory: ${{ env.CYPRESS_PATH }}
+          config-file:  ${{ env.CYPRESS_PATH }}/cypress.config.js
+      
+      # - name: Report Full
+      #   uses: dorny/test-reporter@v1
+      #   if: always()
+      #   with:
+      #     name: Relatório da Correção                  # Name of the check run which will be created
+      #     path: 'reports/*.xml'                     # Path to test results (inside artifact .zip)
+      #     reporter: jest-junit              # Format of test results
+      #     fail-on-error: false
+      #     fail-on-empty: false
+
+      - name: Report Summary
+        id: reportSummary
+        uses: test-summary/action@v2
+        with:
+          paths: "${{ env.CYPRESS_PATH }}/cypress/reports/**/*.xml"
+          output: "${{ env.CYPRESS_PATH }}/cypress/reports/summary.md"
+          show: "all, skip"
+        if: always()
+
+      - name: Pull Request Comment
+        uses: thollander/actions-comment-pull-request@v2
+        with:
+          filePath: "${{ env.CYPRESS_PATH }}/cypress/reports/summary.md"
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          create_if_not_exists: true
+        if: always()
